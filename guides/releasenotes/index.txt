@@ -1,0 +1,206 @@
+3:I[4707,[],""]
+5:I[6423,[],""]
+4:["slug","releasenotes","d"]
+6:{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"}
+7:{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"}
+8:{"display":"inline-block"}
+9:{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0}
+0:["YM0o_lV7YvNsNcIvz6eMw",[[["",{"children":["(site)",{"children":["guides",{"children":[["slug","releasenotes","d"],{"children":["__PAGE__?{\"slug\":\"releasenotes\"}",{}]}]}]},"$undefined","$undefined",true]}],["",{"children":["(site)",{"children":["guides",{"children":[["slug","releasenotes","d"],{"children":["__PAGE__",{},[["$L1","$L2",null],null],null]},[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","(site)","children","guides","children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","(site)","children","guides","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/79fc88ac13b2b701.css","precedence":"next","crossOrigin":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/d84b48ae13d559b5.css","precedence":"next","crossOrigin":"$undefined"}]],["$","html",null,{"lang":"ko","children":[["$","head",null,{"children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"(function(){try{var t=localStorage.getItem('bp-theme');if(!t)t=window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';document.documentElement.setAttribute('data-theme',t);}catch(e){}})();"}}],["$","link",null,{"rel":"preconnect","href":"https://cdn.jsdelivr.net"}],["$","link",null,{"rel":"stylesheet","href":"https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"}],["$","script",null,{"src":"/search-index.js"}]]}],["$","body",null,{"data-code-layout":"stacked","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","(site)","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]}]]}]],null],null]},[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":"$6","children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":"$7","children":"404"}],["$","div",null,{"style":"$8","children":["$","h2",null,{"style":"$9","children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]],null],["$La",null]]]]
+b:I[1603,["648","static/chunks/648-13247af19f98aaae.js","603","static/chunks/603-4b3f1eba95ffcb02.js","110","static/chunks/app/(site)/guides/%5Bslug%5D/page-991fda96e699ad9c.js"],"default"]
+d:I[2330,["648","static/chunks/648-13247af19f98aaae.js","603","static/chunks/603-4b3f1eba95ffcb02.js","110","static/chunks/app/(site)/guides/%5Bslug%5D/page-991fda96e699ad9c.js"],"default"]
+e:I[2972,["648","static/chunks/648-13247af19f98aaae.js","603","static/chunks/603-4b3f1eba95ffcb02.js","110","static/chunks/app/(site)/guides/%5Bslug%5D/page-991fda96e699ad9c.js"],""]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"비즈뿌리오 Developers"}],["$","meta","3",{"name":"description","content":"메시지 발송 API · 자원 관리 API 공식 개발자 문서"}],["$","link","4",{"rel":"icon","href":"/favicon.ico"}]]
+1:null
+c:T1525,<h3 id="용어집" data-spy-id="용어집" data-spy-section="appendix">용어집</h3>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>용어</th>
+<th>의미</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>A2P</strong></td>
+<td>Application-to-Person — 애플리케이션이 개인에게 보내는 메시지 (대부분의 비즈뿌리오 발송)</td>
+</tr>
+<tr>
+<td><strong>AT / AI</strong></td>
+<td>Alimtalk Text / Image — 카카오 알림톡</td>
+</tr>
+<tr>
+<td><strong>BIZCLIENT</strong></td>
+<td>고객사 서버에 설치하는 메시지 발송 클라이언트 모듈</td>
+</tr>
+<tr>
+<td><strong>BizCenter (RBC)</strong></td>
+<td>RCS 비즈센터 — RCS 브랜드·챗봇·메시지베이스 관리</td>
+</tr>
+<tr>
+<td><strong>BT</strong></td>
+<td>Brand Talk — 카카오 브랜드 메시지</td>
+</tr>
+<tr>
+<td><strong>chatbotId</strong></td>
+<td>RCS 챗봇 식별자 (A2P 챗봇은 발신번호와 동일)</td>
+</tr>
+<tr>
+<td><strong>CMID</strong></td>
+<td>BIZCLIENT 메시지 고유 식별자 (Primary Key)</td>
+</tr>
+<tr>
+<td><strong>EUC-KR</strong></td>
+<td>한국어 인코딩 — SMS/LMS의 본문 길이 계산 기준</td>
+</tr>
+<tr>
+<td><strong>filekey / fileId</strong></td>
+<td>비즈뿌리오 또는 RCS에서 발급한 첨부파일 식별자</td>
+</tr>
+<tr>
+<td><strong>FREE / BASIC</strong></td>
+<td>브랜드 메시지 발송 모드 — 자유형 / 기본형</td>
+</tr>
+<tr>
+<td><strong>FT</strong></td>
+<td>Friend Talk — 카카오 친구톡</td>
+</tr>
+<tr>
+<td><strong>GSM 캐릭터 셋</strong></td>
+<td>국제 SMS에서 1byte로 처리되는 표준 문자 집합</td>
+</tr>
+<tr>
+<td><strong>KAPI</strong></td>
+<td>Kakao API — 카카오 비즈메시지 자원 관리 API</td>
+</tr>
+<tr>
+<td><strong>LMS</strong></td>
+<td>Long Message Service — 장문 문자</td>
+</tr>
+<tr>
+<td><strong>maapfile</strong></td>
+<td>RCS 미디어 파일 식별 URL 형식 (<code>maapfile://{fileId}</code>)</td>
+</tr>
+<tr>
+<td><strong>messagebaseId</strong></td>
+<td>RCS 메시지 포맷·카드 수·버튼 수를 결정하는 식별자</td>
+</tr>
+<tr>
+<td><strong>messagekey</strong></td>
+<td>API 응답에서 받는 비즈뿌리오 메시지 키 (UMID와 매핑)</td>
+</tr>
+<tr>
+<td><strong>MMS</strong></td>
+<td>Multimedia Message Service — 이미지 첨부 문자</td>
+</tr>
+<tr>
+<td><strong>MO</strong></td>
+<td>Mobile Originated — 단말기에서 발생한 메시지</td>
+</tr>
+<tr>
+<td><strong>MSG_TYPE</strong></td>
+<td>BIZCLIENT 메시지 채널 코드 (0/2/3/5/6/7/8/9)</td>
+</tr>
+<tr>
+<td><strong>NTALK</strong></td>
+<td>Naver Talk Talk — 네이버 톡톡</td>
+</tr>
+<tr>
+<td><strong>OTP</strong></td>
+<td>One-Time Password — 일회용 비밀번호 (보안 메시지)</td>
+</tr>
+<tr>
+<td><strong>personId</strong></td>
+<td>BizCenter에서 생성한 브랜드 관리자 ID</td>
+</tr>
+<tr>
+<td><strong>RAPI</strong></td>
+<td>RCS API — RCS 자원 관리 API</td>
+</tr>
+<tr>
+<td><strong>RBC</strong></td>
+<td>RCS Biz Center — RCS 자원 관리 웹사이트</td>
+</tr>
+<tr>
+<td><strong>RCS</strong></td>
+<td>Rich Communication Services — 통신사 차세대 메시지</td>
+</tr>
+<tr>
+<td><strong>refkey</strong></td>
+<td>고객사가 부여하는 메시지 식별자</td>
+</tr>
+<tr>
+<td><strong>RESEND</strong></td>
+<td>API 본 발송 실패 시 다른 채널로 자동 재발송하는 기능</td>
+</tr>
+<tr>
+<td><strong>senderKey</strong></td>
+<td>카카오 발신프로필 키</td>
+</tr>
+<tr>
+<td><strong>TTS</strong></td>
+<td>Text-to-Speech — PHONE 채널의 음성 합성</td>
+</tr>
+<tr>
+<td><strong>UMID</strong></td>
+<td>비즈뿌리오 서버가 부여하는 메시지 키 (대체발송 매핑 키)</td>
+</tr>
+<tr>
+<td><strong>userkey</strong></td>
+<td>카카오톡 채널 봇을 통해 받은 사용자 식별키</td>
+</tr>
+<tr>
+<td><strong>VXML</strong></td>
+<td>Voice XML — PHONE 시나리오 파일</td>
+</tr>
+<tr>
+<td><strong>YellowID</strong></td>
+<td>카카오톡 채널의 ID (예: <code>@bizppurio</code>)</td>
+</tr>
+</tbody>
+</table></div><h3 id="외부-링크" data-spy-id="외부-링크" data-spy-section="appendix">외부 링크</h3>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>사이트</th>
+<th>URL</th>
+<th>용도</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>비즈뿌리오</td>
+<td><a href="https://bizppurio.com" target="_blank" rel="noopener noreferrer">https://bizppurio.com</a></td>
+<td>계정·발신번호·발신프로필 등록</td>
+</tr>
+<tr>
+<td>카카오 비즈니스</td>
+<td><a href="https://center-pf.kakao.com" target="_blank" rel="noopener noreferrer">https://center-pf.kakao.com</a></td>
+<td>카카오톡 채널 개설</td>
+</tr>
+<tr>
+<td>RCS 비즈센터</td>
+<td><a href="https://www.rcsbizcenter.com" target="_blank" rel="noopener noreferrer">https://www.rcsbizcenter.com</a></td>
+<td>RCS 브랜드·챗봇 관리</td>
+</tr>
+<tr>
+<td>네이버 톡톡 파트너센터</td>
+<td><a href="https://partner.talk.naver.com" target="_blank" rel="noopener noreferrer">https://partner.talk.naver.com</a></td>
+<td>네이버 톡톡 채널</td>
+</tr>
+</tbody>
+</table></div><h3 id="고객-지원" data-spy-id="고객-지원" data-spy-section="appendix">고객 지원</h3>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>항목</th>
+<th>연락처</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>전화</td>
+<td>1599-9782</td>
+</tr>
+<tr>
+<td>이메일</td>
+<td><a href="mailto:bizppurio@daou.co.kr">bizppurio@daou.co.kr</a></td>
+</tr>
+</tbody>
+</table></div>2:["$","div",null,{"className":"bp-page","data-screen-label":"릴리스 노트 (종합)","children":[["$","$Lb",null,{"active":""}],["$","div",null,{"className":"bp-shell","children":["$","div",null,{"className":"bp-layout","children":[["$","main",null,{"className":"bp-main","children":[["$","div",null,{"className":"bp-eyebrow","children":"RELEASE NOTES"}],["$","h1",null,{"className":"bp-h1","children":"릴리스 노트 (종합)"}],[["$","section","개요",{"id":"개요","data-spy-id":"개요","className":"bp-section","children":[["$","h2",null,{"className":"bp-h2","children":[["$","span",null,{"className":"bp-h2__bar"}],"개요"]}],["$","div",null,{"className":"md","dangerouslySetInnerHTML":{"__html":"<p>비즈뿌리오의 4개 연동 규격 각각의 변경 이력입니다.</p>\n<h3 id=\"현재-사용-중인-버전-확인\" data-spy-id=\"현재-사용-중인-버전-확인\" data-spy-section=\"개요\">현재 사용 중인 버전 확인</h3>\n<div class=\"md-tablewrap\"><table><thead>\n<tr>\n<th>영역</th>\n<th>버전 확인 위치</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>메시지 API</td>\n<td>API 응답 헤더 또는 비즈뿌리오 사이트 [API 관리]</td>\n</tr>\n<tr>\n<td>BIZCLIENT</td>\n<td>모듈 설치 디렉토리의 <code>version.txt</code> 또는 <code>biz_start --version</code></td>\n</tr>\n<tr>\n<td>KAPI / RAPI</td>\n<td>비즈뿌리오 사이트 [API 관리]</td>\n</tr>\n</tbody>\n</table></div><h3 id=\"변경-통보\" data-spy-id=\"변경-통보\" data-spy-section=\"개요\">변경 통보</h3>\n<p>비즈뿌리오는 주요 버전 변경(<code>x.0</code> → <code>(x+1).0</code>) 시 사전 공지를 합니다. 호환성에 영향이 없는 마이너 변경(<code>x.y.z</code>)은 공지 없이 적용될 수 있습니다.</p>\n<p>연동 시 다음을 권장합니다:</p>\n<ul>\n<li>응답 코드를 매핑할 때 정확히 일치 비교가 아닌 <strong>prefix 매칭</strong> 또는 <strong>알 수 없는 코드는 실패로 처리</strong>하는 패턴</li>\n<li>새 채널 타입(예: 신규 <code>chatBubbleType</code> 추가)이 들어와도 무시할 수 있도록 처리</li>\n<li>응답 JSON에 새 필드가 추가되어도 기존 코드가 깨지지 않도록 — strict 파싱 지양</li>\n</ul>\n"}}]]}],["$","section","appendix",{"id":"appendix","data-spy-id":"appendix","className":"bp-section","children":[["$","h2",null,{"className":"bp-h2","children":[["$","span",null,{"className":"bp-h2__bar"}],"Appendix"]}],["$","div",null,{"className":"md","dangerouslySetInnerHTML":{"__html":"$c"}}]]}]]]}],["$","$Ld",null,{"items":[{"id":"개요","label":"개요"},{"id":"appendix","label":"Appendix"}]}]]}]}],["$","footer",null,{"className":"bp-footer","children":["$","div",null,{"className":"bp-footer__inner","children":[["$","div",null,{"className":"bp-footer__cols","children":[["$","div",null,{"className":"bp-footer__brand-col","children":[["$","div",null,{"className":"bp-footer__brand","children":[["$","span",null,{"className":"bp-footer__brand-name","children":"비즈뿌리오"}],["$","span",null,{"className":"bp-footer__brand-tag","children":"Developers"}]]}],["$","p",null,{"className":"bp-footer__desc","children":"통합 메시징 플랫폼 공식 개발자 문서. 발송 API · BIZCLIENT · 카카오/RCS/네이버 톡톡 자원 관리 · 도구."}]]}],[["$","div","문서",{"children":[["$","div",null,{"className":"bp-footer__col-title","children":"문서"}],["$","div",null,{"className":"bp-footer__links","children":[["$","$Le",null,{"href":"/start","className":"bp-footer__link","children":"시작하기"}],["$","$Le",null,{"href":"/bizapi","className":"bp-footer__link","children":"메시지 API"}],["$","$Le",null,{"href":"/bizclient","className":"bp-footer__link","children":"BIZCLIENT"}]]}]]}],["$","div","자원 관리",{"children":[["$","div",null,{"className":"bp-footer__col-title","children":"자원 관리"}],["$","div",null,{"className":"bp-footer__links","children":[["$","$Le",null,{"href":"/kapi","className":"bp-footer__link","children":"카카오 비즈메시지"}],["$","$Le",null,{"href":"/rapi","className":"bp-footer__link","children":"RCS 관리"}],["$","$Le",null,{"href":"/napi","className":"bp-footer__link","children":"네이버 톡톡 관리"}]]}]]}],["$","div","도구·레퍼런스",{"children":[["$","div",null,{"className":"bp-footer__col-title","children":"도구·레퍼런스"}],["$","div",null,{"className":"bp-footer__links","children":[["$","$Le",null,{"href":"/sandbox","className":"bp-footer__link","children":"메시지 발송 체험"}],["$","$Le",null,{"href":"/json-validator","className":"bp-footer__link","children":"JSON 검증기"}],["$","$Le",null,{"href":"/response-codes","className":"bp-footer__link","children":"응답 코드"}],["$","$Le",null,{"href":"/changelog","className":"bp-footer__link","children":"개정 이력"}]]}]]}],["$","div","지원",{"children":[["$","div",null,{"className":"bp-footer__col-title","children":"지원"}],["$","div",null,{"className":"bp-footer__links","children":[["$","$Le",null,{"href":"/guides/operations","className":"bp-footer__link","children":"운영 가이드"}],["$","a",null,{"href":"tel:1599-9782","className":"bp-footer__link","children":"1599-9782"}],["$","a",null,{"href":"mailto:bizppurio@daou.co.kr","className":"bp-footer__link","children":"bizppurio@daou.co.kr"}]]}]]}]]]}],["$","div",null,{"className":"bp-footer__bottom","children":[["$","span",null,{"className":"bp-footer__copy","children":"© 2026 Daou Tech Inc. All rights reserved."}],["$","a",null,{"href":"https://www.bizppurio.com","target":"_blank","rel":"noopener","className":"bp-footer__site","children":"bizppurio.com"}]]}]]}]}]]}]

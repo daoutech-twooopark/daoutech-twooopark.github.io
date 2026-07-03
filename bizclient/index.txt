@@ -1,0 +1,5218 @@
+3:I[4707,[],""]
+5:I[6423,[],""]
+4:["service","bizclient","d"]
+6:{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"}
+7:{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"}
+8:{"display":"inline-block"}
+9:{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0}
+0:["YM0o_lV7YvNsNcIvz6eMw",[[["",{"children":["(site)",{"children":[["service","bizclient","d"],{"children":["__PAGE__?{\"service\":\"bizclient\"}",{}]}]},"$undefined","$undefined",true]}],["",{"children":["(site)",{"children":[["service","bizclient","d"],{"children":["__PAGE__",{},[["$L1","$L2",null],null],null]},[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","(site)","children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/79fc88ac13b2b701.css","precedence":"next","crossOrigin":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/d84b48ae13d559b5.css","precedence":"next","crossOrigin":"$undefined"}]],["$","html",null,{"lang":"ko","children":[["$","head",null,{"children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"(function(){try{var t=localStorage.getItem('bp-theme');if(!t)t=window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';document.documentElement.setAttribute('data-theme',t);}catch(e){}})();"}}],["$","link",null,{"rel":"preconnect","href":"https://cdn.jsdelivr.net"}],["$","link",null,{"rel":"stylesheet","href":"https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"}],["$","script",null,{"src":"/search-index.js"}]]}],["$","body",null,{"data-code-layout":"stacked","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","(site)","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]}]]}]],null],null]},[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":"$6","children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":"$7","children":"404"}],["$","div",null,{"style":"$8","children":["$","h2",null,{"style":"$9","children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]],null],["$La",null]]]]
+b:I[1603,["648","static/chunks/648-13247af19f98aaae.js","603","static/chunks/603-4b3f1eba95ffcb02.js","946","static/chunks/app/(site)/%5Bservice%5D/page-f43988ea596698f0.js"],"default"]
+c:I[6913,["648","static/chunks/648-13247af19f98aaae.js","603","static/chunks/603-4b3f1eba95ffcb02.js","946","static/chunks/app/(site)/%5Bservice%5D/page-f43988ea596698f0.js"],"default"]
+11:I[6008,["648","static/chunks/648-13247af19f98aaae.js","603","static/chunks/603-4b3f1eba95ffcb02.js","946","static/chunks/app/(site)/%5Bservice%5D/page-f43988ea596698f0.js"],"default"]
+12:I[9574,["648","static/chunks/648-13247af19f98aaae.js","603","static/chunks/603-4b3f1eba95ffcb02.js","946","static/chunks/app/(site)/%5Bservice%5D/page-f43988ea596698f0.js"],"default"]
+1b:I[8929,["648","static/chunks/648-13247af19f98aaae.js","603","static/chunks/603-4b3f1eba95ffcb02.js","946","static/chunks/app/(site)/%5Bservice%5D/page-f43988ea596698f0.js"],"default"]
+1e:I[8241,["648","static/chunks/648-13247af19f98aaae.js","603","static/chunks/603-4b3f1eba95ffcb02.js","946","static/chunks/app/(site)/%5Bservice%5D/page-f43988ea596698f0.js"],"default"]
+1f:I[2972,["648","static/chunks/648-13247af19f98aaae.js","603","static/chunks/603-4b3f1eba95ffcb02.js","946","static/chunks/app/(site)/%5Bservice%5D/page-f43988ea596698f0.js"],""]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"비즈뿌리오 Developers"}],["$","meta","3",{"name":"description","content":"메시지 발송 API · 자원 관리 API 공식 개발자 문서"}],["$","link","4",{"rel":"icon","href":"/favicon.ico"}]]
+1:null
+d:T1b26,<p><strong>BIZCLIENT 아키텍처</strong> — 큐 테이블 기반 동작 모델과 테이블 구조</p>
+<h3 id="동작-모델" data-spy-id="동작-모델" data-spy-section="공통-사항">동작 모델</h3>
+<p><svg viewBox="0 0 800 200" width="100%" style="max-width:800px;height:auto;font-family:inherit" xmlns="http://www.w3.org/2000/svg"><defs><marker id="arc1" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 z" fill="#2b3a4a"/></marker></defs><rect x="8" y="24" width="140" height="48" rx="6" fill="#f4f8fc" stroke="#2b3a4a" stroke-width="1.4"/><text x="78" y="52" font-size="11.5" font-weight="600" text-anchor="middle" fill="#1f2d3a">고객사 애플리케이션</text><rect x="222" y="24" width="140" height="48" rx="6" fill="#f4f8fc" stroke="#2b3a4a" stroke-width="1.4"/><text x="292" y="46" font-size="12.5" font-weight="600" text-anchor="middle" fill="#1f2d3a">BIZ_MSG</text><text x="292" y="62" font-size="10" text-anchor="middle" fill="#5a6b7a">큐 테이블 (고객사 DB)</text><rect x="436" y="24" width="140" height="48" rx="6" fill="#f4f8fc" stroke="#2b3a4a" stroke-width="1.4"/><text x="506" y="52" font-size="12" font-weight="600" text-anchor="middle" fill="#1f2d3a">BIZCLIENT 모듈</text><rect x="650" y="24" width="142" height="48" rx="6" fill="#bcd8ff" stroke="#2b3a4a" stroke-width="1.4"/><text x="721" y="46" font-size="12" font-weight="600" text-anchor="middle" fill="#1f2d3a">비즈뿌리오 서버</text><text x="721" y="62" font-size="9.5" text-anchor="middle" fill="#33424f">38300 / 38400 outbound</text><line x1="148" y1="48" x2="214" y2="48" stroke="#2b3a4a" stroke-width="1.5" marker-end="url(#arc1)"/><text x="181" y="41" font-size="10" text-anchor="middle" fill="#5a6b7a">① INSERT</text><line x1="362" y1="48" x2="428" y2="48" stroke="#2b3a4a" stroke-width="1.5" marker-end="url(#arc1)"/><text x="395" y="41" font-size="10" text-anchor="middle" fill="#5a6b7a">② 폴링</text><line x1="576" y1="48" x2="642" y2="48" stroke="#2b3a4a" stroke-width="1.5" marker-end="url(#arc1)"/><text x="609" y="41" font-size="10" text-anchor="middle" fill="#5a6b7a">전송</text><path d="M721,72 V100 H506 V72" fill="none" stroke="#2b3a4a" stroke-width="1.5" stroke-dasharray="5 4" marker-end="url(#arc1)"/><text x="615" y="93" font-size="10" text-anchor="middle" fill="#5a6b7a">③ 결과 수신</text><path d="M460,72 V124 H292 V72" fill="none" stroke="#2b3a4a" stroke-width="1.5" stroke-dasharray="5 4" marker-end="url(#arc1)"/><text x="380" y="118" font-size="10" text-anchor="middle" fill="#5a6b7a">④ 업데이트 (STATUS=2 · CALL_STATUS)</text><line x1="240" y1="72" x2="240" y2="140" stroke="#2b3a4a" stroke-width="1.5" marker-end="url(#arc1)"/><text x="232" y="120" font-size="10" text-anchor="end" fill="#5a6b7a">⑤ 완료 후 이동</text><rect x="222" y="144" width="140" height="44" rx="6" fill="#f4f8fc" stroke="#8aa0b5" stroke-width="1.4"/><text x="292" y="162" font-size="12" font-weight="600" text-anchor="middle" fill="#1f2d3a">BIZ_LOG_YYYYMM</text><text x="292" y="178" font-size="10" text-anchor="middle" fill="#5a6b7a">월별 로그 테이블</text></svg></p>
+<ol>
+<li>고객사 애플리케이션이 발송 데이터를 <strong><code>biz_msg</code></strong> 테이블에 INSERT (<code>STATUS = 0</code>, 발송 대기)</li>
+<li>BIZCLIENT 모듈이 큐를 폴링하여 비즈뿌리오 서버로 메시지 전송</li>
+<li>비즈뿌리오 서버가 발송 결과를 BIZCLIENT 모듈로 회신</li>
+<li>BIZCLIENT 모듈이 <code>biz_msg</code> 의 <code>CALL_STATUS</code> 를 기록하고 <code>STATUS = 2</code> 로 변경 (비즈뿌리오 서버가 <code>biz_msg</code> 를 직접 갱신하지 않음)</li>
+<li>처리 완료된 레코드는 월별 로그 테이블 <strong><code>BIZ_LOG_YYYYMM</code></strong> 으로 이동</li>
+</ol>
+<h3 id="자동-생성되는-테이블" data-spy-id="자동-생성되는-테이블" data-spy-section="공통-사항">자동 생성되는 테이블</h3>
+<p>테이블 생성 권한이 있다면 BIZCLIENT 가 다음 테이블들을 자동 생성:</p>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>테이블</th>
+<th>용도</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>biz_msg</code></td>
+<td>메시지 발송 큐 (<code>STATUS=2</code> 까지 데이터 존재)</td>
+</tr>
+<tr>
+<td><code>BIZ_LOG_YYYYMM</code></td>
+<td>월별 로그 — 발송 완료 데이터 이동</td>
+</tr>
+<tr>
+<td><code>BIZ_RCS</code></td>
+<td>RCS 발송 큐 (RCS 사용 시)</td>
+</tr>
+<tr>
+<td><code>BIZ_RCS_LOG_YYYYMM</code></td>
+<td>RCS 월별 로그</td>
+</tr>
+<tr>
+<td><code>BIZ_ATTACHMENTS</code></td>
+<td>첨부파일 데이터 (<code>FILE_HANDLING_MODE</code> 설정 시)</td>
+</tr>
+<tr>
+<td><code>BIZ_ATTACHMENTS_LOG_YYYYMM</code></td>
+<td>첨부파일 월별 로그</td>
+</tr>
+</tbody>
+</table></div><blockquote>
+<p>ℹ️ <strong>RCS 사용 활성화</strong> — 기본값에서는 RCS 테이블이 생성되지 않습니다. <code>uds.conf</code> 에 <code>MESSAGE_SUPPORT_TYPE = ALL</code> 을 추가해야 RCS 테이블이 생성됩니다.</p>
+</blockquote>
+<h3 id="백업-옵션" data-spy-id="백업-옵션" data-spy-section="공통-사항">백업 옵션</h3>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>옵션</th>
+<th>기본값</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>RCS_BACKUP_OPTION</code></td>
+<td><code>N</code></td>
+<td><code>Y</code> 시 RCS 데이터를 로그 테이블로 이동, 미설정 시 <code>BIZ_RCS</code> 데이터 재사용</td>
+</tr>
+<tr>
+<td><code>ATTACHMENTS_BACKUP_OPTION</code></td>
+<td><code>N</code></td>
+<td>첨부파일 테이블 동작도 동일</td>
+</tr>
+</tbody>
+</table></div><h3 id="테이블-간-관계" data-spy-id="테이블-간-관계" data-spy-section="공통-사항">테이블 간 관계</h3>
+<pre><code class="language-text">biz_msg.RCS_REFKEY  ──참조──▶  BIZ_RCS.REFKEY      (RCS 메시지의 본문/버튼)
+biz_msg.CMID + ATTACHED_FILE  ──참조──▶  BIZ_ATTACHMENTS.MSG_KEY + SEQ
+                                        (첨부파일 테이블 모드 사용 시)
+</code></pre>
+<h3 id="데이터-식별-키" data-spy-id="데이터-식별-키" data-spy-section="공통-사항">데이터 식별 키</h3>
+<ul>
+<li><strong><code>CMID</code></strong> — 고객사가 부여하는 고유 키 (Primary Key, ASCII 문자만, 중복 불가)</li>
+<li><strong><code>UMID</code></strong> — 비즈뿌리오 서버가 부여하는 메시지 키 (대체 발송의 매핑 키로도 사용)</li>
+<li><strong><code>CINFO</code></strong> — Client Indexed Info, 사내 부서/팀 구분용. <a href="http://bizppurio.com" target="_blank" rel="noopener noreferrer">bizppurio.com</a> [발송 조회] 의 SUB ID 에 표시</li>
+</ul>
+<blockquote>
+<p>⚠️ <code>CMID</code> 중복 시 발송은 진행되지만 <strong>결과 리포트 반영이 정상적이지 않을 수 있습니다</strong>. 반드시 고유한 값을 사용하세요.</p>
+</blockquote>
+e:T60a1,<p>BIZCLIENT 모듈 도입 전 준비 사항 — 사전 점검 / 설치 / 연동 / 용어.</p>
+<h2 id="사전-점검" data-spy-id="사전-점검" data-spy-section="사전-준비">사전 점검</h2>
+<p><strong>BIZCLIENT 발송 선결 조건</strong> — 발송 전에 필요한 계정·채널·브랜드 등록</p>
+<h3 id="1-비즈뿌리오-계정" data-spy-id="1-비즈뿌리오-계정" data-spy-section="사전-준비">1. 비즈뿌리오 계정</h3>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>항목</th>
+<th>절차</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>회원 가입</td>
+<td><a href="https://www.bizppurio.com" target="_blank" rel="noopener noreferrer">www.bizppurio.com</a></td>
+</tr>
+<tr>
+<td>서비스 사용 승인 요청</td>
+<td>전화 1599-9782 / 이메일 <a href="mailto:bizppurio@daou.co.kr">bizppurio@daou.co.kr</a></td>
+</tr>
+</tbody>
+</table></div><h3 id="2-카카오톡-비즈메시지-atbt-사용-시" data-spy-id="2-카카오톡-비즈메시지-atbt-사용-시" data-spy-section="사전-준비">2. 카카오톡 비즈메시지 (AT/BT 사용 시)</h3>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>단계</th>
+<th>위치</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>카카오톡 채널 개설 및 비즈니스 채널 신청</td>
+<td><a href="https://center-pf.kakao.com" target="_blank" rel="noopener noreferrer">카카오 비즈니스</a></td>
+</tr>
+<tr>
+<td>발신프로필 키 생성</td>
+<td><a href="https://bizppurio.com" target="_blank" rel="noopener noreferrer">비즈뿌리오 사이트</a></td>
+</tr>
+<tr>
+<td>알림톡 템플릿 등록·승인</td>
+<td><a href="https://bizppurio.com" target="_blank" rel="noopener noreferrer">비즈뿌리오 사이트</a> (알림톡 사용 시 필수)</td>
+</tr>
+<tr>
+<td>브랜드 메시지 이미지 등록</td>
+<td><a href="/kapi#브랜드-이미지">KAPI</a> (브랜드 메시지에 이미지 삽입 시)</td>
+</tr>
+</tbody>
+</table></div><h3 id="3-rcs-rcs-사용-시" data-spy-id="3-rcs-rcs-사용-시" data-spy-section="사전-준비">3. RCS (RCS 사용 시)</h3>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>단계</th>
+<th>위치</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RCS 브랜드 개설 및 대행사 설정</td>
+<td><a href="https://www.rcsbizcenter.com" target="_blank" rel="noopener noreferrer">RCS 비즈센터</a></td>
+</tr>
+<tr>
+<td>RCS 브랜드 등록</td>
+<td><a href="https://bizppurio.com" target="_blank" rel="noopener noreferrer">비즈뿌리오 사이트</a></td>
+</tr>
+<tr>
+<td>RCS 발신번호 등록</td>
+<td><a href="https://bizppurio.com" target="_blank" rel="noopener noreferrer">비즈뿌리오 사이트</a></td>
+</tr>
+<tr>
+<td>RCS 템플릿 등록·승인</td>
+<td><a href="https://bizppurio.com" target="_blank" rel="noopener noreferrer">비즈뿌리오 사이트</a> (템플릿 사용 시 필수)</td>
+</tr>
+</tbody>
+</table></div><h2 id="설치" data-spy-id="설치" data-spy-section="사전-준비">설치</h2>
+<p><strong>BIZCLIENT 설치 및 구동</strong></p>
+<h3 id="시스템-요구사항" data-spy-id="시스템-요구사항" data-spy-section="사전-준비">시스템 요구사항</h3>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>항목</th>
+<th>사양</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>운영체제</td>
+<td>JDK 1.8 이상 운용 가능한 OS</td>
+</tr>
+<tr>
+<td>CPU</td>
+<td>2 GHz 이상 듀얼코어 또는 그 이상의 코어</td>
+</tr>
+<tr>
+<td>메모리</td>
+<td>4 GB 이상 RAM 권장</td>
+</tr>
+<tr>
+<td>디스크 공간</td>
+<td>SMS 100만 건 전송 시 약 400 MB 사용</td>
+</tr>
+<tr>
+<td>JDK</td>
+<td><strong>1.8 이상</strong></td>
+</tr>
+<tr>
+<td>DBMS</td>
+<td>MySQL / Oracle / MSSQL (정식 지원). Sybase / DB2 / DB2 AS400 / CUBRID / EDB / PostgreSQL (버전 따라 지원)</td>
+</tr>
+</tbody>
+</table></div><h3 id="방화벽-오픈" data-spy-id="방화벽-오픈" data-spy-section="사전-준비">방화벽 오픈</h3>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>환경</th>
+<th>도메인:포트</th>
+<th>방향</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>운영</td>
+<td><code>bizppurio.com:38300, 38400</code></td>
+<td>Outbound</td>
+</tr>
+<tr>
+<td>검수</td>
+<td><code>biztest.ppurio.com:38300, 38400</code></td>
+<td>Outbound (2025-08-14 기준 미지원)</td>
+</tr>
+</tbody>
+</table></div><blockquote>
+<p>⚠️ <strong>기존 BIZCLIENT 구동 여부 확인</strong> — 한 비즈뿌리오 계정을 여러 클라이언트 모듈에 세팅할 경우 리포트가 분산되어 정상 반영되지 않을 수 있습니다. <strong>하나의 모듈에 하나의 계정</strong> 을 권장.</p>
+</blockquote>
+<h3 id="dbms-jdbc-드라이버" data-spy-id="dbms-jdbc-드라이버" data-spy-section="사전-준비">DBMS / JDBC 드라이버</h3>
+<ul>
+<li>DBMS 의 버전에 따라 JDBC 드라이버의 JDK 요구사항이 달라질 수 있음</li>
+<li>사용하는 DBMS 에 맞게 JDBC 드라이버 교체 위치: <code>{모듈위치}/lib/jdbc/{드라이버}.jar</code></li>
+<li>낮은 버전의 DBMS 를 지원하기 위해 기본 JDBC 드라이버는 버전이 낮게 세팅됨 — 운영 시 사용하는 DBMS 버전에 맞는 드라이버로 교체 필요</li>
+</ul>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>DBMS</th>
+<th>비고</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Microsoft SQL Server 2008 이상</td>
+<td><code>uds.conf</code> 에 <code>DBNAME=MSSQL2005</code> 로 설정 (내부적으로 Microsoft JDBC Driver 4.1 사용, JDK 1.7 이상 필요)</td>
+</tr>
+</tbody>
+</table></div><h3 id="설치-및-구동-linuxunix" data-spy-id="설치-및-구동-linuxunix" data-spy-section="사전-준비">설치 및 구동 (Linux/Unix)</h3>
+<pre><code class="language-bash"># 1) 업로드한 모듈 압축 해제
+unzip biz_client_v5xxx.zip
+
+# 2) 환경 설정 파일 수정: {모듈경로}/config/uds.conf
+#    - 계정    : UDS_ID / UDS_PW            (bizppurio.com 계정)
+#    - DB 연결 : DBNAME / DBURL / DBUSER / DBPASS
+#      예) DBNAME=MYSQL   (MYSQL / MSSQL2005 / ORACLE 등)
+#          DBURL=jdbc:mysql://localhost:3306/bizclient
+
+# 3) 시작 / 중지: {모듈경로}/script
+cd {모듈경로}/script
+./biz_start        # 시작
+./biz_stop         # 중지
+</code></pre>
+<h3 id="설치-및-구동-windows" data-spy-id="설치-및-구동-windows" data-spy-section="사전-준비">설치 및 구동 (Windows)</h3>
+<pre><code class="language-text"># 1) 업로드한 모듈 압축 해제
+unzip biz_client_v5xxx.zip
+
+# 2) 환경 설정 파일 수정: {모듈경로}\config\uds.conf   (Linux 와 동일 — 계정·DB 연결 정보)
+
+# 3) 서비스 등록 / 시작 / 중지: {모듈경로}\bat
+cd {모듈경로}\bat
+service-install.bat      # Windows 서비스 등록
+service-start.bat        # 시작 (서비스 상태가 '시작' 으로 변경)
+service-stop.bat         # 중지
+service-uninstall.bat    # 서비스 제거
+</code></pre>
+<p>서비스 등록 후 <strong>제어판 → 관리도구 → 서비스 → &quot;Daoutech BizClient&quot;</strong> 에서도 직접 시작/종료할 수 있습니다.</p>
+<h3 id="rcs-발송-활성화-선택" data-spy-id="rcs-발송-활성화-선택" data-spy-section="사전-준비">RCS 발송 활성화 (선택)</h3>
+<p>기본값은 RCS 미지원. RCS 를 사용하려면 <code>uds.conf</code> 에 다음을 추가:</p>
+<pre><code class="language-text">MESSAGE_SUPPORT_TYPE = ALL
+</code></pre>
+<p>설정 후 BIZCLIENT 를 재시작하면 <code>BIZ_RCS</code> 테이블이 자동 생성됨.</p>
+<h2 id="연동" data-spy-id="연동" data-spy-section="사전-준비">연동</h2>
+<p><strong>BIZCLIENT 고객시스템 연동 구성</strong> — <code>biz_msg</code> / <code>BIZ_RCS</code> / <code>BIZ_ATTACHMENTS</code> 테이블의 전체 컬럼 정의</p>
+<p>BIZCLIENT 는 고객사 데이터베이스에 큐 테이블을 생성하고, 고객사 애플리케이션이 발송 데이터를 INSERT 하면 모듈이 이를 감지하여 비즈뿌리오 서버로 전송하는 방식으로 동작합니다.</p>
+<h3 id="bizmsg-컬럼" data-spy-id="bizmsg-컬럼" data-spy-section="사전-준비">biz_msg 컬럼</h3>
+<h3 id="공통-컬럼-모든-메시지-타입" data-spy-id="공통-컬럼-모든-메시지-타입" data-spy-section="사전-준비">공통 컬럼 (모든 메시지 타입)</h3>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>컬럼</th>
+<th>타입</th>
+<th>필수</th>
+<th>설명</th>
+<th>기본값</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>CMID</code></td>
+<td>String(32)</td>
+<td>Y</td>
+<td>데이터 ID, 고유한 값. Primary Key. <strong>기본 ASCII 문자만</strong> (옵션으로 확장 가능)</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>UMID</code></td>
+<td>String(32)</td>
+<td>N</td>
+<td>비즈뿌리오 서버에서 정의한 MESSAGE ID</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>MSG_TYPE</code></td>
+<td>Number(1)</td>
+<td>Y</td>
+<td>SMS=0 / FAX=2 / PHONE=3 / MMS=5 / AT=6 / RCS=8 / BT=9 (LMS는 5 + <code>ATTACHED_FILE</code> 비어있을 때)</td>
+<td><code>0</code></td>
+</tr>
+<tr>
+<td><code>STATUS</code></td>
+<td>Number(1)</td>
+<td>Y</td>
+<td>발송 상태 — <a href="/bizclient#용어">발송 용어</a> 페이지 참고</td>
+<td><code>0</code></td>
+</tr>
+<tr>
+<td><code>REQUEST_TIME</code></td>
+<td>Datetime</td>
+<td>Y</td>
+<td>데이터 등록 시간</td>
+<td><code>NOW()</code></td>
+</tr>
+<tr>
+<td><code>SEND_TIME</code></td>
+<td>Datetime</td>
+<td>Y</td>
+<td>발송 기준 시간 (예약 발송 시 미래)</td>
+<td><code>NOW()</code></td>
+</tr>
+<tr>
+<td><code>REPORT_TIME</code></td>
+<td>Datetime</td>
+<td>N</td>
+<td>단말기 수신 시간</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>DEST_PHONE</code></td>
+<td>String(16)</td>
+<td>Y</td>
+<td>수신번호</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>DEST_NAME</code></td>
+<td>String(32)</td>
+<td>N</td>
+<td>수신자명</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>SEND_PHONE</code></td>
+<td>String(16)</td>
+<td>Y</td>
+<td>발신자번호 (사전 등록 필수)</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>SEND_NAME</code></td>
+<td>String(32)</td>
+<td>N</td>
+<td>발신자명</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>MSG_BODY</code></td>
+<td>String(4000)</td>
+<td>Y</td>
+<td>메시지 내용</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>CALL_STATUS</code></td>
+<td>String(4)</td>
+<td>N</td>
+<td>발송 결과 리포트 (<a href="/response-codes">발송 결과 코드</a> 참조)</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>TEL_INFO</code></td>
+<td>String(10)</td>
+<td>N</td>
+<td>통신사 정보 (SKT/KTF/LGT/KKO)</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>CINFO</code></td>
+<td>String(32)</td>
+<td>N</td>
+<td>Client Indexed Info — 사내 구분용. 특수기호 <code>\/:*?&quot;&lt;&gt;|.</code> 사용 불가</td>
+<td>—</td>
+</tr>
+</tbody>
+</table></div><h3 id="채널별-전용-컬럼" data-spy-id="채널별-전용-컬럼" data-spy-section="사전-준비">채널별 전용 컬럼</h3>
+<p><strong>FAX/MMS 전용</strong></p>
+<ul>
+<li><code>SUBJECT</code> String(64) — 제목</li>
+</ul>
+<p><strong>AT/BT (브랜드 메시지) 전용</strong></p>
+<ul>
+<li><code>NATION_CODE</code> String(5) Y — 국가코드 (한국 = 82)</li>
+<li><code>SENDER_KEY</code> String(40) Y — 발신프로필 키</li>
+<li><code>TEMPLATE_CODE</code> String(64) Y — 템플릿 코드</li>
+</ul>
+<p><strong>AT 전용</strong></p>
+<ul>
+<li><code>RESPONSE_METHOD</code> String(8) — 발송 방식 (<code>PUSH</code>)</li>
+</ul>
+<p><strong>AT 전용 (대체 발송)</strong></p>
+<ul>
+<li><code>TIMEOUT</code> String(4) — 대체 발송용 타임아웃 시간</li>
+<li><code>RE_TYPE</code> String(3) — 대체 발송 메시지 타입 (<a href="/bizclient#용어">발송 용어</a> 참조)</li>
+</ul>
+<p><strong>AT/BT/RCS 공용 (대체 발송)</strong></p>
+<ul>
+<li><code>RE_BODY</code> String(4000) — 대체 발송 메시지 내용</li>
+<li><code>RE_PART</code> String(1) — 대체 발송 처리 주체 (<code>C</code>: CLIENT, <code>S</code>: Server)</li>
+</ul>
+<p><strong>FAX 전용</strong></p>
+<ul>
+<li><code>COVER_FLAG</code> Number(1) — 표지 발송 옵션 (0/1, 기본 0)</li>
+<li><code>USE_PAGE</code> Number(2) — 발송 페이지 수 (기본 0)</li>
+</ul>
+<p><strong>PHONE 전용</strong></p>
+<ul>
+<li><code>SMS_FLAG</code> Number(1) — 실패 시 문자 전송 옵션 (기본 0)</li>
+<li><code>REPLY_FLAG</code> Number(1) — 시나리오 답변 기능 (<code>Y</code>:1, <code>N</code>:0, 기본 0)</li>
+<li><code>VXML_FILE</code> String(64) — 음성 시나리오 파일 이름</li>
+<li><code>USE_TIME</code> Number(4) — 발송 소요 시간 (초, 기본 0)</li>
+<li><code>SN_RESULT</code> Number(1) — 설문 조사 응답 값 (<code>0~9</code>, 기본 0)</li>
+</ul>
+<p><strong>FAX/PHONE 공용</strong></p>
+<ul>
+<li><code>RETRY_CNT</code> Number(4) — 재시도 횟수</li>
+</ul>
+<p><strong>MMS/FAX/PHONE/AT 공용</strong></p>
+<ul>
+<li><code>ATTACHED_FILE</code> String(1000) — [기본 MODE] 첨부파일명 (여러 개는 <code>\|</code> 구분) / [첨부파일 테이블 MODE] 첨부파일 테이블 KEY</li>
+</ul>
+<p><strong>legacy (적용 채널 없음 — 과거 친구톡 전용, v5.2.4 친구톡 제거)</strong></p>
+<ul>
+<li><code>USER_KEY</code> String(30) — 옐로아이디 봇 사용자 식별키</li>
+<li><code>AD_FLAG</code> String(1) — 광고성 메시지 표기 노출 여부 (<code>Y</code>/<code>N</code>, 기본 <code>Y</code>)</li>
+</ul>
+<p><strong>RCS 전용</strong></p>
+<ul>
+<li><code>RCS_REFKEY</code> String(32) — <code>BIZ_RCS</code> 테이블의 <code>REFKEY</code> 참조</li>
+</ul>
+<h3 id="bizrcs-컬럼" data-spy-id="bizrcs-컬럼" data-spy-section="사전-준비">BIZ_RCS 컬럼</h3>
+<p>RCS 메시지의 본문·버튼을 별도 테이블에 등록. <code>biz_msg.RCS_REFKEY</code> 가 이 테이블의 <code>REFKEY</code> 를 참조.</p>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>컬럼</th>
+<th>타입</th>
+<th>필수</th>
+<th>설명</th>
+<th>기본값</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>REFKEY</code></td>
+<td>String(32)</td>
+<td>Y</td>
+<td>테이블 참조키 (Primary Key)</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>CHATBOT_ID</code></td>
+<td>String(40)</td>
+<td>Y</td>
+<td>RCS 비즈센터 챗봇 ID</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>HEADER</code></td>
+<td>String(1)</td>
+<td>Y</td>
+<td>메시지 상단 식별 문구 (<code>0</code>: Web 발신, <code>1</code>: 광고). 통합 RCS 는 <code>0</code> 만 허용</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>FOOTER</code></td>
+<td>String(64)</td>
+<td>N</td>
+<td>메시지 하단 수신거부 문구 (안드로이드 RCS 전용)</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>MESSAGEBASE_ID</code></td>
+<td>String(40)</td>
+<td>Y</td>
+<td>RCS 공통 포맷 또는 템플릿 ID (전체 목록은 RCS 발송 페이지 참조)</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>COPY_ALLOWED</code></td>
+<td>String(1)</td>
+<td>N</td>
+<td>복사·공유 메뉴 (<code>Y</code>/<code>N</code>) — 안드로이드 RCS 전용</td>
+<td><code>N</code></td>
+</tr>
+<tr>
+<td><code>RCS_BODY</code></td>
+<td>String(4000)</td>
+<td>Y</td>
+<td>메시지 베이스에서 치환할 파라미터 정보 (JSON)</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>BUTTONS</code></td>
+<td>String(4000)</td>
+<td>N</td>
+<td>메시지에 삽입할 버튼 정보 (JSON)</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>AGENCY_KEY</code></td>
+<td>String(64)</td>
+<td>N</td>
+<td>대행사 Key (2차 대행사인 경우 필수)</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>BRAND_KEY</code></td>
+<td>String(64)</td>
+<td>Y</td>
+<td>브랜드별 제공되는 특수 키</td>
+<td>—</td>
+</tr>
+</tbody>
+</table></div><h3 id="bizattachments-컬럼" data-spy-id="bizattachments-컬럼" data-spy-section="사전-준비">BIZ_ATTACHMENTS 컬럼</h3>
+<p><code>FILE_HANDLING_MODE</code> 설정에 따라 생성되는 첨부파일 테이블.</p>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>컬럼</th>
+<th>타입</th>
+<th>필수</th>
+<th>설명</th>
+<th>기본값</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>MSG_KEY</code></td>
+<td>String(32)</td>
+<td>Y</td>
+<td><code>biz_msg</code> 와 매칭되는 KEY (복합키)</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>SEQ</code></td>
+<td>Number</td>
+<td>Y</td>
+<td>데이터 시퀀스 (복합키)</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>TYPE</code></td>
+<td>String(10)</td>
+<td>Y</td>
+<td>데이터 타입 (<code>FILE</code> / <code>HTTP</code> / <code>JSON</code>)</td>
+<td><code>FILE</code></td>
+</tr>
+<tr>
+<td><code>CONTENTS</code></td>
+<td>String(2000)</td>
+<td>Y</td>
+<td>데이터 값 (파일명 / URL / JSONString)</td>
+<td>—</td>
+</tr>
+</tbody>
+</table></div><blockquote>
+<p>ℹ️ 첨부파일 테이블 사용은 변수가 포함된 웹·앱 링크 처리 등 JSON 파일을 미리 만들기 어려운 경우 유용.</p>
+</blockquote>
+<h3 id="인덱스-권고" data-spy-id="인덱스-권고" data-spy-section="사전-준비">인덱스 권고</h3>
+<ul>
+<li>메시지 테이블의 <strong><code>CMID</code></strong> 컬럼은 Primary Key 로 자동 설정</li>
+<li>로그 테이블은 중복 키 허용 (PK 미설정)</li>
+<li>추가 인덱스는 운영 환경에 맞게 자유롭게 추가 가능</li>
+</ul>
+<h2 id="용어" data-spy-id="용어" data-spy-section="사전-준비">용어</h2>
+<p><strong>BIZCLIENT 발송 용어</strong> — <code>MSG_TYPE</code> / <code>STATUS</code> / <code>CALL_STATUS</code> / <code>RE_TYPE</code> 정의</p>
+<h3 id="메시지-인코딩" data-spy-id="메시지-인코딩" data-spy-section="사전-준비">메시지 인코딩</h3>
+<p>메시지 문자열은 <strong>KSC 5601 (ISO 10646-1 / Unicode 1.1)</strong> 한글 코드에 정의된 문자열입니다.</p>
+<ul>
+<li>AT, 브랜드 메시지(BT), RCS, 국제문자 메시지는 이모지 포함 가능</li>
+<li>이동통신 3사 인코딩 범위를 벗어나는 문자는 <code>?</code> 로 표시되어 전송될 수 있음</li>
+</ul>
+<p>메시지 타입별 이모지 발송 가능 여부:</p>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>메시지 타입</th>
+<th>이모지 발송</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SMS</td>
+<td>✗</td>
+</tr>
+<tr>
+<td>LMS / MMS</td>
+<td>✗</td>
+</tr>
+<tr>
+<td>알림톡 (AT) · 브랜드 메시지 (BT)</td>
+<td>✓</td>
+</tr>
+<tr>
+<td>RCS</td>
+<td>✓</td>
+</tr>
+<tr>
+<td>FAX / PHONE</td>
+<td>✗</td>
+</tr>
+</tbody>
+</table></div><blockquote>
+<p>ℹ️ FAX 발송 문서 파일에 입력된 이모지는 정상 발송됩니다.</p>
+</blockquote>
+<p>이모지 데이터 발송 시 DBMS 캐릭터 셋 권장 (로그 테이블은 주기적으로 생성되므로 확인 필요):</p>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>DBMS</th>
+<th>Version</th>
+<th>Character Set</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>MySQL / MariaDB</td>
+<td>5.5.3 이상</td>
+<td><code>UTF8MB4_GENERAL_CI</code></td>
+</tr>
+<tr>
+<td>Oracle</td>
+<td>9i 이상</td>
+<td><code>AL32UTF8</code></td>
+</tr>
+<tr>
+<td>MSSQL</td>
+<td>SQL Server 2017 이상</td>
+<td><code>Latin1_General_100_CI_AI_SC_UTF8</code></td>
+</tr>
+</tbody>
+</table></div><h3 id="메시지타입-msgtype" data-spy-id="메시지타입-msgtype" data-spy-section="사전-준비">메시지타입 (MSG_TYPE)</h3>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>코드</th>
+<th>메시지 타입</th>
+<th>비고</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>0</code></td>
+<td>SMS</td>
+<td>단문</td>
+</tr>
+<tr>
+<td><code>2</code></td>
+<td>FAX</td>
+<td></td>
+</tr>
+<tr>
+<td><code>3</code></td>
+<td>PHONE</td>
+<td></td>
+</tr>
+<tr>
+<td><code>5</code></td>
+<td>LMS / MMS</td>
+<td>LMS 는 <code>ATTACHED_FILE</code> 비어있을 때, MMS 는 첨부 있을 때</td>
+</tr>
+<tr>
+<td><code>6</code></td>
+<td>AT</td>
+<td>카카오 알림톡</td>
+</tr>
+<tr>
+<td><code>7</code></td>
+<td>FT</td>
+<td>카카오 친구톡 (서비스 종료 — 과거 발송 이력 조회 시에만 노출, v5.2.4 친구톡 제거)</td>
+</tr>
+<tr>
+<td><code>8</code></td>
+<td>RCS</td>
+<td></td>
+</tr>
+<tr>
+<td><code>9</code></td>
+<td>BT</td>
+<td>카카오 브랜드 메시지</td>
+</tr>
+</tbody>
+</table></div><h3 id="발송상태변화-status" data-spy-id="발송상태변화-status" data-spy-section="사전-준비">발송상태변화 (STATUS)</h3>
+<p><code>biz_msg.STATUS</code> 의 정상 발송 흐름은 다음과 같습니다.</p>
+<p><svg viewBox="0 0 716 116" width="100%" style="max-width:716px;height:auto;font-family:inherit" xmlns="http://www.w3.org/2000/svg"><defs><marker id="arc13" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 z" fill="#2b3a4a"/></marker></defs><rect x="8" y="30" width="124" height="52" rx="6" fill="#f4f8fc" stroke="#2b3a4a" stroke-width="1.4"/><text x="70" y="56" font-size="16" font-weight="700" text-anchor="middle" fill="#1f2d3a">0</text><text x="70" y="73" font-size="10" text-anchor="middle" fill="#5a6b7a">발송 대기</text><line x1="132" y1="56" x2="152" y2="56" stroke="#2b3a4a" stroke-width="1.5" marker-end="url(#arc13)"/><rect x="152" y="30" width="124" height="52" rx="6" fill="#f4f8fc" stroke="#2b3a4a" stroke-width="1.4"/><text x="214" y="56" font-size="16" font-weight="700" text-anchor="middle" fill="#1f2d3a">7</text><text x="214" y="73" font-size="10" text-anchor="middle" fill="#5a6b7a">발송 중</text><line x1="276" y1="56" x2="296" y2="56" stroke="#2b3a4a" stroke-width="1.5" marker-end="url(#arc13)"/><rect x="296" y="30" width="124" height="52" rx="6" fill="#f4f8fc" stroke="#2b3a4a" stroke-width="1.4"/><text x="358" y="56" font-size="16" font-weight="700" text-anchor="middle" fill="#1f2d3a">1</text><text x="358" y="73" font-size="10" text-anchor="middle" fill="#5a6b7a">발송 후 대기</text><line x1="420" y1="56" x2="440" y2="56" stroke="#2b3a4a" stroke-width="1.5" marker-end="url(#arc13)"/><rect x="440" y="30" width="124" height="52" rx="6" fill="#9ed9a8" stroke="#2b3a4a" stroke-width="1.4"/><text x="502" y="56" font-size="16" font-weight="700" text-anchor="middle" fill="#1f2d3a">2</text><text x="502" y="73" font-size="10" text-anchor="middle" fill="#33424f">발송 완료</text><line x1="564" y1="56" x2="584" y2="56" stroke="#2b3a4a" stroke-width="1.5" marker-end="url(#arc13)"/><rect x="584" y="30" width="124" height="52" rx="6" fill="#9ed9a8" stroke="#2b3a4a" stroke-width="1.4" stroke-dasharray="5 4"/><text x="646" y="60" font-size="11" font-weight="700" text-anchor="middle" fill="#1f2d3a">로그 테이블 이동</text></svg></p>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>값</th>
+<th>상태</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>0</code></td>
+<td>발송 대기</td>
+<td>신규 INSERT 시 기본값</td>
+</tr>
+<tr>
+<td><code>7</code></td>
+<td>발송 중</td>
+<td>BIZCLIENT 가 비즈뿌리오 서버로 전송 중</td>
+</tr>
+<tr>
+<td><code>1</code></td>
+<td>발송 후 대기</td>
+<td>서버 송신 완료, 결과 수신 대기</td>
+</tr>
+<tr>
+<td><code>2</code></td>
+<td>발송 결과 업데이트</td>
+<td>결과 수신 완료 → 로그 테이블 이동 대상</td>
+</tr>
+<tr>
+<td><code>3</code></td>
+<td>리포트 재요청 후 대기</td>
+<td>결과 재요청 후 대기</td>
+</tr>
+<tr>
+<td><code>11</code></td>
+<td>클라이언트 대체 발송 처리 중</td>
+<td>대체 발송 진행 중</td>
+</tr>
+<tr>
+<td><code>13</code></td>
+<td>대체 발송 미설정 상태에서 대체 발송 처리됨</td>
+<td><strong>로그테이블 미이동</strong></td>
+</tr>
+</tbody>
+</table></div><blockquote>
+<p>ℹ️ <code>STATUS=13</code> 이 발생하는 경우 대체 발송 사용 여부 설정을 변경해야 합니다.</p>
+</blockquote>
+<h3 id="대체발송타입-retype" data-spy-id="대체발송타입-retype" data-spy-section="사전-준비">대체발송타입 (RE_TYPE)</h3>
+<p>메시지 타입(AT/BT/RCS)에 따라 최대 2차 대체 발송까지 가능. <code>RE_TYPE</code> 필드에 다음 값을 입력:</p>
+<p><strong>AT / BT 발송 시</strong></p>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>1차 대체</th>
+<th>2차 대체</th>
+<th><code>RE_TYPE</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SMS</td>
+<td>—</td>
+<td><code>SMS</code></td>
+</tr>
+<tr>
+<td>MMS</td>
+<td>—</td>
+<td><code>MMS</code></td>
+</tr>
+<tr>
+<td>RCS</td>
+<td>—</td>
+<td><code>R</code></td>
+</tr>
+<tr>
+<td>RCS</td>
+<td>SMS</td>
+<td><code>RS</code></td>
+</tr>
+<tr>
+<td>RCS</td>
+<td>MMS</td>
+<td><code>RM</code></td>
+</tr>
+</tbody>
+</table></div><p><strong>RCS 발송 시</strong></p>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>1차 대체</th>
+<th>2차 대체</th>
+<th><code>RE_TYPE</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SMS</td>
+<td>—</td>
+<td><code>SMS</code></td>
+</tr>
+<tr>
+<td>MMS</td>
+<td>—</td>
+<td><code>MMS</code></td>
+</tr>
+<tr>
+<td>AT</td>
+<td>—</td>
+<td><code>K</code></td>
+</tr>
+<tr>
+<td>AT</td>
+<td>SMS</td>
+<td><code>KS</code></td>
+</tr>
+<tr>
+<td>AT</td>
+<td>MMS</td>
+<td><code>KM</code></td>
+</tr>
+<tr>
+<td>BT</td>
+<td>—</td>
+<td><code>U</code></td>
+</tr>
+<tr>
+<td>BT</td>
+<td>SMS</td>
+<td><code>US</code></td>
+</tr>
+<tr>
+<td>BT</td>
+<td>MMS</td>
+<td><code>UM</code></td>
+</tr>
+</tbody>
+</table></div>f:T1cdc,<p>BIZCLIENT를 설치하고 첫 SMS를 보내는 가장 짧은 경로입니다.</p>
+<h3 id="사전-조건" data-spy-id="사전-조건" data-spy-section="quickstart-bizclient">사전 조건</h3>
+<ul>
+<li>비즈뿌리오 운영 또는 검수 계정 (계정ID·암호)</li>
+<li>등록된 발신번호 1개</li>
+<li>본인 휴대폰 번호 (수신 테스트용)</li>
+<li>JDK 1.8 이상이 설치된 서버 (Linux/Unix 또는 Windows)</li>
+<li>MySQL / Oracle / MSSQL DB 접속 정보 (테이블 생성 권한 포함)</li>
+<li>비즈뿌리오 서버로의 outbound: <code>bizppurio.com:38300, 38400</code></li>
+</ul>
+<p>준비가 안 됐다면 <a href="/docs#공통-사전-준비">사전 준비</a>와 <a href="/bizclient#설치">설치 및 구동</a> 페이지를 먼저 확인하세요.</p>
+<h3 id="1-bizclient-설치" data-spy-id="1-bizclient-설치" data-spy-section="quickstart-bizclient">1. BIZCLIENT 설치</h3>
+<h3 id="linuxunix" data-spy-id="linuxunix" data-spy-section="quickstart-bizclient">Linux/Unix</h3>
+<pre><code class="language-bash"># 모듈 압축 해제
+unzip biz_client_v5xxx.zip
+cd biz_client_v5xxx
+
+# 환경 설정
+vi config/uds.conf
+</code></pre>
+<p><code>uds.conf</code>:</p>
+<pre><code class="language-text">UDS_ID    = bizUserId001               # bizppurio.com 계정
+UDS_PW    = mypassword
+DBNAME    = MYSQL                    # MYSQL / MSSQL2005 / ORACLE 등
+DBURL     = jdbc:mysql://localhost:3306/bizclient
+DBUSER    = bizclient
+DBPASS    = mydbpassword
+</code></pre>
+<pre><code class="language-bash"># 시작
+cd script
+./biz_start
+</code></pre>
+<h3 id="windows" data-spy-id="windows" data-spy-section="quickstart-bizclient">Windows</h3>
+<pre><code class="language-text">unzip biz_client_v5xxx.zip
+notepad config\uds.conf       # 같은 항목 설정
+cd bat
+service-install.bat
+service-start.bat
+</code></pre>
+<blockquote>
+<p><strong>NOTE:</strong> 모듈을 처음 시작하면 <strong><code>BIZ_MSG</code></strong>, <strong><code>BIZ_LOG_YYYYMM</code></strong> 테이블이 자동 생성됩니다. 테이블 생성 권한이 있어야 합니다.</p>
+</blockquote>
+<h3 id="2-sms-1건-발송" data-spy-id="2-sms-1건-발송" data-spy-section="quickstart-bizclient">2. SMS 1건 발송</h3>
+<p><code>BIZ_MSG</code> 테이블에 INSERT 1번이면 끝입니다.</p>
+<pre><code class="language-sql">INSERT INTO biz_msg (
+  MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME,
+  DEST_PHONE, SEND_PHONE, MSG_BODY
+) VALUES (
+  0,                                   -- SMS = 0
+  'QS-001',                            -- 고유 키 (ASCII)
+  NOW(), NOW(),                        -- 등록·발송 시간
+  '01012345678',                       -- 수신번호 (본인 번호)
+  '07000000000',                       -- 등록된 발신번호
+  '비즈뿌리오 BIZCLIENT Quickstart 테스트입니다.'
+);
+</code></pre>
+<p>INSERT 직후 <code>BIZ_MSG.STATUS = 0</code> (발송 대기). BIZCLIENT 모듈이 큐를 폴링하여 수 초 내에 비즈뿌리오 서버로 전송합니다.</p>
+<blockquote>
+<p><strong>WARNING:</strong> <strong><code>CMID</code>는 고유해야</strong> 합니다. 중복되면 발송은 되지만 결과 리포트 매핑이 누락될 수 있습니다.</p>
+</blockquote>
+<h3 id="3-발송-결과-확인" data-spy-id="3-발송-결과-확인" data-spy-section="quickstart-bizclient">3. 발송 결과 확인</h3>
+<h3 id="status-진행" data-spy-id="status-진행" data-spy-section="quickstart-bizclient">STATUS 진행</h3>
+<pre><code class="language-sql">SELECT CMID, STATUS, CALL_STATUS, REQUEST_TIME, REPORT_TIME
+FROM biz_msg
+WHERE CMID = 'QS-001';
+</code></pre>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th><code>STATUS</code></th>
+<th>의미</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>0</code></td>
+<td>발송 대기 — 모듈이 픽업 전</td>
+</tr>
+<tr>
+<td><code>7</code></td>
+<td>발송 중 — 비즈뿌리오 서버로 전송 중</td>
+</tr>
+<tr>
+<td><code>1</code></td>
+<td>발송 후 대기 — 결과 수신 대기</td>
+</tr>
+<tr>
+<td><code>2</code></td>
+<td>발송 완료 — 결과 업데이트, 곧 로그 테이블로 이동</td>
+</tr>
+</tbody>
+</table></div><p>자세한 상태 흐름은 <a href="/bizclient#용어">발송 용어 — STATUS</a> 참고.</p>
+<h3 id="callstatus" data-spy-id="callstatus" data-spy-section="quickstart-bizclient">CALL_STATUS</h3>
+<p>발송 완료(<code>STATUS = 2</code>)되면 <code>CALL_STATUS</code> 컬럼에 결과 코드가 기록됩니다.</p>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th><code>CALL_STATUS</code></th>
+<th>의미</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>4100</code></td>
+<td>단말기 전달 성공</td>
+</tr>
+<tr>
+<td><code>4400</code>~</td>
+<td>음영 지역, 단말기 전원 꺼짐 등</td>
+</tr>
+<tr>
+<td><code>4430</code> / <code>4431</code></td>
+<td>스팸 차단</td>
+</tr>
+</tbody>
+</table></div><p>전체 코드는 <a href="/response-codes">발송 결과 코드</a> 참고.</p>
+<h3 id="로그-테이블-이동" data-spy-id="로그-테이블-이동" data-spy-section="quickstart-bizclient">로그 테이블 이동</h3>
+<p><code>STATUS = 2</code>인 데이터는 다음 폴링 주기에 월별 로그 테이블로 이동합니다.</p>
+<pre><code class="language-sql">SELECT CMID, CALL_STATUS, REPORT_TIME
+FROM biz_log_202604       -- BIZ_LOG_YYYYMM
+WHERE CMID = 'QS-001';
+</code></pre>
+<h3 id="다음-단계" data-spy-id="다음-단계" data-spy-section="quickstart-bizclient">다음 단계</h3>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>하고 싶은 것</th>
+<th>진행</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>LMS / MMS / 알림톡·브랜드 메시지·RCS / FAX / PHONE 발송</td>
+<td><a href="/bizclient#메시지-전송">채널별 발송 쿼리</a></td>
+</tr>
+<tr>
+<td>알림톡 실패 시 SMS·MMS·RCS로 자동 전환</td>
+<td><a href="/bizclient#대체발송">대체 발송 쿼리</a></td>
+</tr>
+<tr>
+<td>RCS 발송 활성화</td>
+<td><a href="/bizclient#설치">설치 — RCS 발송 활성화</a></td>
+</tr>
+<tr>
+<td>운영 중 자주 발생하는 문제</td>
+<td><a href="/guides/operations#faq">운영 FAQ — BIZCLIENT</a></td>
+</tr>
+</tbody>
+</table></div><h3 id="트러블슈팅" data-spy-id="트러블슈팅" data-spy-section="quickstart-bizclient">트러블슈팅</h3>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>증상</th>
+<th>원인·해결</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>STATUS=0</code>에서 멈춤</td>
+<td>모듈이 구동 중인지 확인 (<code>./biz_start</code> / Windows 서비스)</td>
+</tr>
+<tr>
+<td><code>STATUS=0</code>에서 멈춤 (모듈은 구동)</td>
+<td>DB 접속 정보(<code>uds.conf</code> <code>DBURL</code>/<code>DBUSER</code>/<code>DBPASS</code>) 확인</td>
+</tr>
+<tr>
+<td><code>STATUS=2</code>인데 <code>CALL_STATUS</code> 비어있음</td>
+<td>통상 1~5분 내 갱신. 5분 이상이면 비즈뿌리오 [발송 조회]에서 직접 확인</td>
+</tr>
+<tr>
+<td><code>STATUS=13</code></td>
+<td>대체 발송 미설정 상태에서 대체 발송 → 비즈뿌리오에 대체 발송 사용 가능 설정 요청</td>
+</tr>
+<tr>
+<td><code>CALL_STATUS=9020</code></td>
+<td>발송 시간 24시간 초과 — <code>SEND_TIME</code> 확인</td>
+</tr>
+<tr>
+<td><code>CALL_STATUS=9026</code></td>
+<td>블랙리스트 차단</td>
+</tr>
+</tbody>
+</table></div><p>자세한 진단은 <a href="/bizclient#용어">BIZCLIENT 발송상태변화</a>·<a href="/response-codes">발송 결과 코드</a> 참고.</p>
+10:T967,<p><code>SMS</code> 채널 — <code>biz_msg</code> 테이블 INSERT 방식 발송. 우측 <strong>Request samples</strong> 의 SQL 을 참고하세요.</p>
+<p><code>MSG_TYPE = 0</code></p>
+<p>SMS 단문 문자 메시지를 <code>biz_msg</code> 테이블 INSERT 로 발송. EUC-KR 90바이트 이하.</p>
+<h3>식별자</h3>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>항목</th>
+<th>값</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>BIZCLIENT <code>MSG_TYPE</code></td>
+<td><code>0</code></td>
+</tr>
+<tr>
+<td>BIZCLIENT 테이블</td>
+<td><code>biz_msg</code></td>
+</tr>
+<tr>
+<td>사전 등록</td>
+<td>발신번호</td>
+</tr>
+</tbody>
+</table></div><h3>biz_msg 컬럼 (SMS)</h3>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>컬럼</th>
+<th>타입</th>
+<th>필수</th>
+<th>설명</th>
+<th>기본값</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>MSG_TYPE</code></td>
+<td>number(1)</td>
+<td>Y</td>
+<td>SMS = 0</td>
+<td><code>0</code></td>
+</tr>
+<tr>
+<td><code>CMID</code></td>
+<td>string(32)</td>
+<td>Y</td>
+<td>데이터 ID (Primary Key, ASCII)</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>REQUEST_TIME</code></td>
+<td>datetime</td>
+<td>Y</td>
+<td>데이터 등록 시간</td>
+<td><code>NOW()</code></td>
+</tr>
+<tr>
+<td><code>SEND_TIME</code></td>
+<td>datetime</td>
+<td>Y</td>
+<td>발송 기준 시간 (예약 시 미래)</td>
+<td><code>NOW()</code></td>
+</tr>
+<tr>
+<td><code>DEST_PHONE</code></td>
+<td>string(16)</td>
+<td>Y</td>
+<td>수신번호</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>SEND_PHONE</code></td>
+<td>string(16)</td>
+<td>Y</td>
+<td>발신번호 (사전 등록 필수)</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>MSG_BODY</code></td>
+<td>string(4000)</td>
+<td>Y</td>
+<td>메시지 내용 (90바이트 이하)</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>DEST_NAME</code></td>
+<td>string(32)</td>
+<td>N</td>
+<td>수신자명</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>SEND_NAME</code></td>
+<td>string(32)</td>
+<td>N</td>
+<td>발신자명</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>CINFO</code></td>
+<td>string(32)</td>
+<td>N</td>
+<td>Client Indexed Info (특수기호 <code>\/:*?&quot;&lt;&gt;|.</code> 사용 불가)</td>
+<td>—</td>
+</tr>
+</tbody>
+</table></div><h3>제한사항</h3>
+<ul>
+<li>본문 90바이트 초과 시 LMS 자동 전환 없음 — 호출 측에서 명시</li>
+<li>첨부 파일 미지원 (MMS 섹션 참고)</li>
+<li>광고성 메시지는 <code>(광고)</code>/수신거부 표기 필수</li>
+</ul>
+13:T8d7,<p><code>LMS</code> 채널 — <code>biz_msg</code> 테이블 INSERT 방식 발송. 우측 <strong>Request samples</strong> 의 SQL 을 참고하세요.</p>
+<p><code>MSG_TYPE = 5</code></p>
+<p>장문 문자 메시지 (제목 + 본문). EUC-KR 본문 최대 2000바이트, 제목 최대 64바이트.<br>
+LMS와 MMS는 동일 <code>MSG_TYPE</code> 을 공유하며 <code>ATTACHED_FILE</code> 컬럼이 비어 있으면 LMS로 발송.</p>
+<h3>식별자</h3>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>항목</th>
+<th>값</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>BIZCLIENT <code>MSG_TYPE</code></td>
+<td><code>5</code> (MMS와 공유)</td>
+</tr>
+<tr>
+<td>BIZCLIENT 테이블</td>
+<td><code>biz_msg</code></td>
+</tr>
+<tr>
+<td>사전 등록</td>
+<td>발신번호</td>
+</tr>
+</tbody>
+</table></div><h3>biz_msg 컬럼 (LMS)</h3>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>컬럼</th>
+<th>타입</th>
+<th>필수</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>MSG_TYPE</code></td>
+<td>number(1)</td>
+<td>Y</td>
+<td>LMS = 5 (MMS와 공유)</td>
+</tr>
+<tr>
+<td><code>CMID</code></td>
+<td>string(32)</td>
+<td>Y</td>
+<td>데이터 ID (Primary Key, ASCII)</td>
+</tr>
+<tr>
+<td><code>REQUEST_TIME</code></td>
+<td>datetime</td>
+<td>Y</td>
+<td>데이터 등록 시간 (<code>NOW()</code>)</td>
+</tr>
+<tr>
+<td><code>SEND_TIME</code></td>
+<td>datetime</td>
+<td>Y</td>
+<td>발송 기준 시간 (예약 시 미래, <code>NOW()</code>)</td>
+</tr>
+<tr>
+<td><code>DEST_PHONE</code></td>
+<td>string(16)</td>
+<td>Y</td>
+<td>수신번호</td>
+</tr>
+<tr>
+<td><code>SEND_PHONE</code></td>
+<td>string(16)</td>
+<td>Y</td>
+<td>발신번호 (사전 등록 필수)</td>
+</tr>
+<tr>
+<td><code>SUBJECT</code></td>
+<td>string(64)</td>
+<td>N</td>
+<td>제목 (최대 64바이트)</td>
+</tr>
+<tr>
+<td><code>MSG_BODY</code></td>
+<td>string(4000)</td>
+<td>Y</td>
+<td>본문 (최대 2000바이트)</td>
+</tr>
+<tr>
+<td><code>DEST_NAME</code></td>
+<td>string(32)</td>
+<td>N</td>
+<td>수신자명</td>
+</tr>
+<tr>
+<td><code>SEND_NAME</code></td>
+<td>string(32)</td>
+<td>N</td>
+<td>발신자명</td>
+</tr>
+<tr>
+<td><code>CINFO</code></td>
+<td>string(32)</td>
+<td>N</td>
+<td>Client Indexed Info (특수기호 <code>\/:*?&quot;&lt;&gt;|.</code> 사용 불가)</td>
+</tr>
+</tbody>
+</table></div>14:Tae5,<p><code>MMS</code> 채널 — <code>biz_msg</code> 테이블 INSERT 방식 발송. 우측 <strong>Request samples</strong> 의 SQL 을 참고하세요.</p>
+<p><code>MSG_TYPE = 5 (+ ATTACHED_FILE)</code></p>
+<p>이미지 첨부 멀티미디어 메시지. LMS 컬럼 + <code>ATTACHED_FILE</code>. 본문은 선택 (이미지만 발송 가능).</p>
+<h3>식별자</h3>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>항목</th>
+<th>값</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>BIZCLIENT <code>MSG_TYPE</code></td>
+<td><code>5</code> (LMS와 공유, <code>ATTACHED_FILE</code> 유무로 구분)</td>
+</tr>
+<tr>
+<td>BIZCLIENT 테이블</td>
+<td><code>biz_msg</code></td>
+</tr>
+<tr>
+<td>사전 등록</td>
+<td>발신번호</td>
+</tr>
+</tbody>
+</table></div><blockquote>
+<p>ℹ️ 여러 첨부 파일은 <code>|</code> 문자로 구분해 <code>ATTACHED_FILE</code> 한 컬럼에 입력. 첨부파일 테이블 모드 사용 시 이 컬럼에는 첨부파일 테이블 KEY를 입력.</p>
+</blockquote>
+<h3>biz_msg 컬럼 (MMS)</h3>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>컬럼</th>
+<th>타입</th>
+<th>필수</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>MSG_TYPE</code></td>
+<td>number(1)</td>
+<td>Y</td>
+<td>MMS = 5 (LMS와 공유)</td>
+</tr>
+<tr>
+<td><code>CMID</code></td>
+<td>string(32)</td>
+<td>Y</td>
+<td>데이터 ID (Primary Key, ASCII)</td>
+</tr>
+<tr>
+<td><code>REQUEST_TIME</code></td>
+<td>datetime</td>
+<td>Y</td>
+<td>데이터 등록 시간 (<code>NOW()</code>)</td>
+</tr>
+<tr>
+<td><code>SEND_TIME</code></td>
+<td>datetime</td>
+<td>Y</td>
+<td>발송 기준 시간 (예약 시 미래, <code>NOW()</code>)</td>
+</tr>
+<tr>
+<td><code>DEST_PHONE</code></td>
+<td>string(16)</td>
+<td>Y</td>
+<td>수신번호</td>
+</tr>
+<tr>
+<td><code>SEND_PHONE</code></td>
+<td>string(16)</td>
+<td>Y</td>
+<td>발신번호 (사전 등록 필수)</td>
+</tr>
+<tr>
+<td><code>SUBJECT</code></td>
+<td>string(64)</td>
+<td>N</td>
+<td>제목 (최대 64바이트)</td>
+</tr>
+<tr>
+<td><code>MSG_BODY</code></td>
+<td>string(4000)</td>
+<td>N</td>
+<td>본문 (이미지만 발송 시 생략 가능)</td>
+</tr>
+<tr>
+<td><code>ATTACHED_FILE</code></td>
+<td>string(1000)</td>
+<td>N</td>
+<td>첨부파일 경로 (여러 개는 <code>|</code> 로 구분) 또는 첨부파일 테이블 KEY</td>
+</tr>
+<tr>
+<td><code>DEST_NAME</code></td>
+<td>string(32)</td>
+<td>N</td>
+<td>수신자명</td>
+</tr>
+<tr>
+<td><code>SEND_NAME</code></td>
+<td>string(32)</td>
+<td>N</td>
+<td>발신자명</td>
+</tr>
+<tr>
+<td><code>CINFO</code></td>
+<td>string(32)</td>
+<td>N</td>
+<td>Client Indexed Info (특수기호 <code>\/:*?&quot;&lt;&gt;|.</code> 사용 불가)</td>
+</tr>
+</tbody>
+</table></div><h3>첨부 제약 (BIZCLIENT)</h3>
+<ul>
+<li>파일당 <strong>60 KB 이하</strong></li>
+<li>첨부 최대 3개</li>
+</ul>
+15:T11d3,<p><code>RCS</code> 채널 — <code>biz_msg</code> 테이블 INSERT 방식 발송. 우측 <strong>Request samples</strong> 의 SQL 을 참고하세요.</p>
+<p><code>MSG_TYPE = 8</code></p>
+<p>통신사 RCS 메시지 (안드로이드 RCS / 통합 RCS). 발송 전 본문/버튼을 별도 테이블에 등록한 뒤 발송 요청.</p>
+<h3>사전 준비</h3>
+<ul>
+<li>RCS 비즈센터(RBC) 에서 챗봇 ID, 브랜드 키 발급</li>
+<li>사용할 <code>MESSAGEBASE_ID</code> 결정</li>
+<li>2023.08.01 이후 잘못된 <code>agencykey</code> / <code>brandkey</code> 는 실패 처리</li>
+</ul>
+<h3>식별자</h3>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>항목</th>
+<th>값</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>BIZCLIENT <code>MSG_TYPE</code></td>
+<td><code>8</code></td>
+</tr>
+<tr>
+<td>BIZCLIENT 테이블</td>
+<td><code>biz_msg</code> + <code>BIZ_RCS</code> (RCS_REFKEY로 연결)</td>
+</tr>
+<tr>
+<td>사전 등록</td>
+<td>RCS 챗봇, 브랜드 키, MESSAGEBASE ID</td>
+</tr>
+</tbody>
+</table></div><blockquote>
+<p>ℹ️ <code>BIZ_RCS.BUTTONS</code> 의 외부 키는 <strong>대문자</strong> <code>BUTTONS</code> 이지만, JSON 내부 키는 <strong>소문자</strong> <code>suggestions</code> / <code>action</code> 사용 (대소문자 구분).</p>
+</blockquote>
+<h3>BIZ_RCS 컬럼</h3>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>컬럼</th>
+<th>타입</th>
+<th>필수</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>REFKEY</code></td>
+<td>string(32)</td>
+<td>Y</td>
+<td>RCS 본문 식별 키 (Primary Key)</td>
+</tr>
+<tr>
+<td><code>CHATBOT_ID</code></td>
+<td>string(40)</td>
+<td>Y</td>
+<td>RCS 비즈센터 챗봇 ID</td>
+</tr>
+<tr>
+<td><code>HEADER</code></td>
+<td>string(1)</td>
+<td>Y</td>
+<td>메시지 상단 식별 (<code>0</code>=Web / <code>1</code>=광고)</td>
+</tr>
+<tr>
+<td><code>FOOTER</code></td>
+<td>string(64)</td>
+<td>N</td>
+<td>메시지 하단 수신거부 문구</td>
+</tr>
+<tr>
+<td><code>MESSAGEBASE_ID</code></td>
+<td>string(40)</td>
+<td>Y</td>
+<td>RCS 공통 포맷 또는 템플릿 ID</td>
+</tr>
+<tr>
+<td><code>COPY_ALLOWED</code></td>
+<td>string(1)</td>
+<td>N</td>
+<td>복사/공유 메뉴 (<code>Y</code>/<code>N</code>, 기본 <code>N</code>)</td>
+</tr>
+<tr>
+<td><code>RCS_BODY</code></td>
+<td>string(4000)</td>
+<td>Y</td>
+<td>메시지 베이스 치환 파라미터 (JSON)</td>
+</tr>
+<tr>
+<td><code>BUTTONS</code></td>
+<td>string(4000)</td>
+<td>N</td>
+<td>버튼 정보 (JSON)</td>
+</tr>
+<tr>
+<td><code>AGENCY_KEY</code></td>
+<td>string(64)</td>
+<td>N</td>
+<td>대행사 Key (2차 대행사 필수)</td>
+</tr>
+<tr>
+<td><code>BRAND_KEY</code></td>
+<td>string(64)</td>
+<td>Y</td>
+<td>브랜드별 제공되는 특수 키</td>
+</tr>
+</tbody>
+</table></div><h3>RCS 상세 규격</h3>
+<p>MESSAGEBASE_ID 목록·카드 유형별 글자수·통합 RCS·RCS_BODY·media·BUTTONS 규격은 <a href="/bizclient#rcs-연동-규격">RCS 연동 규격</a> 을 참고하세요.</p>
+<h3>biz_msg 컬럼 (RCS, 1단계 등록 후 사용)</h3>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>컬럼</th>
+<th>타입</th>
+<th>필수</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>MSG_TYPE</code></td>
+<td>number(1)</td>
+<td>Y</td>
+<td>RCS = 8</td>
+</tr>
+<tr>
+<td><code>CMID</code></td>
+<td>string(32)</td>
+<td>Y</td>
+<td>데이터 ID (Primary Key, ASCII)</td>
+</tr>
+<tr>
+<td><code>REQUEST_TIME</code></td>
+<td>datetime</td>
+<td>Y</td>
+<td>데이터 등록 시간 (<code>NOW()</code>)</td>
+</tr>
+<tr>
+<td><code>SEND_TIME</code></td>
+<td>datetime</td>
+<td>Y</td>
+<td>발송 기준 시간 (예약 시 미래, <code>NOW()</code>)</td>
+</tr>
+<tr>
+<td><code>RCS_REFKEY</code></td>
+<td>string(32)</td>
+<td>Y</td>
+<td><code>BIZ_RCS.REFKEY</code> 참조</td>
+</tr>
+<tr>
+<td><code>DEST_PHONE</code></td>
+<td>string(16)</td>
+<td>Y</td>
+<td>수신번호</td>
+</tr>
+<tr>
+<td><code>SEND_PHONE</code></td>
+<td>string(16)</td>
+<td>Y</td>
+<td>발신번호</td>
+</tr>
+<tr>
+<td><code>RE_TYPE</code></td>
+<td>string(3)</td>
+<td>N</td>
+<td>대체발송 타입</td>
+</tr>
+<tr>
+<td><code>RE_BODY</code></td>
+<td>string(4000)</td>
+<td>N</td>
+<td>대체발송 본문</td>
+</tr>
+<tr>
+<td><code>RE_PART</code></td>
+<td>string(1)</td>
+<td>N</td>
+<td>대체발송 처리 주체 (<code>C</code>/<code>S</code>)</td>
+</tr>
+<tr>
+<td><code>CINFO</code></td>
+<td>string(32)</td>
+<td>N</td>
+<td>Client Indexed Info — 사내 구분용. 특수기호 <code>\/:*?&quot;&lt;&gt;|.</code> 사용 불가</td>
+</tr>
+</tbody>
+</table></div><h3>대체 발송</h3>
+<p>RCS 미수신 단말은 SMS/MMS/AT/BT 자동 전환 (1차/2차 대체 가능).</p>
+16:T1412,<p><code>카카오 알림톡 (AT / AI)</code> 채널 — <code>biz_msg</code> 테이블 INSERT 방식 발송. 우측 <strong>Request samples</strong> 의 SQL 을 참고하세요.</p>
+<p><code>MSG_TYPE = 6</code></p>
+<p>사전 검수된 템플릿을 기반으로 발송하는 카카오톡 메시지. 친구 추가가 필요 없음.<br>
+버튼·바로연결·아이템리스트 사용 시 ATTACHMENT JSON 파일 별도 업로드.</p>
+<h3>사전 준비</h3>
+<ul>
+<li>카카오 비즈메시지 채널 + 템플릿 모두 검수 승인 필수</li>
+<li>발신 프로필 키 / 템플릿 코드 발급</li>
+</ul>
+<h3>식별자</h3>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>항목</th>
+<th>값</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>BIZCLIENT <code>MSG_TYPE</code></td>
+<td><code>6</code></td>
+</tr>
+<tr>
+<td>BIZCLIENT 테이블</td>
+<td><code>biz_msg</code> (+ ATTACHMENT JSON)</td>
+</tr>
+<tr>
+<td>사전 등록</td>
+<td>카카오 채널 + 템플릿 검수</td>
+</tr>
+</tbody>
+</table></div><blockquote>
+<p>ℹ️ <code>MSG_BODY</code> 는 <strong>변수가 이미 치환된 최종 본문</strong>입니다. 비즈뿌리오 사이트에 등록한 템플릿 원문을 호출 측(고객사 애플리케이션)에서 치환한 결과를 INSERT 합니다. 변수(<code>#{...}</code>)는 BIZCLIENT 가 치환하지 않습니다.</p>
+</blockquote>
+<h3>템플릿 변수 치환 예시</h3>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>구분</th>
+<th>내용</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>템플릿 원문 (비즈뿌리오 사이트 등록)</td>
+<td><code>#{고객명} 고객님 다우기술 비즈메시지 프로모션에 당첨 되었습니다.</code></td>
+</tr>
+<tr>
+<td><code>MSG_BODY</code> 입력값 (치환 결과)</td>
+<td><code>박다우 고객님 다우기술 비즈메시지 프로모션에 당첨 되었습니다.</code></td>
+</tr>
+</tbody>
+</table></div><blockquote>
+<p>⚠️ 치환 결과 본문은 검수 승인된 템플릿 내용과 일치해야 합니다. 불일치 시 발송이 실패할 수 있습니다.</p>
+</blockquote>
+<h3>ATTACHMENT JSON 사용 (버튼·바로연결·아이템리스트·강조표기)</h3>
+<p>JSON 파일을 환경설정의 <code>FILE_PATH</code> 경로에 업로드한 뒤 <code>ATTACHED_FILE</code> 에 파일명 지정 (UTF-8):</p>
+<pre><code class="language-sql">INSERT INTO biz_msg (
+  MSG_TYPE, ..., TEMPLATE_CODE, SENDER_KEY, NATION_CODE,
+  ATTACHED_FILE
+) VALUES (
+  6, ..., '{템플릿코드}', '{발신프로필키}', '82',
+  '{파일명}.json'
+);
+</code></pre>
+<p>웹·앱 링크에 변수가 있어 JSON 파일을 미리 만들기 어려운 경우 <code>FILE_HANDLING_MODE</code> 테이블 활용.</p>
+<h3>biz_msg 컬럼 (AT)</h3>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>컬럼</th>
+<th>타입</th>
+<th>필수</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>MSG_TYPE</code></td>
+<td>number(1)</td>
+<td>Y</td>
+<td>AT = 6</td>
+</tr>
+<tr>
+<td><code>CMID</code></td>
+<td>string(32)</td>
+<td>Y</td>
+<td>데이터 ID (Primary Key, ASCII)</td>
+</tr>
+<tr>
+<td><code>REQUEST_TIME</code></td>
+<td>datetime</td>
+<td>Y</td>
+<td>데이터 등록 시간 (<code>NOW()</code>)</td>
+</tr>
+<tr>
+<td><code>SEND_TIME</code></td>
+<td>datetime</td>
+<td>Y</td>
+<td>발송 기준 시간 (예약 시 미래, <code>NOW()</code>)</td>
+</tr>
+<tr>
+<td><code>DEST_PHONE</code></td>
+<td>string(16)</td>
+<td>Y</td>
+<td>수신번호</td>
+</tr>
+<tr>
+<td><code>SEND_PHONE</code></td>
+<td>string(16)</td>
+<td>Y</td>
+<td>발신번호 (사전 등록 필수)</td>
+</tr>
+<tr>
+<td><code>SENDER_KEY</code></td>
+<td>string(40)</td>
+<td>Y</td>
+<td>발신 프로필 키</td>
+</tr>
+<tr>
+<td><code>TEMPLATE_CODE</code></td>
+<td>string(64)</td>
+<td>Y</td>
+<td>템플릿 코드</td>
+</tr>
+<tr>
+<td><code>NATION_CODE</code></td>
+<td>string(5)</td>
+<td>Y</td>
+<td>국가 코드 (한국 = 82)</td>
+</tr>
+<tr>
+<td><code>MSG_BODY</code></td>
+<td>string(4000)</td>
+<td>Y</td>
+<td>치환 완료된 본문</td>
+</tr>
+<tr>
+<td><code>ATTACHED_FILE</code></td>
+<td>string(1000)</td>
+<td>N</td>
+<td>ATTACHMENT JSON 파일명 또는 첨부파일 테이블 KEY</td>
+</tr>
+<tr>
+<td><code>RESPONSE_METHOD</code></td>
+<td>string(8)</td>
+<td>N</td>
+<td>발송 방식 (<code>PUSH</code>)</td>
+</tr>
+<tr>
+<td><code>TIMEOUT</code></td>
+<td>string(4)</td>
+<td>N</td>
+<td>대체 발송용 타임아웃 (초)</td>
+</tr>
+<tr>
+<td><code>RE_TYPE</code></td>
+<td>string(3)</td>
+<td>N</td>
+<td>대체 발송 타입</td>
+</tr>
+<tr>
+<td><code>RE_BODY</code></td>
+<td>string(4000)</td>
+<td>N</td>
+<td>대체 발송 본문</td>
+</tr>
+<tr>
+<td><code>RE_PART</code></td>
+<td>string(1)</td>
+<td>N</td>
+<td>대체 발송 처리 주체 (<code>C</code>=CLIENT / <code>S</code>=Server)</td>
+</tr>
+<tr>
+<td><code>CINFO</code></td>
+<td>string(32)</td>
+<td>N</td>
+<td>Client Indexed Info — 사내 구분용. 특수기호 <code>\/:*?&quot;&lt;&gt;|.</code> 사용 불가</td>
+</tr>
+</tbody>
+</table></div><h3>ATTACHMENT JSON · 버튼 규격</h3>
+<p>버튼·바로연결·아이템리스트·강조표기 등 ATTACHMENT JSON 상세 규격과 예시는 <a href="/bizclient#카카오-연동-규격">카카오 연동 규격</a> 을 참고하세요.</p>
+17:T1605,<p><code>카카오 브랜드 메시지</code> 채널 — <code>biz_msg</code> 테이블 INSERT 방식 발송. 우측 <strong>Request samples</strong> 의 SQL 을 참고하세요.</p>
+<p><code>MSG_TYPE = 9</code></p>
+<p>브랜드 메시지는 <strong>고객사의 광고성 정보 수신 동의 회원</strong>(<code>send_target: marketing</code>) 또는 <strong>카카오 채널 친구</strong>(<code>send_target: friend</code>) 대상으로 발송하는 광고성 메시지 상품입니다. <code>biz_msg</code> 에 <code>MSG_TYPE=9</code> 로 INSERT 하고, 말풍선 형태·본문·버튼 등 상세 구성은 <strong>ATTACHMENT JSON 파일</strong>(snake_case 키)로 전달합니다.</p>
+<p>말풍선 형태는 ATTACHMENT JSON 의 <code>extra.chat_bubble_type</code> 으로 지정하며 8종을 지원합니다:</p>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>chat_bubble_type</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>TEXT</code></td>
+<td>텍스트</td>
+</tr>
+<tr>
+<td><code>IMAGE</code></td>
+<td>이미지</td>
+</tr>
+<tr>
+<td><code>WIDE</code></td>
+<td>와이드 이미지</td>
+</tr>
+<tr>
+<td><code>WIDE_ITEM_LIST</code></td>
+<td>와이드 아이템 리스트</td>
+</tr>
+<tr>
+<td><code>PREMIUM_VIDEO</code></td>
+<td>프리미엄 동영상</td>
+</tr>
+<tr>
+<td><code>COMMERCE</code></td>
+<td>커머스</td>
+</tr>
+<tr>
+<td><code>CAROUSEL_FEED</code></td>
+<td>캐러셀 피드</td>
+</tr>
+<tr>
+<td><code>CAROUSEL_COMMERCE</code></td>
+<td>캐러셀 커머스</td>
+</tr>
+</tbody>
+</table></div><p>타입별 본문/이미지/버튼 필드 구성·글자수, 변수 분리 방식과 전문 방식의 차이는 <a href="/bizclient#카카오-연동-규격">카카오 연동 규격</a> 을 참고하세요.</p>
+<h3>발송 조건</h3>
+<ul>
+<li>광고성 메시지 — <strong>08:00 ~ 20:50 (KST)</strong>. 해외 사용자(해외 전화번호 가입자)는 시간 제한 없음</li>
+<li>채널을 차단한 사용자에게는 발송되지 않음</li>
+<li>고객사 회원 대상(<code>marketing</code>) 발송은 <strong>사전 권한 신청 필요</strong> + 카카오톡 25.4.0 이상 사용자에게만 발송</li>
+<li>채널 친구 대상(<code>friend</code>) 발송은 발신프로필 등록 후 바로 발송 가능</li>
+</ul>
+<h3>식별자</h3>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>항목</th>
+<th>값</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>BIZCLIENT <code>MSG_TYPE</code></td>
+<td><code>9</code></td>
+</tr>
+<tr>
+<td>BIZCLIENT 테이블</td>
+<td><code>biz_msg</code> (+ ATTACHMENT JSON)</td>
+</tr>
+<tr>
+<td>사전 등록</td>
+<td>카카오 채널 + 템플릿 + 이미지/동영상 (KAPI 등록)</td>
+</tr>
+</tbody>
+</table></div><p>ATTACHMENT JSON 예시 (기본형 + 변수 미사용):</p>
+<pre><code class="language-json">{
+  &quot;extra&quot;: {
+    &quot;chat_bubble_type&quot;: &quot;TEXT&quot;,
+    &quot;brand_message_type&quot;: &quot;BASIC&quot;,
+    &quot;send_target&quot;: &quot;marketing&quot;,
+    &quot;targeting&quot;: &quot;O&quot;
+  }
+}
+</code></pre>
+<h3>biz_msg 컬럼 (BT)</h3>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>컬럼</th>
+<th>타입</th>
+<th>필수</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>MSG_TYPE</code></td>
+<td>number(1)</td>
+<td>Y</td>
+<td>BT = 9</td>
+</tr>
+<tr>
+<td><code>CMID</code></td>
+<td>string(32)</td>
+<td>Y</td>
+<td>데이터 ID (Primary Key, ASCII)</td>
+</tr>
+<tr>
+<td><code>REQUEST_TIME</code></td>
+<td>datetime</td>
+<td>Y</td>
+<td>데이터 등록 시간 (<code>NOW()</code>)</td>
+</tr>
+<tr>
+<td><code>SEND_TIME</code></td>
+<td>datetime</td>
+<td>Y</td>
+<td>발송 기준 시간 (예약 시 미래, <code>NOW()</code>)</td>
+</tr>
+<tr>
+<td><code>DEST_PHONE</code></td>
+<td>string(16)</td>
+<td>Y</td>
+<td>수신번호</td>
+</tr>
+<tr>
+<td><code>SEND_PHONE</code></td>
+<td>string(16)</td>
+<td>Y</td>
+<td>발신번호 (사전 등록 필수)</td>
+</tr>
+<tr>
+<td><code>SENDER_KEY</code></td>
+<td>string(40)</td>
+<td>Y</td>
+<td>발신 프로필 키</td>
+</tr>
+<tr>
+<td><code>NATION_CODE</code></td>
+<td>string(5)</td>
+<td>Y</td>
+<td>국가 코드 (한국 = 82)</td>
+</tr>
+<tr>
+<td><code>TEMPLATE_CODE</code></td>
+<td>string(64)</td>
+<td>Y</td>
+<td>템플릿 코드 (기본형 필수)</td>
+</tr>
+<tr>
+<td><code>MSG_BODY</code></td>
+<td>string(4000)</td>
+<td>N</td>
+<td>본문 (전문 방식에서 변수 있는 경우 필수)</td>
+</tr>
+<tr>
+<td><code>ATTACHED_FILE</code></td>
+<td>string(1000)</td>
+<td>Y</td>
+<td>ATTACHMENT JSON 파일명</td>
+</tr>
+<tr>
+<td><code>RE_TYPE</code></td>
+<td>string(3)</td>
+<td>N</td>
+<td>대체 발송 타입 (대체 발송 사용 시)</td>
+</tr>
+<tr>
+<td><code>RE_BODY</code></td>
+<td>string(4000)</td>
+<td>N</td>
+<td>대체 발송 본문</td>
+</tr>
+<tr>
+<td><code>RE_PART</code></td>
+<td>string(1)</td>
+<td>N</td>
+<td>대체 발송 처리 주체 (<code>C</code>=CLIENT / <code>S</code>=Server)</td>
+</tr>
+<tr>
+<td><code>CINFO</code></td>
+<td>string(32)</td>
+<td>N</td>
+<td>Client Indexed Info — 사내 구분용. 특수기호 <code>\/:*?&quot;&lt;&gt;|.</code> 사용 불가</td>
+</tr>
+</tbody>
+</table></div><blockquote>
+<p>ℹ️ 브랜드 메시지도 미수신 시 SMS/MMS 등으로 <strong>대체 발송</strong>이 가능합니다 (<code>RE_TYPE</code>/<code>RE_BODY</code>/<code>RE_PART</code>). 타입 매핑은 <a href="/bizclient#용어">발송 용어 — 대체발송타입</a> 참고.</p>
+</blockquote>
+<h3>ATTACHMENT JSON 규격 · 예시</h3>
+<p><code>chat_bubble_type</code> 8종·전문방식 본문 객체 스키마·CAROUSEL 객체, 그리고 발송 대상·방식별 전체 예시는 <a href="/bizclient#카카오-연동-규격">카카오 연동 규격</a> 을 참고하세요.</p>
+18:Tcb4,<p><code>FAX</code> 채널 — <code>biz_msg</code> 테이블 INSERT 방식 발송. 우측 <strong>Request samples</strong> 의 SQL 을 참고하세요.</p>
+<p><code>MSG_TYPE = 2</code></p>
+<p>한글 100자 이하의 표지를 포함한 이미지 및 문서를 팩스 번호로 발송하는 채널.</p>
+<blockquote>
+<p>⚠️ <strong>FAX는 BIZCLIENT 전용 채널입니다.</strong></p>
+</blockquote>
+<h3>식별자</h3>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>항목</th>
+<th>값</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>BIZCLIENT <code>MSG_TYPE</code></td>
+<td><code>2</code></td>
+</tr>
+<tr>
+<td>BIZCLIENT 테이블</td>
+<td><code>biz_msg</code></td>
+</tr>
+<tr>
+<td>사전 등록</td>
+<td>발신 팩스번호</td>
+</tr>
+</tbody>
+</table></div><h3>biz_msg 컬럼 (FAX)</h3>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>컬럼</th>
+<th>타입</th>
+<th>필수</th>
+<th>설명</th>
+<th>기본값</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>MSG_TYPE</code></td>
+<td>number(1)</td>
+<td>Y</td>
+<td>FAX = 2</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>CMID</code></td>
+<td>string(32)</td>
+<td>Y</td>
+<td>데이터 ID (Primary Key, ASCII)</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>REQUEST_TIME</code></td>
+<td>datetime</td>
+<td>Y</td>
+<td>데이터 등록 시간</td>
+<td><code>NOW()</code></td>
+</tr>
+<tr>
+<td><code>SEND_TIME</code></td>
+<td>datetime</td>
+<td>Y</td>
+<td>발송 기준 시간 (예약 시 미래)</td>
+<td><code>NOW()</code></td>
+</tr>
+<tr>
+<td><code>DEST_PHONE</code></td>
+<td>string(16)</td>
+<td>Y</td>
+<td>수신 팩스번호</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>SEND_PHONE</code></td>
+<td>string(16)</td>
+<td>Y</td>
+<td>발신 팩스번호 (사전 등록 필수)</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>SUBJECT</code></td>
+<td>string(64)</td>
+<td>N</td>
+<td>표지 제목 (한글 100자 이하)</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>MSG_BODY</code></td>
+<td>string(4000)</td>
+<td>N</td>
+<td>표지 내용</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>ATTACHED_FILE</code></td>
+<td>string(1000)</td>
+<td>Y</td>
+<td>첨부 파일 경로 (여러 개는 <code>|</code> 로 구분)</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>COVER_FLAG</code></td>
+<td>number(1)</td>
+<td>N</td>
+<td>팩스 표지 사용 여부 (<code>0</code>/<code>1</code>)</td>
+<td><code>0</code></td>
+</tr>
+<tr>
+<td><code>USE_PAGE</code></td>
+<td>number(2)</td>
+<td>N</td>
+<td>발송 페이지 수</td>
+<td><code>0</code></td>
+</tr>
+<tr>
+<td><code>RETRY_CNT</code></td>
+<td>number(4)</td>
+<td>N</td>
+<td>재시도 횟수</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>CINFO</code></td>
+<td>string(32)</td>
+<td>N</td>
+<td>Client Indexed Info — 사내 구분용. 특수기호 <code>\/:*?&quot;&lt;&gt;|.</code> 사용 불가</td>
+<td>—</td>
+</tr>
+</tbody>
+</table></div><h3>응답·결과</h3>
+<ul>
+<li>발송 결과: <code>biz_msg.STATUS</code> (0:대기, 7:발송중, 1:발송 후 대기, 2:발송완료) 및 <code>CALL_STATUS</code> 컬럼</li>
+<li>발송 페이지 수: <code>USE_PAGE</code> 컬럼에 기록</li>
+</ul>
+<h3>제한사항</h3>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>항목</th>
+<th>값</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>표지 제목</td>
+<td>한글 100자 이하</td>
+</tr>
+<tr>
+<td>첨부 포맷</td>
+<td>TIF / PDF 등</td>
+</tr>
+</tbody>
+</table></div>19:Tf01,<p><code>PHONE</code> 채널 — <code>biz_msg</code> 테이블 INSERT 방식 발송. 우측 <strong>Request samples</strong> 의 SQL 을 참고하세요.</p>
+<p><code>MSG_TYPE = 3</code></p>
+<p>한글 100자 이하의 TTS(Text-to-Speech) 또는 3분 미만의 WAVE 시나리오 파일을 전화로 발송하는 채널.<br>
+시나리오 답변(설문 응답) 기능도 지원.</p>
+<blockquote>
+<p>⚠️ <strong>PHONE은 BIZCLIENT 전용 채널입니다.</strong></p>
+</blockquote>
+<h3>식별자</h3>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>항목</th>
+<th>값</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>BIZCLIENT <code>MSG_TYPE</code></td>
+<td><code>3</code></td>
+</tr>
+<tr>
+<td>BIZCLIENT 테이블</td>
+<td><code>biz_msg</code></td>
+</tr>
+<tr>
+<td>사전 등록</td>
+<td>발신번호</td>
+</tr>
+</tbody>
+</table></div><h3>biz_msg 컬럼 (PHONE)</h3>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>컬럼</th>
+<th>타입</th>
+<th>필수</th>
+<th>설명</th>
+<th>기본값</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>MSG_TYPE</code></td>
+<td>number(1)</td>
+<td>Y</td>
+<td>PHONE = 3</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>CMID</code></td>
+<td>string(32)</td>
+<td>Y</td>
+<td>데이터 ID (Primary Key, ASCII)</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>REQUEST_TIME</code></td>
+<td>datetime</td>
+<td>Y</td>
+<td>데이터 등록 시간</td>
+<td><code>NOW()</code></td>
+</tr>
+<tr>
+<td><code>SEND_TIME</code></td>
+<td>datetime</td>
+<td>Y</td>
+<td>발송 기준 시간 (예약 시 미래)</td>
+<td><code>NOW()</code></td>
+</tr>
+<tr>
+<td><code>DEST_PHONE</code></td>
+<td>string(16)</td>
+<td>Y</td>
+<td>수신번호</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>SEND_PHONE</code></td>
+<td>string(16)</td>
+<td>Y</td>
+<td>발신번호 (사전 등록 필수)</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>MSG_BODY</code></td>
+<td>string(4000)</td>
+<td>Y</td>
+<td>TTS 변환 본문 (한글 100자 이하)</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>VXML_FILE</code></td>
+<td>string(64)</td>
+<td>N</td>
+<td>음성 시나리오 파일명 (WAVE 시나리오 사용 시)</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>REPLY_FLAG</code></td>
+<td>number(1)</td>
+<td>N</td>
+<td>시나리오 답변 기능 (<code>Y</code>:1, <code>N</code>:0)</td>
+<td><code>0</code></td>
+</tr>
+<tr>
+<td><code>SMS_FLAG</code></td>
+<td>number(1)</td>
+<td>N</td>
+<td>실패 시 문자 전송 옵션</td>
+<td><code>0</code></td>
+</tr>
+<tr>
+<td><code>RETRY_CNT</code></td>
+<td>number(4)</td>
+<td>N</td>
+<td>재시도 횟수</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>USE_TIME</code></td>
+<td>number(4)</td>
+<td>N</td>
+<td>발송 소요 시간 (초)</td>
+<td><code>0</code></td>
+</tr>
+<tr>
+<td><code>SN_RESULT</code></td>
+<td>number(1)</td>
+<td>N</td>
+<td>설문 조사 응답 값 (<code>0~9</code>)</td>
+<td><code>0</code></td>
+</tr>
+<tr>
+<td><code>ATTACHED_FILE</code></td>
+<td>string(1000)</td>
+<td>N</td>
+<td>WAVE 파일 경로</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>CINFO</code></td>
+<td>string(32)</td>
+<td>N</td>
+<td>Client Indexed Info — 사내 구분용. 특수기호 <code>\/:*?&quot;&lt;&gt;|.</code> 사용 불가</td>
+<td>—</td>
+</tr>
+</tbody>
+</table></div><h3>응답·결과</h3>
+<ul>
+<li>발송 결과: <code>biz_msg.STATUS</code> (0:대기, 7:발송중, 1:발송 후 대기, 2:발송완료) 및 <code>CALL_STATUS</code> 컬럼</li>
+<li>시나리오 답변 결과: <code>SN_RESULT</code> 컬럼에 <code>0~9</code> 의 값으로 기록</li>
+<li>통화 시간: <code>USE_TIME</code> 컬럼 (초 단위)</li>
+</ul>
+<h3>제한사항</h3>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>항목</th>
+<th>값</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>TTS 본문</td>
+<td>한글 100자 이하</td>
+</tr>
+<tr>
+<td>WAVE 파일</td>
+<td>3분 미만, <code>wav</code> (8bit-8KHz mono 형식)</td>
+</tr>
+<tr>
+<td>설문 응답</td>
+<td><code>0~9</code> 단일 자리 숫자</td>
+</tr>
+</tbody>
+</table></div>1a:T9f4f,<p>BIZCLIENT 카카오 발송(알림톡·브랜드 메시지)의 ATTACHMENT JSON 상세 규격과 발송 예시입니다. 각 발송 페이지(알림톡·브랜드 메시지)에서 이 페이지를 참조합니다.</p>
+<h2 id="알림톡-attachment-규격" data-spy-id="알림톡-attachment-규격" data-spy-section="카카오-연동-규격">알림톡 ATTACHMENT 규격</h2>
+<h3 id="attachment-json-최상위-구조" data-spy-id="attachment-json-최상위-구조" data-spy-section="카카오-연동-규격">ATTACHMENT JSON 최상위 구조</h3>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>키</th>
+<th>타입</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>button</code></td>
+<td>BUTTON[]</td>
+<td>버튼 배열 (최대 5개)</td>
+</tr>
+<tr>
+<td><code>item_highlight</code></td>
+<td>ITEMHIGHLIGHT</td>
+<td>아이템 하이라이트</td>
+</tr>
+<tr>
+<td><code>item</code></td>
+<td>ITEM</td>
+<td>아이템리스트와 요약정보</td>
+</tr>
+<tr>
+<td><code>extra</code></td>
+<td>EXTRA</td>
+<td>추가 기능 (강조표기·바로연결·헤더·대표링크·<code>msg_type</code> AT/AI 구분 등)</td>
+</tr>
+</tbody>
+</table></div><h4 id="attachment-json-·-button-필드" data-spy-id="attachment-json-·-button-필드" data-spy-section="카카오-연동-규격">ATTACHMENT JSON · <code>button[]</code> 필드</h4>
+<p>JSON 파일 최상위 <code>button</code> 은 배열이며 <strong>최대 5개</strong>. 바로연결(<code>extra.supplement.quick_reply</code>) 사용 시 버튼은 <strong>2개로 제한</strong>.</p>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>키</th>
+<th>타입</th>
+<th>필수</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>name</code></td>
+<td>text(14)</td>
+<td>Y</td>
+<td>버튼 제목. <code>AC</code> 타입인 경우 <code>채널 추가</code> 로 고정</td>
+</tr>
+<tr>
+<td><code>type</code></td>
+<td>text(2)</td>
+<td>Y</td>
+<td>버튼 타입 (아래 [버튼 타입] 참조)</td>
+</tr>
+<tr>
+<td><code>url_pc</code></td>
+<td>text</td>
+<td>-</td>
+<td>PC 환경에서 버튼 클릭 시 이동할 URL</td>
+</tr>
+<tr>
+<td><code>url_mobile</code></td>
+<td>text</td>
+<td>-</td>
+<td>Mobile 환경에서 버튼 클릭 시 이동할 URL</td>
+</tr>
+<tr>
+<td><code>scheme_ios</code></td>
+<td>text</td>
+<td>-</td>
+<td>Mobile iOS 환경에서 버튼 클릭 시 실행할 Application Custom Scheme</td>
+</tr>
+<tr>
+<td><code>scheme_android</code></td>
+<td>text</td>
+<td>-</td>
+<td>Mobile Android 환경에서 버튼 클릭 시 실행할 Application Custom Scheme</td>
+</tr>
+<tr>
+<td><code>chat_extra</code></td>
+<td>text(50)</td>
+<td>-</td>
+<td>상담톡/봇 전환 시 전달할 메타정보</td>
+</tr>
+<tr>
+<td><code>chat_event</code></td>
+<td>text(50)</td>
+<td>-</td>
+<td>봇 전환 시 연결할 봇 이벤트명</td>
+</tr>
+<tr>
+<td><code>plugin_id</code></td>
+<td>text(24)</td>
+<td>-</td>
+<td>플러그인 ID</td>
+</tr>
+<tr>
+<td><code>relay_id</code></td>
+<td>text</td>
+<td>-</td>
+<td>플러그인 실행 시 <code>X-Kakao-Plugin-Relay-Id</code> 헤더로 전달받을 값</td>
+</tr>
+<tr>
+<td><code>oneclick_id</code></td>
+<td>text</td>
+<td>-</td>
+<td>원클릭 결제 플러그인에서 사용하는 결제 정보</td>
+</tr>
+<tr>
+<td><code>product_id</code></td>
+<td>text</td>
+<td>-</td>
+<td>원클릭 결제 플러그인에서 사용하는 결제 정보</td>
+</tr>
+<tr>
+<td><code>biz_form_id</code></td>
+<td>text</td>
+<td>-</td>
+<td>카카오 비즈니스폼 ID (<code>BF</code> 타입)</td>
+</tr>
+<tr>
+<td><code>tel_number</code></td>
+<td>text(14)</td>
+<td>-</td>
+<td>전화번호 (숫자·하이픈 포함 최대 14자). ex) <code>1234-5678</code>, <code>12345678</code></td>
+</tr>
+<tr>
+<td><code>map_address</code></td>
+<td>text</td>
+<td>-</td>
+<td>지도보기 버튼 클릭 시 보여줄 주소. ex) <code>경기도 성남시 분당구 판교역로 166</code></td>
+</tr>
+<tr>
+<td><code>map_coordinates</code></td>
+<td>text</td>
+<td>-</td>
+<td>지도보기 버튼 클릭 시 보여줄 위경도 좌표. <code>map_address</code> 와 함께 입력 시 <code>map_address</code> 우선. ex) <code>37.3955,127.1103</code></td>
+</tr>
+</tbody>
+</table></div><h4 id="버튼-타입" data-spy-id="버튼-타입" data-spy-section="카카오-연동-규격">버튼 타입</h4>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th><code>type</code></th>
+<th>설명</th>
+<th>사용 가능 파라미터</th>
+<th>필수 파라미터</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>WL</code></td>
+<td>지정한 웹 링크로 이동</td>
+<td>name, type, url_mobile, url_pc</td>
+<td>name, type, url_mobile</td>
+</tr>
+<tr>
+<td><code>AL</code></td>
+<td>지정한 앱 스킴 또는 웹 링크로 이동</td>
+<td>name, type, scheme_android, scheme_ios, url_mobile, url_pc</td>
+<td>name, type + (scheme_android·scheme_ios·url_mobile 중 <strong>2가지 이상</strong>)</td>
+</tr>
+<tr>
+<td><code>DS</code></td>
+<td>버튼 클릭 시 배송조회 페이지로 이동</td>
+<td>name, type</td>
+<td>name, type</td>
+</tr>
+<tr>
+<td><code>BK</code></td>
+<td>해당 버튼 텍스트 발송</td>
+<td>name, type</td>
+<td>name, type</td>
+</tr>
+<tr>
+<td><code>MD</code></td>
+<td>해당 버튼 텍스트 + 메시지 본문 발송</td>
+<td>name, type</td>
+<td>name, type</td>
+</tr>
+<tr>
+<td><code>BC</code></td>
+<td>상담톡을 이용하는 카카오톡 채널만 이용 가능</td>
+<td>name, type, chat_extra</td>
+<td>name, type</td>
+</tr>
+<tr>
+<td><code>BT</code></td>
+<td>카카오 I 오픈빌더의 챗봇을 사용하는 카카오톡 채널만 이용 가능</td>
+<td>name, type, chat_extra, chat_event</td>
+<td>name, type</td>
+</tr>
+<tr>
+<td><code>AC</code></td>
+<td>버튼 클릭 시 카카오톡 채널 추가</td>
+<td>name, type</td>
+<td>name, type</td>
+</tr>
+<tr>
+<td><code>P1</code></td>
+<td>이미지 보안 전송 플러그인</td>
+<td>name, type</td>
+<td>name, type</td>
+</tr>
+<tr>
+<td><code>P2</code></td>
+<td>개인정보이용 플러그인</td>
+<td>name, type</td>
+<td>name, type</td>
+</tr>
+<tr>
+<td><code>P3</code></td>
+<td>원클릭 결제 플러그인</td>
+<td>name, type, oneclick_id, product_id</td>
+<td>name, type + (oneclick_id·product_id 중 <strong>1가지 이상</strong>)</td>
+</tr>
+<tr>
+<td><code>BF</code></td>
+<td>카카오 비즈니스폼을 실행</td>
+<td>name, type, biz_form_id</td>
+<td>name, type, biz_form_id</td>
+</tr>
+<tr>
+<td><code>TN</code></td>
+<td>전화 앱 실행 (모바일 환경에서만 이용 가능)</td>
+<td>name, type, tel_number</td>
+<td>name, type, tel_number</td>
+</tr>
+<tr>
+<td><code>MP</code></td>
+<td>버튼 클릭 시 지도 보기</td>
+<td>name, type, map_address, map_coordinates</td>
+<td>name, type + (map_address·map_coordinates 중 <strong>1가지 이상</strong>)</td>
+</tr>
+</tbody>
+</table></div><h4 id="itemhighlight-필드-아이템-하이라이트-json-·-n" data-spy-id="itemhighlight-필드-아이템-하이라이트-json-·-n" data-spy-section="카카오-연동-규격"><code>item_highlight</code> 필드 (아이템 하이라이트, JSON · N)</h4>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>키</th>
+<th>타입</th>
+<th>필수</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>title</code></td>
+<td>text(30)</td>
+<td>Y</td>
+<td>타이틀 (이미지가 있는 경우 최대 21자). 내용 마지막에 <code>\s</code> 플래그 포함 시 취소선 스타일 적용</td>
+</tr>
+<tr>
+<td><code>description</code></td>
+<td>text(19)</td>
+<td>Y</td>
+<td>부가정보 (이미지가 있는 경우 최대 13자)</td>
+</tr>
+</tbody>
+</table></div><h4 id="item-필드-아이템리스트-요약정보-json-·-n" data-spy-id="item-필드-아이템리스트-요약정보-json-·-n" data-spy-section="카카오-연동-규격"><code>item</code> 필드 (아이템리스트 + 요약정보, JSON · N)</h4>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>키</th>
+<th>타입</th>
+<th>필수</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>list</code></td>
+<td>array</td>
+<td>N</td>
+<td>아이템리스트 (최소 2개 ~ 최대 10개)</td>
+</tr>
+<tr>
+<td><code>list[].title</code></td>
+<td>text(6)</td>
+<td>Y</td>
+<td>타이틀</td>
+</tr>
+<tr>
+<td><code>list[].description</code></td>
+<td>text(23)</td>
+<td>Y</td>
+<td>부가정보</td>
+</tr>
+<tr>
+<td><code>summary</code></td>
+<td>json</td>
+<td>N</td>
+<td>아이템 요약정보</td>
+</tr>
+<tr>
+<td><code>summary.title</code></td>
+<td>text(6)</td>
+<td>Y</td>
+<td>타이틀</td>
+</tr>
+<tr>
+<td><code>summary.description</code></td>
+<td>text(14)</td>
+<td>Y</td>
+<td>가격정보. 허용 문자: 통화기호(유니코드 통화기호, 元/円/원), 통화코드(ISO 4217), 숫자, 콤마, 소수점, 공백. 소수점 2자리까지 허용</td>
+</tr>
+</tbody>
+</table></div><h4 id="extra-필드-추가-기능-json" data-spy-id="extra-필드-추가-기능-json" data-spy-section="카카오-연동-규격"><code>extra</code> 필드 (추가 기능, JSON)</h4>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>키</th>
+<th>타입</th>
+<th>필수</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>title</code></td>
+<td>text(50)</td>
+<td>-</td>
+<td>템플릿 내용 중 강조 표기할 핵심 정보 (강조표기)</td>
+</tr>
+<tr>
+<td><code>supplement</code></td>
+<td>json</td>
+<td>-</td>
+<td>메시지에 첨부할 바로연결 (아래 [supplement] 참조)</td>
+</tr>
+<tr>
+<td><code>price</code></td>
+<td>number</td>
+<td>-</td>
+<td>모먼트 광고 전환 최적화 전용. 메시지 내 포함된 가격/금액/결제금액</td>
+</tr>
+<tr>
+<td><code>currency_type</code></td>
+<td>text(3)</td>
+<td>-</td>
+<td>모먼트 광고 전환 최적화 전용. 가격/금액/결제금액의 통화단위. KRW·USD·EUR 등 국제 통화 코드</td>
+</tr>
+<tr>
+<td><code>header</code></td>
+<td>text(16)</td>
+<td>-</td>
+<td>메시지 상단에 표기할 제목</td>
+</tr>
+<tr>
+<td><code>msg_type</code></td>
+<td>text</td>
+<td>N</td>
+<td>카카오 발송 유형 (<code>AT</code>: 알림톡, <code>AI</code>: 이미지 알림톡). 이미지(IMAGE) 강조 유형 템플릿은 <code>AI</code> 필수 입력</td>
+</tr>
+<tr>
+<td><code>link</code></td>
+<td>json</td>
+<td>N</td>
+<td>대표 링크 (아래 필드)</td>
+</tr>
+<tr>
+<td><code>link.url_mobile</code></td>
+<td>text</td>
+<td>-</td>
+<td>Mobile 환경에서 클릭 시 이동할 URL</td>
+</tr>
+<tr>
+<td><code>link.url_pc</code></td>
+<td>text</td>
+<td>-</td>
+<td>PC 환경에서 클릭 시 이동할 URL</td>
+</tr>
+<tr>
+<td><code>link.scheme_android</code></td>
+<td>text</td>
+<td>-</td>
+<td>Mobile Android 환경에서 클릭 시 실행할 Application Custom Scheme</td>
+</tr>
+<tr>
+<td><code>link.scheme_ios</code></td>
+<td>text</td>
+<td>-</td>
+<td>Mobile iOS 환경에서 클릭 시 실행할 Application Custom Scheme</td>
+</tr>
+</tbody>
+</table></div><h4 id="extrasupplement-필드-바로연결" data-spy-id="extrasupplement-필드-바로연결" data-spy-section="카카오-연동-규격"><code>extra.supplement</code> 필드 (바로연결)</h4>
+<p>바로연결은 알림톡 하단에 가로 슬라이드 형태로 표시되며 웹/앱 연결·상담톡 전환 등을 호출하는 기능. <strong>상담톡 또는 챗봇을 사용하는 발신프로필만</strong> 이용 가능. <strong>최대 10개</strong>까지 사용 가능하며, 사용 시 <strong>버튼 개수는 2개로 제한</strong>.</p>
+<p><code>supplement.quick_reply[]</code> 필드:</p>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>키</th>
+<th>타입</th>
+<th>필수</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>name</code></td>
+<td>text(14)</td>
+<td>Y</td>
+<td>바로연결 제목</td>
+</tr>
+<tr>
+<td><code>type</code></td>
+<td>text(2)</td>
+<td>Y</td>
+<td>바로연결 타입 (아래 [바로연결 타입] 참조)</td>
+</tr>
+<tr>
+<td><code>scheme_android</code></td>
+<td>text</td>
+<td>-</td>
+<td>Mobile Android 환경에서 바로연결 클릭 시 실행할 Application Custom Scheme</td>
+</tr>
+<tr>
+<td><code>scheme_ios</code></td>
+<td>text</td>
+<td>-</td>
+<td>Mobile iOS 환경에서 바로연결 클릭 시 실행할 Application Custom Scheme</td>
+</tr>
+<tr>
+<td><code>url_mobile</code></td>
+<td>text</td>
+<td>-</td>
+<td>Mobile 환경에서 바로연결 클릭 시 이동할 URL</td>
+</tr>
+<tr>
+<td><code>url_pc</code></td>
+<td>text</td>
+<td>-</td>
+<td>PC 환경에서 클릭 시 이동할 URL</td>
+</tr>
+<tr>
+<td><code>chat_extra</code></td>
+<td>text(50)</td>
+<td>-</td>
+<td>상담톡/봇 전환 시 전달할 메타정보</td>
+</tr>
+<tr>
+<td><code>chat_event</code></td>
+<td>text(50)</td>
+<td>-</td>
+<td>봇 전환 시 연결할 봇 이벤트명</td>
+</tr>
+</tbody>
+</table></div><h4 id="바로연결-타입" data-spy-id="바로연결-타입" data-spy-section="카카오-연동-규격">바로연결 타입</h4>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th><code>type</code></th>
+<th>설명</th>
+<th>사용 가능 파라미터</th>
+<th>필수 파라미터</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>WL</code></td>
+<td>지정한 웹링크로 이동</td>
+<td>name, type, url_mobile, url_pc</td>
+<td>name, type, url_mobile</td>
+</tr>
+<tr>
+<td><code>AL</code></td>
+<td>지정한 앱스킴 또는 웹링크로 이동</td>
+<td>name, type, scheme_android, scheme_ios, url_mobile, url_pc</td>
+<td>name, type + (scheme_android·scheme_ios·url_mobile 중 <strong>2가지 이상</strong>)</td>
+</tr>
+<tr>
+<td><code>BK</code></td>
+<td>해당 버튼 텍스트 발송</td>
+<td>name, type</td>
+<td>name, type</td>
+</tr>
+<tr>
+<td><code>BC</code></td>
+<td>상담톡을 이용하는 카카오톡 채널만 이용 가능</td>
+<td>name, type, chat_extra</td>
+<td>name, type</td>
+</tr>
+<tr>
+<td><code>BT</code></td>
+<td>카카오 I 오픈빌더의 챗봇을 사용하는 카카오톡 채널만 이용 가능</td>
+<td>name, type, chat_extra, chat_event</td>
+<td>name, type</td>
+</tr>
+<tr>
+<td><code>BF</code></td>
+<td>카카오 비즈니스폼을 실행</td>
+<td>name, type, biz_form_id</td>
+<td>name, type, biz_form_id</td>
+</tr>
+</tbody>
+</table></div><h4 id="강조표기-아이템리스트-규칙" data-spy-id="강조표기-아이템리스트-규칙" data-spy-section="카카오-연동-규격">강조표기 / 아이템리스트 규칙</h4>
+<ul>
+<li><strong>강조표기</strong> (<code>extra.title</code>): 템플릿 내용 중 강조 표기할 핵심 정보. 강조 표기 타이틀은 <strong>최대 50자</strong>, 알림톡 본문(1000자)에 <strong>포함되지 않음</strong>.</li>
+<li><strong>이미지·아이템리스트</strong>: 기본 텍스트 알림톡에 (이미지 / 헤더 / 아이템 하이라이트 / 아이템리스트 / 아이템 요약정보) 5개 항목이 추가 구성. 이미지·헤더·아이템 하이라이트 영역을 필요에 따라 <strong>1개 이상 필수 선택</strong>하여 템플릿 등록. 템플릿당 고정 이미지만 사용 가능. <strong>아이템리스트는 최소 2개 ~ 최대 10개</strong>.</li>
+<li><strong><code>msg_type</code></strong>: 알림톡 템플릿 강조 유형이 이미지형(IMAGE)인 경우에만 <code>msg_type</code> 을 <code>AI</code> 로 설정해야 발송 가능. (아이템리스트형이고 이미지가 포함된 경우 <code>AI</code> 로 설정 시 발송 실패)</li>
+</ul>
+<h4 id="attachment-json-예시" data-spy-id="attachment-json-예시" data-spy-section="카카오-연동-규격">ATTACHMENT JSON 예시</h4>
+<p>버튼 (<code>button.json</code>):</p>
+<pre><code class="language-json">{
+  &quot;button&quot;: [
+    { &quot;name&quot;: &quot;미리 주문하기&quot;, &quot;type&quot;: &quot;WL&quot;, &quot;url_mobile&quot;: &quot;http://www.bizppurio.com&quot; },
+    { &quot;name&quot;: &quot;상담원 연결하기&quot;, &quot;type&quot;: &quot;MD&quot; },
+    { &quot;name&quot;: &quot;방송 알림 설정 보기&quot;, &quot;type&quot;: &quot;AL&quot;, &quot;scheme_android&quot;: &quot;daumapps://open&quot;, &quot;scheme_ios&quot;: &quot;daumapps://open&quot; }
+  ]
+}
+</code></pre>
+<p>바로연결 (<code>quick_reply.json</code>):</p>
+<pre><code class="language-json">{
+  &quot;button&quot;: [
+    { &quot;name&quot;: &quot;비즈뿌리오 바로가기&quot;, &quot;type&quot;: &quot;WL&quot;, &quot;url_mobile&quot;: &quot;https://www.bizppurio.com/&quot; }
+  ],
+  &quot;extra&quot;: {
+    &quot;supplement&quot;: {
+      &quot;quick_reply&quot;: [
+        { &quot;name&quot;: &quot;비즈뿌리오&quot;, &quot;type&quot;: &quot;WL&quot;, &quot;url_mobile&quot;: &quot;https://www.bizppurio.com/&quot; },
+        { &quot;name&quot;: &quot;봇키워드하기&quot;, &quot;type&quot;: &quot;BK&quot; },
+        { &quot;name&quot;: &quot;메시지전달하기&quot;, &quot;type&quot;: &quot;MD&quot; },
+        { &quot;name&quot;: &quot;상담톡전환&quot;, &quot;type&quot;: &quot;BC&quot; }
+      ]
+    }
+  }
+}
+</code></pre>
+<p>강조표기 (<code>title.json</code>, 버튼 없는 경우):</p>
+<pre><code class="language-json">{
+  &quot;extra&quot;: { &quot;title&quot;: &quot;입금 123,456 원&quot; }
+}
+</code></pre>
+<p>강조표기 (<code>title.json</code>, 버튼 있는 경우):</p>
+<pre><code class="language-json">{
+  &quot;button&quot;: [
+    { &quot;name&quot;: &quot;채널 추가&quot;, &quot;type&quot;: &quot;AC&quot; }
+  ],
+  &quot;extra&quot;: { &quot;title&quot;: &quot;입금 123,456 원&quot; }
+}
+</code></pre>
+<p>이미지형 (<code>alimtalk_image.json</code>):</p>
+<pre><code class="language-json">{
+  &quot;extra&quot;: { &quot;msg_type&quot;: &quot;AI&quot; }
+}
+</code></pre>
+<p>아이템리스트형 — 헤더 + 아이템리스트 + 요약정보 (<code>alimtalk_item_list.json</code>):</p>
+<pre><code class="language-json">{
+  &quot;item&quot;: {
+    &quot;list&quot;: [
+      { &quot;title&quot;: &quot;가입일자&quot;, &quot;description&quot;: &quot;2021.5.23&quot; },
+      { &quot;title&quot;: &quot;이름&quot;, &quot;description&quot;: &quot;김카카오&quot; }
+    ],
+    &quot;summary&quot;: { &quot;title&quot;: &quot;구매가격&quot;, &quot;description&quot;: &quot;18,000 원&quot; }
+  },
+  &quot;extra&quot;: { &quot;header&quot;: &quot;카카오 가입을 환영합니다.&quot;, &quot;msg_type&quot;: &quot;AT&quot; }
+}
+</code></pre>
+<p>아이템리스트형 — 버튼 + 이미지 + 아이템 하이라이트 (<code>alimtalk_item_list_button.json</code>):</p>
+<pre><code class="language-json">{
+  &quot;button&quot;: [
+    { &quot;name&quot;: &quot;채널 추가&quot;, &quot;type&quot;: &quot;AC&quot; }
+  ],
+  &quot;item_highlight&quot;: { &quot;title&quot;: &quot;가입 환영 포인트&quot;, &quot;description&quot;: &quot;10,000P&quot; }
+}
+</code></pre>
+<h2 id="브랜드-메시지-규격-·-예시" data-spy-id="브랜드-메시지-규격-·-예시" data-spy-section="카카오-연동-규격">브랜드 메시지 규격 · 예시</h2>
+<h3 id="attachment-json-extra-snakecase" data-spy-id="attachment-json-extra-snakecase" data-spy-section="카카오-연동-규격">ATTACHMENT JSON extra (snake_case)</h3>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>키</th>
+<th>타입</th>
+<th>필수</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>chat_bubble_type</code></td>
+<td>text</td>
+<td>Y</td>
+<td>TEXT / IMAGE / WIDE / WIDE_ITEM_LIST / CAROUSEL_FEED / PREMIUM_VIDEO / COMMERCE / CAROUSEL_COMMERCE</td>
+</tr>
+<tr>
+<td><code>brand_message_type</code></td>
+<td>text</td>
+<td>Y</td>
+<td>BASIC (기본형) / FREE (자유형)</td>
+</tr>
+<tr>
+<td><code>send_target</code></td>
+<td>text</td>
+<td>Y</td>
+<td>발송 대상 — <code>marketing</code> (고객사의 광고성 정보 수신동의 회원) / <code>friend</code> (채널 친구)</td>
+</tr>
+<tr>
+<td><code>targeting</code></td>
+<td>text</td>
+<td>N</td>
+<td>타겟팅 — <code>send_target=marketing</code> 일 때만 <strong>필수</strong>(발송 권한 신청 필요), <code>friend</code> 일 때 미사용. <code>M</code> 광고성 수신동의 회원 / <code>N</code> 수신동의 회원 ∖ 채널 친구 / <code>O</code> 수신동의 회원 ∩ 채널 친구</td>
+</tr>
+<tr>
+<td><code>push_alarm</code></td>
+<td>text(1)</td>
+<td>N</td>
+<td>Y/N (기본 Y)</td>
+</tr>
+<tr>
+<td><code>group_tag_key</code></td>
+<td>text(40)</td>
+<td>N</td>
+<td>그룹태그 키 (자유형) — 등록 시 템플릿 통계 확인 가능</td>
+</tr>
+<tr>
+<td><code>message_variable</code></td>
+<td>object</td>
+<td>N</td>
+<td>메시지 영역 변수 (key=템플릿 변수명, value=치환값)</td>
+</tr>
+<tr>
+<td><code>button_variable</code></td>
+<td>object</td>
+<td>N</td>
+<td>버튼 링크 변수</td>
+</tr>
+<tr>
+<td><code>coupon_variable</code></td>
+<td>object</td>
+<td>N</td>
+<td>쿠폰 링크 변수</td>
+</tr>
+<tr>
+<td><code>image_variable</code></td>
+<td>array</td>
+<td>N</td>
+<td>이미지 변수</td>
+</tr>
+<tr>
+<td><code>video_variable</code></td>
+<td>object</td>
+<td>N</td>
+<td>비디오 변수 (PREMIUM_VIDEO 전용)</td>
+</tr>
+<tr>
+<td><code>commerce_variable</code></td>
+<td>object</td>
+<td>N</td>
+<td>커머스 변수 (COMMERCE 전용)</td>
+</tr>
+<tr>
+<td><code>carousel_variable</code></td>
+<td>array</td>
+<td>N</td>
+<td>캐러셀 변수 배열</td>
+</tr>
+<tr>
+<td><code>unsubscribe_phone_number</code></td>
+<td>text(13)</td>
+<td>N</td>
+<td>무료수신거부 전화번호 — <code>send_target=marketing</code> 일 때만 사용 (예: 080-1234-1234)</td>
+</tr>
+<tr>
+<td><code>unsubscribe_auth_number</code></td>
+<td>text(10)</td>
+<td>N</td>
+<td>무료수신거부 인증번호 — <code>marketing</code> 일 때만 사용, <code>unsubscribe_phone_number</code> 없이 단독 입력 불가</td>
+</tr>
+</tbody>
+</table></div><h3 id="chatbubbletype-8종-·-본문-영역message-글자수" data-spy-id="chatbubbletype-8종-·-본문-영역message-글자수" data-spy-section="카카오-연동-규격">chat_bubble_type 8종 · 본문 영역(message) 글자수</h3>
+<p><code>extra.chat_bubble_type</code> 으로 말풍선 형태를 지정한다. 본문 텍스트는 <code>MSG_BODY</code> 컬럼(=<code>message</code>)에 넣는다.</p>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>chat_bubble_type</th>
+<th>설명</th>
+<th>message(=MSG_BODY)</th>
+<th>image</th>
+<th>item</th>
+<th>video</th>
+<th>commerce</th>
+<th>carousel</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>TEXT</code></td>
+<td>텍스트</td>
+<td>필수, 최대 1,300자 (줄바꿈 ≤99, URL 가능)</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td><code>IMAGE</code></td>
+<td>이미지</td>
+<td>필수, 최대 1,300자 (줄바꿈 ≤99)</td>
+<td>필수</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td><code>WIDE</code></td>
+<td>와이드 이미지</td>
+<td>필수, 최대 76자 (줄바꿈 ≤5)</td>
+<td>필수</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td><code>WIDE_ITEM_LIST</code></td>
+<td>와이드 리스트</td>
+<td>사용 안 함</td>
+<td>-</td>
+<td>필수</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td><code>PREMIUM_VIDEO</code></td>
+<td>프리미엄 동영상</td>
+<td>선택, 최대 76자 (줄바꿈 ≤5)</td>
+<td>-</td>
+<td>-</td>
+<td>필수</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td><code>COMMERCE</code></td>
+<td>커머스</td>
+<td>사용 안 함</td>
+<td>필수</td>
+<td>-</td>
+<td>-</td>
+<td>필수</td>
+<td>-</td>
+</tr>
+<tr>
+<td><code>CAROUSEL_FEED</code></td>
+<td>캐러셀 피드</td>
+<td>사용 안 함</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>필수</td>
+</tr>
+<tr>
+<td><code>CAROUSEL_COMMERCE</code></td>
+<td>캐러셀 커머스</td>
+<td>사용 안 함</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>필수</td>
+</tr>
+</tbody>
+</table></div><h3 id="attachment-json-extra-—-누락-키-보강" data-spy-id="attachment-json-extra-—-누락-키-보강" data-spy-section="카카오-연동-규격">ATTACHMENT JSON extra — 누락 키 보강</h3>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>키</th>
+<th>타입</th>
+<th>필수</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>header</code></td>
+<td>text(25)</td>
+<td>N</td>
+<td>헤더. WIDE_ITEM_LIST 최대 20자(BASIC 최소 1자)·PREMIUM_VIDEO 최대 20자, 둘 다 줄바꿈 불가</td>
+</tr>
+<tr>
+<td><code>additional_content</code></td>
+<td>text(34)</td>
+<td>N</td>
+<td>부가정보. COMMERCE 최대 34자(공백 포함, 줄바꿈 ≤1)</td>
+</tr>
+<tr>
+<td><code>adult</code></td>
+<td>text(1)</td>
+<td>N</td>
+<td>성인용 메시지 여부 Y/N. 기본값 N (<strong>자유형(FREE) 전용</strong>)</td>
+</tr>
+<tr>
+<td><code>carousel</code></td>
+<td>json</td>
+<td>N</td>
+<td>캐러셀 객체. CAROUSEL_FEED / CAROUSEL_COMMERCE 시 필수. 아래 <strong>CAROUSEL</strong> 참조</td>
+</tr>
+</tbody>
+</table></div><ul>
+<li><code>send_target=friend</code> (채널 친구 대상) 시 <code>targeting</code> 은 불필요하다. 변수 미사용 발송도 가능(<code>extra</code> 4개 키만으로 발송).</li>
+<li><code>send_target=marketing</code> (고객사 수신동의 회원 대상) 시 <code>targeting</code>(M/N/O) 필수 + 발송 권한 신청 필요.</li>
+<li><code>unsubscribe_phone_number</code> / <code>unsubscribe_auth_number</code> 는 <strong>둘 다 미입력 시</strong> 발신프로필에 등록된 무료수신거부 정보로 발송된다. <code>unsubscribe_phone_number</code> 없이 <code>unsubscribe_auth_number</code> 만 입력은 불가.</li>
+</ul>
+<h3 id="전문방식-본문-객체-스키마-brandmessagetypebasic" data-spy-id="전문방식-본문-객체-스키마-brandmessagetypebasic" data-spy-section="카카오-연동-규격">전문방식 본문 객체 스키마 (brand_message_type=BASIC)</h3>
+<p>전문방식은 등록된 템플릿 구조를 기준으로 <strong>본문 객체를 직접</strong> 전송한다. 변수가 존재하는 영역의 정보만 전달하고(변수 없는 영역은 생략), 변수가 있는 버튼을 보낼 때는 <code>type</code> 필드를 함께 전달한다(변수 없는 버튼도 <code>type</code> 필요).</p>
+<h4 id="button-array" data-spy-id="button-array" data-spy-section="카카오-연동-규격">button (array)</h4>
+<p>개수 제약: TEXT·IMAGE = 쿠폰 적용 시 최대 4개·그 외 최대 5개 / WIDE·WIDE_ITEM_LIST = 최대 2개 / PREMIUM_VIDEO = 최대 1개 / COMMERCE = 최소 1개·최대 2개</p>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>키</th>
+<th>타입</th>
+<th>필수(BASIC / FREE)</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>name</code></td>
+<td>text(28)</td>
+<td>(BASIC: 생략 가능) / <strong>FREE: Y</strong></td>
+<td>버튼 제목. TEXT·IMAGE 최대 14자, 그 외 최대 8자</td>
+</tr>
+<tr>
+<td><code>type</code></td>
+<td>text(2)</td>
+<td>Y</td>
+<td>버튼 타입(AC/WL/AL/BK/MD/BC/BT/BF). 버튼 타입별 속성 참조</td>
+</tr>
+<tr>
+<td><code>url_pc</code></td>
+<td>text(1000)</td>
+<td>N</td>
+<td>PC 클릭 시 이동 URL</td>
+</tr>
+<tr>
+<td><code>url_mobile</code></td>
+<td>text(1000)</td>
+<td>조건부</td>
+<td>Mobile 클릭 시 이동 URL</td>
+</tr>
+<tr>
+<td><code>scheme_ios</code></td>
+<td>text(1000)</td>
+<td>조건부</td>
+<td>iOS custom scheme</td>
+</tr>
+<tr>
+<td><code>scheme_android</code></td>
+<td>text(1000)</td>
+<td>조건부</td>
+<td>Android custom scheme</td>
+</tr>
+<tr>
+<td><code>chat_extra</code></td>
+<td>text</td>
+<td>N</td>
+<td>상담톡↔카카오톡 챗봇 전환 시 전달 메타정보 (BC/BT)</td>
+</tr>
+<tr>
+<td><code>chat_event</code></td>
+<td>text</td>
+<td>N</td>
+<td>카카오톡 챗봇 전환 시 연결할 이벤트명 (BT)</td>
+</tr>
+<tr>
+<td><code>biz_form_key</code></td>
+<td>text</td>
+<td>N</td>
+<td>비즈니스폼 업로드로 발급받은 bizFormKey (BF)</td>
+</tr>
+</tbody>
+</table></div><p><strong>버튼 타입별 속성</strong></p>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>타입</th>
+<th>설명</th>
+<th>사용 가능 파라미터</th>
+<th>필수 파라미터</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>AC</code></td>
+<td>카카오톡 채널 추가(강조형 노란 버튼). TEXT·IMAGE는 첫 번째, 그 외 두 번째 버튼 위치. <code>name</code>은 &quot;채널 추가&quot; 고정. 캐러셀형은 전체 통틀어 1개. targeting M·N만 가능</td>
+<td>name, type</td>
+<td>name, type</td>
+</tr>
+<tr>
+<td><code>WL</code></td>
+<td>지정 웹 링크 이동</td>
+<td>name, type, url_mobile, url_pc</td>
+<td>name, type, url_mobile</td>
+</tr>
+<tr>
+<td><code>AL</code></td>
+<td>앱 스킴 또는 웹 링크 이동</td>
+<td>name, type, scheme_android, scheme_ios, url_mobile, url_pc</td>
+<td>name, type + (scheme_android·scheme_ios·url_mobile 중 2가지 이상)</td>
+</tr>
+<tr>
+<td><code>BK</code></td>
+<td>버튼 텍스트 발송</td>
+<td>name, type</td>
+<td>name, type</td>
+</tr>
+<tr>
+<td><code>MD</code></td>
+<td>버튼 텍스트 + 본문 발송</td>
+<td>name, type</td>
+<td>name, type</td>
+</tr>
+<tr>
+<td><code>BC</code></td>
+<td>상담톡 채널 전용</td>
+<td>name, type, chat_extra</td>
+<td>name, type</td>
+</tr>
+<tr>
+<td><code>BT</code></td>
+<td>카카오 I 오픈빌더 챗봇 채널 전용</td>
+<td>name, type, chat_extra, chat_event</td>
+<td>name, type</td>
+</tr>
+<tr>
+<td><code>BF</code></td>
+<td>카카오 비즈니스폼 실행(강조형). AC 유무에 따라 위치 가변. <code>name</code>은 &quot;톡에서 예약하기/설문하기/응모하기&quot; 중</td>
+<td>name, type, biz_form_key</td>
+<td>name, type, biz_form_key</td>
+</tr>
+</tbody>
+</table></div><h4 id="image-json-—-image·wide·commerce-필수" data-spy-id="image-json-—-image·wide·commerce-필수" data-spy-section="카카오-연동-규격">image (json) — IMAGE·WIDE·COMMERCE 필수</h4>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>키</th>
+<th>타입</th>
+<th>필수(BASIC / FREE)</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>img_url</code></td>
+<td>text</td>
+<td>(BASIC: N) / <strong>FREE: Y</strong></td>
+<td>이미지 업로드 API로 등록한 이미지 URL</td>
+</tr>
+<tr>
+<td><code>img_link</code></td>
+<td>text(1000)</td>
+<td>N</td>
+<td>이미지 클릭 시 이동 URL. 미설정 시 카카오톡 내 이미지 뷰어 사용</td>
+</tr>
+</tbody>
+</table></div><h4 id="item-json-—-wideitemlist-필수-item-구조" data-spy-id="item-json-—-wideitemlist-필수-item-구조" data-spy-section="카카오-연동-규격">item (json) — WIDE_ITEM_LIST 필수 (ITEM 구조)</h4>
+<p><code>item.list[]</code> 배열. 와이드 아이템 목록.</p>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>키</th>
+<th>타입</th>
+<th>필수(BASIC / FREE)</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>list</code></td>
+<td>array</td>
+<td>(BASIC: N) / <strong>FREE: Y</strong></td>
+<td>와이드 아이템 목록</td>
+</tr>
+<tr>
+<td><code>list[].title</code></td>
+<td>text(25)</td>
+<td>조건부</td>
+<td>아이템 제목. 1번째 최대 25자, 2~4번째 최대 30자 (줄바꿈 ≤1)</td>
+</tr>
+<tr>
+<td><code>list[].img_url</code></td>
+<td>text</td>
+<td>(BASIC: N) / <strong>FREE: Y</strong></td>
+<td>아이템 이미지 URL</td>
+</tr>
+<tr>
+<td><code>list[].url_mobile</code></td>
+<td>text(1000)</td>
+<td>(BASIC: N) / <strong>FREE: Y</strong></td>
+<td>Mobile 클릭 시 이동 URL</td>
+</tr>
+<tr>
+<td><code>list[].url_pc</code></td>
+<td>text(1000)</td>
+<td>N</td>
+<td>PC 클릭 시 이동 URL</td>
+</tr>
+<tr>
+<td><code>list[].scheme_android</code></td>
+<td>text(1000)</td>
+<td>N</td>
+<td>Android custom scheme</td>
+</tr>
+<tr>
+<td><code>list[].scheme_ios</code></td>
+<td>text(1000)</td>
+<td>N</td>
+<td>iOS custom scheme</td>
+</tr>
+</tbody>
+</table></div><h4 id="coupon-json-—-메시지-최하단에-쿠폰-추가" data-spy-id="coupon-json-—-메시지-최하단에-쿠폰-추가" data-spy-section="카카오-연동-규격">coupon (json) — 메시지 최하단에 쿠폰 추가</h4>
+<p>채널 쿠폰 URL(포맷 <code>alimtalk=coupon://</code>) 사용 시 <code>scheme_android</code>·<code>scheme_ios</code> 중 하나 필수. 기본 쿠폰 사용 시 <code>url_mobile</code> 필수.</p>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>키</th>
+<th>타입</th>
+<th>필수(BASIC / FREE)</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>title</code></td>
+<td>text</td>
+<td>(BASIC: N) / <strong>FREE: Y</strong></td>
+<td>쿠폰 제목. 형식: <code>${숫자}원 할인쿠폰</code>(1~99,999,999) / <code>${숫자}% 할인 쿠폰</code>(1~100) / <code>배송비 할인 쿠폰</code> / <code>${7자 이내} 무료 쿠폰</code> / <code>${7자 이내} UP 쿠폰</code></td>
+</tr>
+<tr>
+<td><code>description</code></td>
+<td>text</td>
+<td>(BASIC: N) / <strong>FREE: Y</strong></td>
+<td>쿠폰 설명. WIDE·WIDE_ITEM_LIST·PREMIUM_VIDEO 최대 18자, 그 외 최대 12자 (줄바꿈 불가)</td>
+</tr>
+<tr>
+<td><code>url_pc</code></td>
+<td>text(1000)</td>
+<td>N</td>
+<td>PC 클릭 시 이동 URL</td>
+</tr>
+<tr>
+<td><code>url_mobile</code></td>
+<td>text(1000)</td>
+<td>조건부</td>
+<td>Mobile 클릭 시 이동 URL</td>
+</tr>
+<tr>
+<td><code>scheme_android</code></td>
+<td>text(1000)</td>
+<td>조건부</td>
+<td>Android custom scheme</td>
+</tr>
+<tr>
+<td><code>scheme_ios</code></td>
+<td>text(1000)</td>
+<td>조건부</td>
+<td>iOS custom scheme</td>
+</tr>
+</tbody>
+</table></div><blockquote>
+<p>변수분리 방식에서 <code>coupon_variable</code> 에 <code>&quot;ESCAPE_COUPON&quot;</code> 을 넣으면 템플릿에 쿠폰이 있어도 말풍선에 포함하지 않는다.</p>
+</blockquote>
+<h4 id="commerce-json-—-commerce-필수" data-spy-id="commerce-json-—-commerce-필수" data-spy-section="카카오-연동-규격">commerce (json) — COMMERCE 필수</h4>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>키</th>
+<th>타입</th>
+<th>필수(BASIC / FREE)</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>title</code></td>
+<td>text(30)</td>
+<td>(BASIC: N) / <strong>FREE: Y</strong></td>
+<td>상품 제목. 최대 30자 (줄바꿈 불가)</td>
+</tr>
+<tr>
+<td><code>regular_price</code></td>
+<td>number</td>
+<td>(BASIC: N) / <strong>FREE: Y</strong></td>
+<td>정상 가격 (0 ~ 99,999,999)</td>
+</tr>
+<tr>
+<td><code>discount_price</code></td>
+<td>number</td>
+<td>N</td>
+<td>할인 후 가격 (0 ~ 99,999,999)</td>
+</tr>
+<tr>
+<td><code>discount_rate</code></td>
+<td>number</td>
+<td>N</td>
+<td>할인율 (0 ~ 100). 할인가격 존재 시 discount_rate·discount_fixed 중 하나 필수</td>
+</tr>
+<tr>
+<td><code>discount_fixed</code></td>
+<td>number</td>
+<td>N</td>
+<td>정액 할인 가격 (0 ~ 999,999). 할인가격 존재 시 discount_rate·discount_fixed 중 하나 필수</td>
+</tr>
+</tbody>
+</table></div><h4 id="video-json-—-premiumvideo-필수" data-spy-id="video-json-—-premiumvideo-필수" data-spy-section="카카오-연동-규격">video (json) — PREMIUM_VIDEO 필수</h4>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>키</th>
+<th>타입</th>
+<th>필수(BASIC / FREE)</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>video_url</code></td>
+<td>text(500)</td>
+<td>(BASIC: N) / <strong>FREE: Y</strong></td>
+<td>카카오TV 동영상 URL</td>
+</tr>
+<tr>
+<td><code>thumbnail_url</code></td>
+<td>text(500)</td>
+<td>조건부</td>
+<td>동영상 썸네일용 이미지 URL(이미지 업로드 API 등록). 없으면 기본 썸네일. <strong>비공개 동영상이면 필수</strong></td>
+</tr>
+</tbody>
+</table></div><h3 id="carousel-객체-carouselfeed-·-carouselcommerce" data-spy-id="carousel-객체-carouselfeed-·-carouselcommerce" data-spy-section="카카오-연동-규격">CAROUSEL 객체 (CAROUSEL_FEED · CAROUSEL_COMMERCE)</h3>
+<p><code>extra.carousel</code> 하위 <code>head</code>(인트로) · <code>list[]</code>(아이템) · <code>tail</code>(더보기)로 구성.</p>
+<p><strong>리스트 개수 규칙: 인트로(head) 사용 시 1~5개, 미사용 시 2~6개.</strong></p>
+<h4 id="carouselhead-json-—-캐러셀-인트로-선택" data-spy-id="carouselhead-json-—-캐러셀-인트로-선택" data-spy-section="카카오-연동-규격">carousel.head (json) — 캐러셀 인트로 (선택)</h4>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>키</th>
+<th>타입</th>
+<th>필수(BASIC / FREE)</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>header</code></td>
+<td>text(20)</td>
+<td>(BASIC: N) / <strong>FREE: Y</strong></td>
+<td>인트로 헤더 (줄바꿈 불가)</td>
+</tr>
+<tr>
+<td><code>content</code></td>
+<td>text(50)</td>
+<td>(BASIC: N) / <strong>FREE: Y</strong></td>
+<td>인트로 내용 (줄바꿈 ≤2)</td>
+</tr>
+<tr>
+<td><code>image_url</code></td>
+<td>text</td>
+<td>(BASIC: N) / <strong>FREE: Y</strong></td>
+<td>인트로 이미지 주소</td>
+</tr>
+<tr>
+<td><code>url_mobile</code></td>
+<td>text(1000)</td>
+<td>조건부</td>
+<td>Mobile 클릭 시 이동 URL</td>
+</tr>
+<tr>
+<td><code>url_pc</code></td>
+<td>text(1000)</td>
+<td>N</td>
+<td>PC 클릭 시 이동 URL</td>
+</tr>
+<tr>
+<td><code>scheme_android</code></td>
+<td>text(1000)</td>
+<td>N</td>
+<td>Android custom scheme</td>
+</tr>
+<tr>
+<td><code>scheme_ios</code></td>
+<td>text(1000)</td>
+<td>N</td>
+<td>iOS custom scheme</td>
+</tr>
+</tbody>
+</table></div><h4 id="carousellist-array-—-캐러셀-리스트" data-spy-id="carousellist-array-—-캐러셀-리스트" data-spy-section="카카오-연동-규격">carousel.list[] (array) — 캐러셀 리스트</h4>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>키</th>
+<th>타입</th>
+<th>필수</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>header</code></td>
+<td>text(20)</td>
+<td>CAROUSEL_FEED 필수 / CAROUSEL_COMMERCE 사용불가</td>
+<td>리스트 헤더. 최대 20자 (줄바꿈 불가)</td>
+</tr>
+<tr>
+<td><code>message</code></td>
+<td>text(180)</td>
+<td>CAROUSEL_FEED 필수 / CAROUSEL_COMMERCE 사용불가</td>
+<td>아이템 메시지. 최대 180자 (줄바꿈 ≤10)</td>
+</tr>
+<tr>
+<td><code>additional_content</code></td>
+<td>text(34)</td>
+<td>N (CAROUSEL_FEED 사용불가)</td>
+<td>부가 정보. 최대 34자 (줄바꿈 ≤1)</td>
+</tr>
+<tr>
+<td><code>attachment</code></td>
+<td>json</td>
+<td>Y</td>
+<td>아이템 이미지·버튼·쿠폰·커머스 정보 (아래)</td>
+</tr>
+</tbody>
+</table></div><p><strong>carousel.list[].attachment</strong></p>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>키</th>
+<th>타입</th>
+<th>필수</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>button</code></td>
+<td>array</td>
+<td>N</td>
+<td>캐러셀 리스트 버튼 목록. 최소 1개·최대 2개. 항목 키: <code>name</code>(필수, TEXT·IMAGE 14자/그 외 8자) · <code>type</code>(필수) · <code>scheme_android</code> · <code>scheme_ios</code> · <code>url_mobile</code> · <code>url_pc</code> · <code>chat_extra</code> · <code>chat_event</code> · <code>biz_form_key</code></td>
+</tr>
+<tr>
+<td><code>image</code></td>
+<td>json</td>
+<td>CAROUSEL_FEED 필수</td>
+<td><code>img_url</code>(필수, 캐러셀 썸네일 이미지 주소) · <code>img_link</code>(클릭 시 이동 URL, 미설정 시 이미지 뷰어)</td>
+</tr>
+<tr>
+<td><code>coupon</code></td>
+<td>json</td>
+<td>N</td>
+<td>캐러셀 리스트 최하단 노출. 키 구성은 본문 coupon 과 동일(title·description·url_<em>·scheme_</em>)</td>
+</tr>
+<tr>
+<td><code>commerce</code></td>
+<td>json</td>
+<td>CAROUSEL_COMMERCE 필수 / CAROUSEL_FEED 사용불가</td>
+<td>본문 commerce 와 동일(title·regular_price·discount_price·discount_rate·discount_fixed)</td>
+</tr>
+</tbody>
+</table></div><h4 id="carouseltail-json-—-더보기-버튼-선택" data-spy-id="carouseltail-json-—-더보기-버튼-선택" data-spy-section="카카오-연동-규격">carousel.tail (json) — 더보기 버튼 (선택)</h4>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>키</th>
+<th>타입</th>
+<th>필수</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>url_mobile</code></td>
+<td>text(1000)</td>
+<td>Y</td>
+<td>Mobile 클릭 시 이동 URL</td>
+</tr>
+<tr>
+<td><code>url_pc</code></td>
+<td>text(1000)</td>
+<td>N</td>
+<td>PC 클릭 시 이동 URL</td>
+</tr>
+<tr>
+<td><code>scheme_ios</code></td>
+<td>text(1000)</td>
+<td>N</td>
+<td>iOS custom scheme</td>
+</tr>
+<tr>
+<td><code>scheme_android</code></td>
+<td>text(1000)</td>
+<td>N</td>
+<td>Android custom scheme</td>
+</tr>
+</tbody>
+</table></div><h3 id="채널-친구-대상sendtargetfriend-차이점" data-spy-id="채널-친구-대상sendtargetfriend-차이점" data-spy-section="카카오-연동-규격">채널 친구 대상(send_target=friend) 차이점</h3>
+<p>대부분 marketing 과 동일하며 차이만 정리한다.</p>
+<ul>
+<li><code>extra.send_target: friend</code> 입력 필수. <code>targeting</code> 불필요.</li>
+<li>변수 미사용 발송 가능 — <code>extra</code>(chat_bubble_type·brand_message_type·send_target) 만으로 발송. 변수 존재 시 전문방식 또는 변수분리 방식 선택.</li>
+<li>발신프로필 등록 후 바로 발송 가능(별도 권한 신청 불필요).</li>
+</ul>
+<h3 id="attachment-json-예시-2" data-spy-id="attachment-json-예시-2" data-spy-section="카카오-연동-규격">ATTACHMENT JSON 예시</h3>
+<p><code>ATTACHED_FILE</code> 에 업로드하는 JSON 파일의 전체 예시입니다. 발송 대상(회원/친구) × 메시지 타입(8종) × 발송 방식(변수 미사용 / 변수 분리 / 전문 방식 / 자유형) <strong>64개 조합</strong>을 모두 수록합니다.</p>
+1c:T7406,<p>BIZCLIENT RCS 발송의 상세 규격입니다 — MESSAGEBASE_ID 목록·카드 유형별 글자수·통합 RCS·RCS_BODY·media·BUTTONS.</p>
+<h3 id="rcs-messagebaseid-목록" data-spy-id="rcs-messagebaseid-목록" data-spy-section="rcs-연동-규격">RCS MESSAGEBASE_ID 목록</h3>
+<p><code>MESSAGEBASE_ID</code> 는 메시지 포맷(카드 유형)을 지정하는 코드입니다. 발송하려는 메시지 형태에 맞는
+ID 를 선택해 입력합니다. RCS 는 <strong>안드로이드 RCS</strong> 와 <strong>통합 RCS</strong> 두 체계로 구분됩니다.</p>
+<h4 id="안드로이드-rcs-—-messagebaseid" data-spy-id="안드로이드-rcs-—-messagebaseid" data-spy-section="rcs-연동-규격">안드로이드 RCS — MESSAGEBASE_ID</h4>
+<p>안드로이드 채팅+ 지원 단말(예: 삼성 갤럭시)에서 수신 가능한 표준 포맷입니다.</p>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>MESSAGEBASE_ID</th>
+<th>상품</th>
+<th>메시지 타입</th>
+<th>카드(형태)</th>
+<th>카드 장수</th>
+<th>카드별 최대 버튼 수</th>
+<th>최대 본문 글자 수</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>SS000000</code></td>
+<td>SMS</td>
+<td>Standalone</td>
+<td>-</td>
+<td>1</td>
+<td>1</td>
+<td>100</td>
+</tr>
+<tr>
+<td><code>SL000000</code></td>
+<td>LMS</td>
+<td>Standalone</td>
+<td>-</td>
+<td>1</td>
+<td>3</td>
+<td>1300</td>
+</tr>
+<tr>
+<td><code>SMwThT00</code></td>
+<td>MMS</td>
+<td>세로형(Tall)</td>
+<td>-</td>
+<td>1</td>
+<td>2</td>
+<td>1300</td>
+</tr>
+<tr>
+<td><code>SMwThM00</code></td>
+<td>MMS</td>
+<td>세로형(Medium)</td>
+<td>-</td>
+<td>1</td>
+<td>2</td>
+<td>1300</td>
+</tr>
+<tr>
+<td><code>CMwMhM0200</code></td>
+<td>MMS</td>
+<td>슬라이드형(Medium, 2장)</td>
+<td>Carousel Medium</td>
+<td>2</td>
+<td>2</td>
+<td>글자/라인수 정의 표 참고</td>
+</tr>
+<tr>
+<td><code>CMwMhM0300</code></td>
+<td>MMS</td>
+<td>슬라이드형(Medium, 3장)</td>
+<td>Carousel Medium</td>
+<td>3</td>
+<td>2</td>
+<td>글자/라인수 정의 표 참고</td>
+</tr>
+<tr>
+<td><code>CMwMhM0400</code></td>
+<td>MMS</td>
+<td>슬라이드형(Medium, 4장)</td>
+<td>Carousel Medium</td>
+<td>4</td>
+<td>2</td>
+<td>글자/라인수 정의 표 참고</td>
+</tr>
+<tr>
+<td><code>CMwMhM0500</code></td>
+<td>MMS</td>
+<td>슬라이드형(Medium, 5장)</td>
+<td>Carousel Medium</td>
+<td>5</td>
+<td>2</td>
+<td>글자/라인수 정의 표 참고</td>
+</tr>
+<tr>
+<td><code>CMwMhM0600</code></td>
+<td>MMS</td>
+<td>슬라이드형(Medium, 6장)</td>
+<td>Carousel Medium</td>
+<td>6</td>
+<td>2</td>
+<td>글자/라인수 정의 표 참고</td>
+</tr>
+<tr>
+<td><code>CMwShS0200</code></td>
+<td>MMS</td>
+<td>슬라이드형(Small, 2장)</td>
+<td>Carousel Small</td>
+<td>2</td>
+<td>2</td>
+<td>글자/라인수 정의 표 참고</td>
+</tr>
+<tr>
+<td><code>CMwShS0300</code></td>
+<td>MMS</td>
+<td>슬라이드형(Small, 3장)</td>
+<td>Carousel Small</td>
+<td>3</td>
+<td>2</td>
+<td>글자/라인수 정의 표 참고</td>
+</tr>
+<tr>
+<td><code>CMwShS0400</code></td>
+<td>MMS</td>
+<td>슬라이드형(Small, 4장)</td>
+<td>Carousel Small</td>
+<td>4</td>
+<td>2</td>
+<td>글자/라인수 정의 표 참고</td>
+</tr>
+<tr>
+<td><code>CMwShS0500</code></td>
+<td>MMS</td>
+<td>슬라이드형(Small, 5장)</td>
+<td>Carousel Small</td>
+<td>5</td>
+<td>2</td>
+<td>글자/라인수 정의 표 참고</td>
+</tr>
+<tr>
+<td><code>CMwShS0600</code></td>
+<td>MMS</td>
+<td>슬라이드형(Small, 6장)</td>
+<td>Carousel Small</td>
+<td>6</td>
+<td>2</td>
+<td>글자/라인수 정의 표 참고</td>
+</tr>
+<tr>
+<td><code>OMHITV0001</code></td>
+<td>MMS (신규)</td>
+<td>이미지 &amp; 타이틀 강조형 (3:4)</td>
+<td>-</td>
+<td>1</td>
+<td>2</td>
+<td>150</td>
+</tr>
+<tr>
+<td><code>OMHITS0001</code></td>
+<td>MMS (신규)</td>
+<td>이미지 &amp; 타이틀 강조형 (1:1)</td>
+<td>-</td>
+<td>1</td>
+<td>2</td>
+<td>150</td>
+</tr>
+<tr>
+<td><code>OMHIMV0001</code></td>
+<td>MMS (신규)</td>
+<td>이미지 강조형 (3:4)</td>
+<td>-</td>
+<td>1</td>
+<td>2</td>
+<td>150</td>
+</tr>
+<tr>
+<td><code>OMHIMS0001</code></td>
+<td>MMS (신규)</td>
+<td>이미지 강조형 (1:1)</td>
+<td>-</td>
+<td>1</td>
+<td>2</td>
+<td>150</td>
+</tr>
+<tr>
+<td><code>OMTBNV0001</code></td>
+<td>MMS (신규)</td>
+<td>썸네일형 (세로)</td>
+<td>-</td>
+<td>1</td>
+<td>2</td>
+<td>150</td>
+</tr>
+<tr>
+<td><code>OMTBNH0001</code></td>
+<td>MMS (신규)</td>
+<td>썸네일형 (가로)</td>
+<td>-</td>
+<td>1</td>
+<td>2</td>
+<td>150</td>
+</tr>
+<tr>
+<td><code>OMSNSS0001</code></td>
+<td>MMS (신규)</td>
+<td>SNS형</td>
+<td>-</td>
+<td>1</td>
+<td>2</td>
+<td>150</td>
+</tr>
+<tr>
+<td><code>OMSNSH0001</code></td>
+<td>MMS (신규)</td>
+<td>SNS형</td>
+<td>-</td>
+<td>1</td>
+<td>2</td>
+<td>150</td>
+</tr>
+</tbody>
+</table></div><blockquote>
+<p>카드 장수가 2 이상인 슬라이드형(Carousel)의 본문 글자수는 고정값이 아니라 아래 <strong>카드 유형별 글자수/라인수 정의</strong> 표를 따릅니다.</p>
+</blockquote>
+<h4 id="템플릿군-접두-코드별" data-spy-id="템플릿군-접두-코드별" data-spy-section="rcs-연동-규격">템플릿군 (접두 코드별)</h4>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>시작 접두</th>
+<th>상품/구분</th>
+<th>템플릿 유형</th>
+<th>카드 장수</th>
+<th>카드별 최대 버튼 수</th>
+<th>최대 본문 글자 수</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>UBR</code> 로 시작</td>
+<td>템플릿별 상이 (텍스트 템플릿)</td>
+<td>서술(description)</td>
+<td>1</td>
+<td>2</td>
+<td>90</td>
+</tr>
+<tr>
+<td><code>UBR</code> 로 시작</td>
+<td>템플릿별 상이 (텍스트 템플릿)</td>
+<td>스타일(cell)</td>
+<td>1</td>
+<td>2</td>
+<td>90</td>
+</tr>
+<tr>
+<td><code>UBR</code> 로 시작</td>
+<td>템플릿별 상이 (텍스트 템플릿)</td>
+<td>기본(free)</td>
+<td>1</td>
+<td>0</td>
+<td>90</td>
+</tr>
+<tr>
+<td><code>IBR</code> 로 시작</td>
+<td>템플릿별 상이 (이미지 템플릿)</td>
+<td>신규 MMS 동일 (8종)</td>
+<td>1</td>
+<td>2</td>
+<td>1000</td>
+</tr>
+<tr>
+<td><code>LBR</code> 로 시작</td>
+<td>템플릿별 상이 (LMS 템플릿)</td>
+<td>LMS 템플릿 (4종)</td>
+<td>1</td>
+<td>2</td>
+<td>1300</td>
+</tr>
+</tbody>
+</table></div><blockquote>
+<ul>
+<li>포토 여부 / 타이틀 글자 수 / 버튼 개수에 따라 입력 가능한 본문 글자 수가 상이할 수 있습니다.</li>
+<li>이미지 사이즈 규격이 일치해야 정상적으로 발송됩니다.</li>
+</ul>
+</blockquote>
+<hr>
+<h3 id="카드-유형별-글자수-라인수-정의" data-spy-id="카드-유형별-글자수-라인수-정의" data-spy-section="rcs-연동-규격">카드 유형별 글자수 / 라인수 정의</h3>
+<ul>
+<li><strong>글자 수</strong>: 1줄당 정상적으로 표현 가능한 글자 수, 한글 '가' 기준 측정</li>
+<li><strong>줄(라인) 수</strong>: expand 없이 메시지 버블 최대 크기에서 표현 가능한 description 줄 수</li>
+</ul>
+<h4 id="lms-standalone-no-media" data-spy-id="lms-standalone-no-media" data-spy-section="rcs-연동-규격">LMS (Standalone, No media)</h4>
+<p><strong>[글자 수]</strong></p>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>항목</th>
+<th>타이틀</th>
+<th>디스크립션</th>
+<th>버튼명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>글자 수</td>
+<td>16</td>
+<td>18</td>
+<td>17</td>
+</tr>
+</tbody>
+</table></div><p><strong>[줄 수 (접혀있는 경우)]</strong></p>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>구성</th>
+<th>버튼 0개</th>
+<th>버튼 1개</th>
+<th>버튼 2개</th>
+<th>버튼 3개</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>디스크립션 only</td>
+<td>28</td>
+<td>26</td>
+<td>24</td>
+<td>22</td>
+</tr>
+<tr>
+<td>타이틀 1줄 + 디스크립션</td>
+<td>27</td>
+<td>25</td>
+<td>23</td>
+<td>20</td>
+</tr>
+<tr>
+<td>타이틀 2줄 + 디스크립션</td>
+<td>26</td>
+<td>23</td>
+<td>21</td>
+<td>19</td>
+</tr>
+</tbody>
+</table></div><h4 id="mms-standalone-media-top-—-세로형" data-spy-id="mms-standalone-media-top-—-세로형" data-spy-section="rcs-연동-규격">MMS (Standalone Media Top — 세로형)</h4>
+<p><strong>[글자 수]</strong></p>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>항목</th>
+<th>타이틀</th>
+<th>디스크립션</th>
+<th>버튼명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>글자 수</td>
+<td>16</td>
+<td>18</td>
+<td>17</td>
+</tr>
+</tbody>
+</table></div><p><strong>[줄 수 (Media Tall 인 경우, 접혀있는 경우)]</strong></p>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>구성</th>
+<th>버튼 0개</th>
+<th>버튼 1개</th>
+<th>버튼 2개</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>디스크립션 only</td>
+<td>9</td>
+<td>8</td>
+<td>6</td>
+</tr>
+<tr>
+<td>타이틀 1줄 + 디스크립션</td>
+<td>8</td>
+<td>6</td>
+<td>4</td>
+</tr>
+<tr>
+<td>타이틀 2줄 + 디스크립션</td>
+<td>7</td>
+<td>5</td>
+<td>3</td>
+</tr>
+</tbody>
+</table></div><p><strong>[줄 수 (Media Medium 인 경우, 접혀있는 경우)]</strong></p>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>구성</th>
+<th>버튼 0개</th>
+<th>버튼 1개</th>
+<th>버튼 2개</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>디스크립션 only</td>
+<td>15</td>
+<td>13</td>
+<td>11</td>
+</tr>
+<tr>
+<td>타이틀 1줄 + 디스크립션</td>
+<td>14</td>
+<td>12</td>
+<td>10</td>
+</tr>
+<tr>
+<td>타이틀 2줄 + 디스크립션</td>
+<td>13</td>
+<td>11</td>
+<td>9</td>
+</tr>
+</tbody>
+</table></div><h4 id="mms-carousel-medium-—-슬라이드형" data-spy-id="mms-carousel-medium-—-슬라이드형" data-spy-section="rcs-연동-규격">MMS (Carousel Medium — 슬라이드형)</h4>
+<p><strong>[글자 수]</strong></p>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>항목</th>
+<th>타이틀</th>
+<th>디스크립션</th>
+<th>버튼명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>글자 수</td>
+<td>13</td>
+<td>14</td>
+<td>13</td>
+</tr>
+</tbody>
+</table></div><p><strong>[줄 수 (Media 없는 경우, RCS A2P 단말 기준)]</strong></p>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>구성</th>
+<th>버튼 0개</th>
+<th>버튼 1개</th>
+<th>버튼 2개</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>디스크립션 only</td>
+<td>28</td>
+<td>26</td>
+<td>23</td>
+</tr>
+<tr>
+<td>타이틀 1줄 + 디스크립션</td>
+<td>27</td>
+<td>25</td>
+<td>23</td>
+</tr>
+<tr>
+<td>타이틀 2줄 + 디스크립션</td>
+<td>26</td>
+<td>23</td>
+<td>21</td>
+</tr>
+<tr>
+<td>타이틀 3줄 + 디스크립션</td>
+<td>24</td>
+<td>22</td>
+<td>20</td>
+</tr>
+</tbody>
+</table></div><p><strong>[줄 수 (Media Medium 인 경우, RCS A2P 단말 기준)]</strong></p>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>구성</th>
+<th>버튼 0개</th>
+<th>버튼 1개</th>
+<th>버튼 2개</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>디스크립션 only</td>
+<td>17</td>
+<td>15</td>
+<td>13</td>
+</tr>
+<tr>
+<td>타이틀 1줄 + 디스크립션</td>
+<td>16</td>
+<td>14</td>
+<td>12</td>
+</tr>
+<tr>
+<td>타이틀 2줄 + 디스크립션</td>
+<td>15</td>
+<td>13</td>
+<td>11</td>
+</tr>
+<tr>
+<td>타이틀 3줄 + 디스크립션</td>
+<td>14</td>
+<td>12</td>
+<td>10</td>
+</tr>
+</tbody>
+</table></div><h4 id="mms-carousel-small-—-슬라이드형" data-spy-id="mms-carousel-small-—-슬라이드형" data-spy-section="rcs-연동-규격">MMS (Carousel Small — 슬라이드형)</h4>
+<p><strong>[글자 수]</strong></p>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>항목</th>
+<th>타이틀</th>
+<th>디스크립션</th>
+<th>버튼명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>글자 수</td>
+<td>5</td>
+<td>6</td>
+<td>5</td>
+</tr>
+</tbody>
+</table></div><p><strong>[줄 수 (Media Short 인 경우, RCS A2P 단말 기준)]</strong></p>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>구성</th>
+<th>버튼 0개</th>
+<th>버튼 1개</th>
+<th>버튼 2개</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>디스크립션 only</td>
+<td>20</td>
+<td>18</td>
+<td>16</td>
+</tr>
+<tr>
+<td>타이틀 1줄 + 디스크립션</td>
+<td>19</td>
+<td>17</td>
+<td>15</td>
+</tr>
+<tr>
+<td>타이틀 2줄 + 디스크립션</td>
+<td>18</td>
+<td>16</td>
+<td>14</td>
+</tr>
+<tr>
+<td>타이틀 3줄 + 디스크립션</td>
+<td>17</td>
+<td>15</td>
+<td>13</td>
+</tr>
+<tr>
+<td>타이틀 4줄 + 디스크립션</td>
+<td>16</td>
+<td>14</td>
+<td>12</td>
+</tr>
+<tr>
+<td>타이틀 5줄 + 디스크립션</td>
+<td>15</td>
+<td>13</td>
+<td>11</td>
+</tr>
+</tbody>
+</table></div><hr>
+<h3 id="통합-rcs" data-spy-id="통합-rcs" data-spy-section="rcs-연동-규격">통합 RCS</h3>
+<p>통합 RCS 는 단말 제조사 상관없이 국내 이통 3사에서 제공하는 RCS 표준 규격입니다.
+(안드로이드, iOS 26 버전 이상 지원)</p>
+<h4 id="안드로이드-rcs-와-통합-rcs-공통점" data-spy-id="안드로이드-rcs-와-통합-rcs-공통점" data-spy-section="rcs-연동-규격">안드로이드 RCS 와 통합 RCS 공통점</h4>
+<ul>
+<li>동일한 상품 타입 및 발송 변수 이용</li>
+</ul>
+<h4 id="안드로이드-rcs-와-통합-rcs-차이점" data-spy-id="안드로이드-rcs-와-통합-rcs-차이점" data-spy-section="rcs-연동-규격">안드로이드 RCS 와 통합 RCS 차이점</h4>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>구분</th>
+<th>(기존) 안드로이드 RCS</th>
+<th>통합 RCS</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>수신 가능 단말</td>
+<td>안드로이드 채팅+ 지원 단말 (예: 삼성 갤럭시)</td>
+<td>국내 이통사와 RCS 연동된 모든 단말<br>* 애플 단말기 iOS 26 이상<br>* 안드로이드 10(Q-OS 버전) 이상</td>
+</tr>
+<tr>
+<td>(광고) 표기</td>
+<td><code>BIZ_RCS.HEADER</code> 로 (광고) 표기 설정</td>
+<td>메시지 타이틀 혹은 본문에 직접 표기하여 메시지 발송 (글자수에 포함)</td>
+</tr>
+<tr>
+<td>무료수신거부 표기</td>
+<td><code>BIZ_RCS.FOOTER</code> 로 표기 설정</td>
+<td>메시지 본문 끝에 직접 표기하여 메시지 발송 (글자수에 포함됨)</td>
+</tr>
+<tr>
+<td>CopyAllowed</td>
+<td>지원 — 메시지별 사용자 복사 가능 여부 설정 가능</td>
+<td>미지원 — 단말 정책에 따라 복사 기능 제공됨</td>
+</tr>
+<tr>
+<td>KISA 안심마크 (확인된 발신번호)</td>
+<td>삼성 단말에 한하여 표시</td>
+<td>삼성 단말에 한하여 표시</td>
+</tr>
+<tr>
+<td>대화방 메뉴</td>
+<td>지원</td>
+<td>삼성 단말에 한하여 제공, 연내 타 제조사 확대 예정</td>
+</tr>
+<tr>
+<td>오픈리치카드</td>
+<td>지원</td>
+<td>미지원</td>
+</tr>
+</tbody>
+</table></div><h4 id="통합-rcs-—-messagebaseid" data-spy-id="통합-rcs-—-messagebaseid" data-spy-section="rcs-연동-규격">통합 RCS — MESSAGEBASE_ID</h4>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>MESSAGEBASE_ID</th>
+<th>상품</th>
+<th>유형명</th>
+<th>최대 버튼 수</th>
+<th>최대 본문 글자 수</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>RPSSAXX001</code></td>
+<td>RCS SMS</td>
+<td>통합 SMS 카드</td>
+<td>1</td>
+<td>100</td>
+</tr>
+<tr>
+<td><code>RPLSAXX001</code></td>
+<td>RCS LMS</td>
+<td>통합 LMS 카드</td>
+<td>3</td>
+<td>1300</td>
+</tr>
+<tr>
+<td><code>RPMSMMX001</code></td>
+<td>RCS MMS</td>
+<td>통합 MMS 카드 M</td>
+<td>2</td>
+<td>1300</td>
+</tr>
+<tr>
+<td><code>RPMSMTX001</code></td>
+<td>RCS MMS</td>
+<td>통합 MMS 카드 T</td>
+<td>2</td>
+<td>1300</td>
+</tr>
+<tr>
+<td>브랜드별 자동 발급*</td>
+<td>텍스트 템플릿</td>
+<td>통합 프리 템플릿</td>
+<td>-</td>
+<td>90</td>
+</tr>
+<tr>
+<td>템플릿 등록 필요</td>
+<td>텍스트 템플릿</td>
+<td>통합 정보성 템플릿</td>
+<td>-</td>
+<td>90</td>
+</tr>
+<tr>
+<td>템플릿 등록 필요</td>
+<td>이미지 템플릿</td>
+<td>통합 이미지 템플릿 M</td>
+<td>-</td>
+<td>500</td>
+</tr>
+<tr>
+<td>템플릿 등록 필요</td>
+<td>이미지 템플릿</td>
+<td>통합 이미지 템플릿 T</td>
+<td>-</td>
+<td>500</td>
+</tr>
+</tbody>
+</table></div><blockquote>
+<p><strong>* 프리템플릿</strong></p>
+<ul>
+<li>브랜드마다 &quot;통합 프리 템플릿&quot; 1개가 자동 발급됩니다. (기존 발급된 프리 템플릿은 2026년 7월 31일까지 동시 이용 가능)</li>
+<li>사전 등록 없이 자동 발급되는 정보성 템플릿입니다. 각 브랜드의 통합 프리 템플릿 <code>messagebase ID</code> 는 RBC 접속하여 템플릿 목록에서 확인할 수 있습니다.</li>
+</ul>
+</blockquote>
+<h4 id="통합-rcs-기본-정보-안드로이드-rcs-와의-분기" data-spy-id="통합-rcs-기본-정보-안드로이드-rcs-와의-분기" data-spy-section="rcs-연동-규격">통합 RCS 기본 정보 (안드로이드 RCS 와의 분기)</h4>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>키</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>HEADER</code></td>
+<td><code>&quot;0&quot;</code>만 허용, <code>&quot;1&quot;</code> 입력 시 실패 처리됨. &quot;(광고)&quot; 표시 기능 지원되지 않음</td>
+</tr>
+<tr>
+<td><code>FOOTER</code></td>
+<td>사용하지 않는 값입니다.</td>
+</tr>
+<tr>
+<td><code>COPY_ALLOWED</code></td>
+<td>사용하지 않는 값입니다.</td>
+</tr>
+<tr>
+<td><code>title</code> (RCS_BODY)</td>
+<td>광고 메시지인 경우 &quot;(광고)&quot; 표기</td>
+</tr>
+<tr>
+<td><code>description</code> (RCS_BODY)</td>
+<td>광고 메시지인 경우 본문 끝에 무료수신거부 방식 표기 필요</td>
+</tr>
+</tbody>
+</table></div><h3 id="rcsbody-규격-messagebase-치환-파라미터" data-spy-id="rcsbody-규격-messagebase-치환-파라미터" data-spy-section="rcs-연동-규격">RCS_BODY 규격 (MESSAGEBASE 치환 파라미터)</h3>
+<p><code>RCS_BODY</code> 는 사용하는 <code>MESSAGEBASE_ID</code>(메시지 포맷)의 유형에 따라 입력 키가 달라집니다. 모든 값은 <code>string</code> 타입입니다.</p>
+<h4 id="1-리치카드-넘버링형-신규-mms-제외" data-spy-id="1-리치카드-넘버링형-신규-mms-제외" data-spy-section="rcs-연동-규격">1. 리치카드 넘버링형 (신규 MMS 제외)</h4>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>키</th>
+<th>필수</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>media</code></td>
+<td>N</td>
+<td>main 첨부파일</td>
+</tr>
+<tr>
+<td><code>title</code></td>
+<td>N</td>
+<td>main 제목</td>
+</tr>
+<tr>
+<td><code>description</code></td>
+<td>N</td>
+<td>main 내용</td>
+</tr>
+<tr>
+<td><code>title1</code></td>
+<td>N</td>
+<td>1번째 카드 제목</td>
+</tr>
+<tr>
+<td><code>description1</code></td>
+<td>N</td>
+<td>1번째 카드 본문 텍스트</td>
+</tr>
+<tr>
+<td><code>media1</code></td>
+<td>N</td>
+<td>1번째 카드 첨부파일</td>
+</tr>
+</tbody>
+</table></div><blockquote>
+<p>리치카드 개수·순서에 따라 넘버링합니다 (<code>title1</code>, <code>title2</code> …).</p>
+</blockquote>
+<h4 id="2-이미지-타이틀-강조형-신규-mms-·-이미지-템플릿" data-spy-id="2-이미지-타이틀-강조형-신규-mms-·-이미지-템플릿" data-spy-section="rcs-연동-규격">2. 이미지 &amp; 타이틀 강조형 (신규 MMS · 이미지 템플릿)</h4>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>키</th>
+<th>필수</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>media</code></td>
+<td>Y</td>
+<td>이미지 (*이미지 템플릿 발송 시 불필요)</td>
+</tr>
+<tr>
+<td><code>mediaUrl</code></td>
+<td>N</td>
+<td>이미지 클릭 시 랜딩 URL</td>
+</tr>
+<tr>
+<td><code>title</code></td>
+<td>N</td>
+<td>제목</td>
+</tr>
+<tr>
+<td><code>subTitle1</code></td>
+<td>Y</td>
+<td>소제목 1</td>
+</tr>
+<tr>
+<td><code>subDesc1</code></td>
+<td>Y</td>
+<td>소본문 1</td>
+</tr>
+</tbody>
+</table></div><h4 id="3-이미지-강조형-·-sns형-신규-mms-·-이미지-템플릿" data-spy-id="3-이미지-강조형-·-sns형-신규-mms-·-이미지-템플릿" data-spy-section="rcs-연동-규격">3. 이미지 강조형 · SNS형 (신규 MMS · 이미지 템플릿)</h4>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>키</th>
+<th>필수</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>media</code></td>
+<td>Y</td>
+<td>이미지 (*이미지 템플릿 발송 시 불필요)</td>
+</tr>
+<tr>
+<td><code>mediaUrl</code></td>
+<td>N</td>
+<td>이미지 클릭 시 랜딩 URL</td>
+</tr>
+<tr>
+<td><code>title</code></td>
+<td>N</td>
+<td>제목</td>
+</tr>
+<tr>
+<td><code>description</code></td>
+<td>Y</td>
+<td>본문</td>
+</tr>
+</tbody>
+</table></div><h4 id="4-썸네일형-세로-신규-mms-·-이미지-템플릿" data-spy-id="4-썸네일형-세로-신규-mms-·-이미지-템플릿" data-spy-section="rcs-연동-규격">4. 썸네일형 (세로) (신규 MMS · 이미지 템플릿)</h4>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>키</th>
+<th>필수</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>media</code></td>
+<td>Y</td>
+<td>main 첨부파일 (*이미지 템플릿 발송 시 불필요)</td>
+</tr>
+<tr>
+<td><code>mediaUrl</code></td>
+<td>N</td>
+<td>이미지 클릭 시 랜딩 URL</td>
+</tr>
+<tr>
+<td><code>title</code></td>
+<td>N</td>
+<td>제목</td>
+</tr>
+<tr>
+<td><code>description</code></td>
+<td>N</td>
+<td>본문</td>
+</tr>
+<tr>
+<td><code>subMedia1</code></td>
+<td>Y</td>
+<td>서브 이미지 1</td>
+</tr>
+<tr>
+<td><code>subMediaUrl1</code></td>
+<td>N</td>
+<td>서브 이미지 1 클릭 시 랜딩 URL</td>
+</tr>
+<tr>
+<td><code>subDesc1</code></td>
+<td>Y</td>
+<td>소본문 1</td>
+</tr>
+</tbody>
+</table></div><blockquote>
+<p>리치카드 개수·순서에 따라 넘버링합니다 (<code>subMedia1</code>, <code>subMedia2</code> …).</p>
+</blockquote>
+<h4 id="5-썸네일형-가로-신규-mms-·-이미지-템플릿" data-spy-id="5-썸네일형-가로-신규-mms-·-이미지-템플릿" data-spy-section="rcs-연동-규격">5. 썸네일형 (가로) (신규 MMS · 이미지 템플릿)</h4>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>키</th>
+<th>필수</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>media</code></td>
+<td>Y</td>
+<td>main 첨부파일 (*이미지 템플릿 발송 시 불필요)</td>
+</tr>
+<tr>
+<td><code>mediaUrl</code></td>
+<td>N</td>
+<td>이미지 클릭 시 랜딩 URL</td>
+</tr>
+<tr>
+<td><code>title</code></td>
+<td>N</td>
+<td>제목</td>
+</tr>
+<tr>
+<td><code>description</code></td>
+<td>N</td>
+<td>본문</td>
+</tr>
+<tr>
+<td><code>subMedia1</code></td>
+<td>Y</td>
+<td>서브 이미지 1</td>
+</tr>
+<tr>
+<td><code>subMediaUrl1</code></td>
+<td>N</td>
+<td>서브 이미지 1 클릭 시 랜딩 URL</td>
+</tr>
+</tbody>
+</table></div><h4 id="rcsbody-넘버링-규칙" data-spy-id="rcsbody-넘버링-규칙" data-spy-section="rcs-연동-규격">RCS_BODY 넘버링 규칙</h4>
+<p>카드가 1개면 넘버 없이, 2개 이상이면 카드 순서대로 <code>1</code>, <code>2</code> … 를 키 뒤에 붙입니다.</p>
+<pre><code class="language-json">// 카드 1개
+{
+  &quot;title&quot;: &quot;카드&quot;,
+  &quot;media&quot;: &quot;등록된 이미지 URL&quot;,
+  &quot;description&quot;: &quot;안녕하세요!&quot;
+}
+</code></pre>
+<pre><code class="language-json">// 카드 2개 이상
+{
+  &quot;title1&quot;: &quot;카드&quot;,
+  &quot;media1&quot;: &quot;등록된 이미지 URL&quot;,
+  &quot;description1&quot;: &quot;안녕하세요!&quot;,
+  &quot;title2&quot;: &quot;카드2&quot;,
+  &quot;media2&quot;: &quot;등록된 이미지 URL&quot;,
+  &quot;description2&quot;: &quot;안녕하세요!&quot;
+}
+</code></pre>
+<p>통합 RCS LMS (<code>MESSAGEBASE_ID = RPLSAXX001</code>) 예시:</p>
+<pre><code class="language-json">{
+  &quot;title&quot;: &quot;줄바꿈 없는 14자 권장, 최대 30자&quot;,
+  &quot;description&quot;: &quot;(광고)\n안녕하세요! RCS LMS\n무료 수신 거부 080-1234-5678&quot;
+}
+</code></pre>
+<h3 id="media-종류" data-spy-id="media-종류" data-spy-section="rcs-연동-규격">media 종류</h3>
+<h4 id="1-이미지" data-spy-id="1-이미지" data-spy-section="rcs-연동-규격">1. 이미지</h4>
+<p>비즈뿌리오 사이트 <code>[메시지관리] – [RCS 관리] – [RCS 이미지 관리]</code> 에서 등록한 이미지를 사용합니다.
+이미지는 <strong>등록일로부터 365일간 발송 가능</strong>하며 이후 자동 삭제됩니다.</p>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>항목</th>
+<th>값</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>포맷</td>
+<td><code>maapfile://{fileId}</code></td>
+</tr>
+<tr>
+<td>예시</td>
+<td><code>&quot;media&quot;: &quot;maapfile://...&quot;</code></td>
+</tr>
+</tbody>
+</table></div><h4 id="2-동영상-스트리밍" data-spy-id="2-동영상-스트리밍" data-spy-section="rcs-연동-규격">2. 동영상 스트리밍</h4>
+<ul>
+<li>3가지 형태의 YouTube URL 주소를 지원하며, <strong>정확한 형식을 준수해야</strong> 합니다 (일부만 일치하면 실패).</li>
+<li>동영상 썸네일은 등록된 이미지만 사용 가능하며, YouTube URL 뒤에 콤마(<code>,</code>)와 함께 입력합니다. <strong>콤마 외 공백을 포함하면 실패</strong>합니다.</li>
+<li>동영상 발송 시 Footer 에 <code>동영상 재생 시 데이터 요금제가 적용됩니다.</code> 문구가 자동 삽입됩니다.</li>
+</ul>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>항목</th>
+<th>값</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>포맷</td>
+<td><code>https://www.youtube.com/watch?v=[videoId],maapfile://{썸네일 fileId}</code></td>
+</tr>
+<tr>
+<td>포맷</td>
+<td><code>https://youtu.be/[videoId],maapfile://{썸네일 fileId}</code></td>
+</tr>
+<tr>
+<td>포맷</td>
+<td><code>https://m.youtube.com/watch?v=[videoId],maapfile://{썸네일 fileId}</code></td>
+</tr>
+<tr>
+<td>예시</td>
+<td><code>&quot;media1&quot;: &quot;https://www.youtube.com/watch?v=...,maapfile://...&quot;</code></td>
+</tr>
+</tbody>
+</table></div><h3 id="buttons-구조-rcs-버튼" data-spy-id="buttons-구조-rcs-버튼" data-spy-section="rcs-연동-규격">BUTTONS 구조 (RCS + 버튼)</h3>
+<p>RCS 에 버튼 링크를 추가할 경우 <code>BIZ_RCS.BUTTONS</code> 필드에 아래 JSON 구조로 입력합니다.</p>
+<blockquote>
+<p>ℹ️ 외부 컬럼 키는 <strong>대문자</strong> <code>BUTTONS</code> 이지만, JSON 내부 키는 <strong>소문자</strong> <code>suggestions</code> / <code>action</code> 을 사용합니다 (JSON KEY 대소문자 구분).</p>
+</blockquote>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>단계</th>
+<th>키</th>
+<th>타입</th>
+<th>필수</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>BUTTONS</td>
+<td><code>suggestions</code></td>
+<td>Array</td>
+<td>N</td>
+<td>버튼 묶음</td>
+</tr>
+<tr>
+<td>suggestions</td>
+<td><code>action</code></td>
+<td>Object</td>
+<td>Y</td>
+<td>버튼 동작</td>
+</tr>
+<tr>
+<td>action</td>
+<td><code>[Action 타입]</code></td>
+<td>Object</td>
+<td>Y</td>
+<td>아래 Action 타입 중 하나</td>
+</tr>
+<tr>
+<td>action</td>
+<td><code>displayText</code></td>
+<td>text</td>
+<td>Y</td>
+<td>버튼에 출력될 텍스트</td>
+</tr>
+<tr>
+<td>action</td>
+<td><code>postback</code></td>
+<td>Object</td>
+<td>N</td>
+<td>콜백 데이터</td>
+</tr>
+<tr>
+<td>postback</td>
+<td><code>data</code></td>
+<td>text</td>
+<td>Y</td>
+<td>postback 데이터</td>
+</tr>
+</tbody>
+</table></div><h4 id="action-타입" data-spy-id="action-타입" data-spy-section="rcs-연동-규격">Action 타입</h4>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>#</th>
+<th>Action</th>
+<th>동작</th>
+<th>중첩 필드</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><code>urlAction</code></td>
+<td>URL 연결하기</td>
+<td><code>openUrl</code> → <code>url</code></td>
+</tr>
+<tr>
+<td>2</td>
+<td><code>dialerAction</code></td>
+<td>전화 연결하기</td>
+<td><code>dialPhoneNumber</code> → <code>phoneNumber</code></td>
+</tr>
+<tr>
+<td>3</td>
+<td><code>mapAction</code></td>
+<td>지도 보여주기</td>
+<td><code>showLocation</code> → <code>location</code>(<code>query</code> / <code>latitude</code> / <code>longitude</code> / <code>label</code>), <code>fallbackUrl</code></td>
+</tr>
+<tr>
+<td>4</td>
+<td><code>mapAction</code></td>
+<td>현재 위치 공유하기</td>
+<td><code>requestLocationPush</code></td>
+</tr>
+<tr>
+<td>5</td>
+<td><code>calendarAction</code></td>
+<td>캘린더 등록</td>
+<td><code>createCalendarEvent</code> → <code>startTime</code> / <code>endTime</code> / <code>title</code> / <code>description</code></td>
+</tr>
+<tr>
+<td>6</td>
+<td><code>composeAction</code></td>
+<td>메시지 전송</td>
+<td><code>composeTextMessage</code> → <code>phoneNumber</code> / <code>text</code></td>
+</tr>
+<tr>
+<td>7</td>
+<td><code>clipboardAction</code></td>
+<td>복사하기</td>
+<td><code>copyToClipboard</code> → <code>text</code></td>
+</tr>
+</tbody>
+</table></div><h4 id="buttons-카드-패딩-규칙" data-spy-id="buttons-카드-패딩-규칙" data-spy-section="rcs-연동-규격">BUTTONS 카드 패딩 규칙</h4>
+<p><code>BUTTONS</code> 배열은 <strong>카드 수만큼</strong> 요소를 가집니다. 버튼이 없는 카드는 빈 객체 <code>{}</code> 로 패딩합니다.
+예) 카드 3장에 버튼이 각각 2개 / 0개 / 1개인 경우:</p>
+<pre><code class="language-json">{
+  &quot;buttons&quot;: [
+    { &quot;suggestions&quot;: [
+        { &quot;action&quot;: {
+            &quot;urlAction&quot;: { &quot;openUrl&quot;: { &quot;url&quot;: &quot;https://...&quot; } },
+            &quot;displayText&quot;: &quot;Open website or deep link&quot;,
+            &quot;postback&quot;: { &quot;data&quot;: &quot;set_by_chatbot_open_url&quot; }
+        }},
+        { &quot;action&quot;: {
+            &quot;urlAction&quot;: { &quot;openUrl&quot;: { &quot;url&quot;: &quot;https://...&quot; } },
+            &quot;displayText&quot;: &quot;Open website or deep link&quot;,
+            &quot;postback&quot;: { &quot;data&quot;: &quot;set_by_chatbot_open_url_2&quot; }
+        }}
+    ]},
+    {},
+    { &quot;suggestions&quot;: [
+        { &quot;action&quot;: {
+            &quot;urlAction&quot;: { &quot;openUrl&quot;: { &quot;url&quot;: &quot;https://...&quot; } },
+            &quot;displayText&quot;: &quot;Open website or deep link&quot;,
+            &quot;postback&quot;: { &quot;data&quot;: &quot;set_by_chatbot_open_url_2&quot; }
+        }}
+    ]}
+  ]
+}
+</code></pre>
+1d:T6625,<p>BIZCLIENT 운영 가이드 — 대체발송 / 지원 가능한 첨부파일 타입 / 운영 설정 옵션.</p>
+<h2 id="대체발송" data-spy-id="대체발송" data-spy-section="가이드">대체발송</h2>
+<p><strong>BIZCLIENT 대체 발송 쿼리</strong> — AT/BT + 1·2차 대체 발송 / RCS + 1·2차 대체 발송 INSERT 예제</p>
+<p>발송 실패 시 다른 채널로 자동 전환. <code>RE_TYPE</code> 코드 정의는 <a href="/bizclient#용어">발송 용어 — 대체발송타입</a> 참고.</p>
+<blockquote>
+<p>⚠️ 대체 발송을 사용하려면 비즈뿌리오 ID 가 <strong>대체 발송 사용 가능</strong> 으로 설정되어 있어야 합니다.</p>
+</blockquote>
+<h3 id="매핑-키-동작" data-spy-id="매핑-키-동작" data-spy-section="가이드">매핑 키 동작</h3>
+<p>대체 발송이 이루어진 경우 BIZCLIENT 는 결과 리포트 업데이트 시점에 대체 발송 정보를 <strong>추가 레코드</strong> 로 신규 생성:</p>
+<ul>
+<li>원본 메시지의 <code>UMID</code> ↔ 1차 대체 발송의 <code>CMID</code></li>
+<li>2차 대체가 있는 경우: <code>UMID</code> 앞에 <code>RE_</code> 가 추가된 문자열이 2차 대체의 <code>CMID</code> (1차 대체의 <code>UMID</code> 도 같은 값)</li>
+</ul>
+<h3 id="sms-mms-대체-—-본문-동작" data-spy-id="sms-mms-대체-—-본문-동작" data-spy-section="가이드">SMS / MMS 대체 — 본문 동작</h3>
+<ul>
+<li><code>RE_BODY</code> 를 비워두면 원본 <code>MSG_BODY</code> 가 그대로 사용됨</li>
+<li>단, <strong>SMS 대체</strong> 의 경우 <code>MSG_BODY</code> 길이가 SMS 허용 길이(90바이트) 를 초과하면 발송되지 않음</li>
+</ul>
+<h3 id="atbt-1차-대체-발송" data-spy-id="atbt-1차-대체-발송" data-spy-section="가이드">AT/BT + 1차 대체 발송</h3>
+<p><strong>AT + SMS 대체</strong></p>
+<pre><code class="language-sql">INSERT INTO biz_msg (
+  MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME,
+  DEST_PHONE, SEND_PHONE,
+  MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE,
+  RE_TYPE, RE_BODY
+) VALUES (
+  6, '201XXXXXXXXX', NOW(), NOW(),
+  '01012345678', '0212341234',
+  '박다우 고객님 다우기술 비즈메시지 프로모션에 당첨 되었습니다.',
+  '{템플릿코드}', '{발신프로필키}', '82',
+  'SMS', '[다우기술] 응모하신 프로모션에 당첨되셨습니다.'
+);
+</code></pre>
+<p><strong>AT + MMS 대체</strong></p>
+<pre><code class="language-sql">INSERT INTO biz_msg (
+  MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME,
+  DEST_PHONE, SEND_PHONE,
+  MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE,
+  RE_TYPE, RE_BODY, ATTACHED_FILE
+) VALUES (
+  6, '201XXXXXXXXX', NOW(), NOW(),
+  '01012345678', '0212341234',
+  '박다우 고객님 다우기술 비즈메시지 프로모션에 당첨 되었습니다.',
+  '{템플릿코드}', '{발신프로필키}', '82',
+  'MMS', '[다우기술] 응모하신 프로모션에 당첨되셨습니다.', '{첨부파일명.jpg}'
+);
+</code></pre>
+<p><strong>AT + RCS 대체</strong> — <code>BIZ_RCS</code> 에 미리 등록된 RCS 메시지의 <code>REFKEY</code> 를 <code>RCS_REFKEY</code> 로 연결.</p>
+<pre><code class="language-sql">INSERT INTO biz_msg (
+  MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME,
+  DEST_PHONE, SEND_PHONE,
+  MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE,
+  RE_TYPE, RCS_REFKEY
+) VALUES (
+  6, '201XXXXXXXXX', NOW(), NOW(),
+  '01012345678', '0212341234',
+  '박다우 고객님 다우기술 비즈메시지 프로모션에 당첨 되었습니다.',
+  '{템플릿코드}', '{발신프로필키}', '82',
+  'R', '{RCS_REFKEY}'
+);
+</code></pre>
+<p>BT 의 1차 대체도 위 패턴과 동일하며, <code>MSG_TYPE</code> 만 9(BT) 로 변경.</p>
+<h3 id="atbt-2차-대체-발송" data-spy-id="atbt-2차-대체-발송" data-spy-section="가이드">AT/BT + 2차 대체 발송</h3>
+<p>1차 대체가 RCS 이고, RCS 도 실패할 경우 2차 대체로 SMS 또는 MMS 발송.</p>
+<p><strong>AT + RCS(1차) + SMS(2차)</strong></p>
+<pre><code class="language-sql">INSERT INTO biz_msg (
+  MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME,
+  DEST_PHONE, SEND_PHONE,
+  MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE,
+  RE_TYPE, RE_BODY, RCS_REFKEY
+) VALUES (
+  6, '201XXXXXXXXX', NOW(), NOW(),
+  '01012345678', '0212341234',
+  '박다우 고객님 다우기술 비즈메시지 프로모션에 당첨 되었습니다.',
+  '{템플릿코드}', '{발신프로필키}', '82',
+  'RS', '[다우기술] 응모하신 프로모션에 당첨되셨습니다.', '{RCS_REFKEY}'
+);
+</code></pre>
+<p><strong>AT + RCS(1차) + MMS(2차)</strong></p>
+<pre><code class="language-sql">INSERT INTO biz_msg (
+  MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME,
+  DEST_PHONE, SEND_PHONE,
+  MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE,
+  RE_TYPE, RE_BODY, ATTACHED_FILE, RCS_REFKEY
+) VALUES (
+  6, '201XXXXXXXXX', NOW(), NOW(),
+  '01012345678', '0212341234',
+  '박다우 고객님 다우기술 비즈메시지 프로모션에 당첨 되었습니다.',
+  '{템플릿코드}', '{발신프로필키}', '82',
+  'RM', '[다우기술] 응모하신 프로모션에 당첨되셨습니다.', '{첨부파일명.jpg}', '{RCS_REFKEY}'
+);
+</code></pre>
+<h3 id="rcs-1차-대체-발송" data-spy-id="rcs-1차-대체-발송" data-spy-section="가이드">RCS + 1차 대체 발송</h3>
+<p>RCS 발송 실패 시 SMS / MMS / AT / BT 중 하나로 대체.</p>
+<p><strong>RCS + SMS 대체</strong></p>
+<pre><code class="language-sql">INSERT INTO biz_msg (
+  MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME,
+  DEST_PHONE, SEND_PHONE,
+  RCS_REFKEY, RE_TYPE, RE_BODY
+) VALUES (
+  8, '201XXXXXXXXX', NOW(), NOW(),
+  '01012345678', '0212341234',
+  '{RCS_REFKEY}', 'SMS', '[다우기술] 응모하신 프로모션에 당첨되셨습니다.'
+);
+</code></pre>
+<p><strong>RCS + MMS 대체</strong></p>
+<pre><code class="language-sql">INSERT INTO biz_msg (
+  MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME,
+  DEST_PHONE, SEND_PHONE,
+  RCS_REFKEY, RE_TYPE, RE_BODY, ATTACHED_FILE
+) VALUES (
+  8, '201XXXXXXXXX', NOW(), NOW(),
+  '01012345678', '0212341234',
+  '{RCS_REFKEY}', 'MMS', '[다우기술] 응모하신 프로모션에 당첨되셨습니다.', '{첨부파일.jpg}'
+);
+</code></pre>
+<p><strong>RCS + AT 대체</strong> — 알림톡 대체 발송은 <code>MSG_BODY</code> 필드의 데이터를 사용.</p>
+<pre><code class="language-sql">INSERT INTO biz_msg (
+  MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME,
+  DEST_PHONE, SEND_PHONE,
+  MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE,
+  RE_TYPE, RCS_REFKEY
+) VALUES (
+  8, '201XXXXXXXXX', NOW(), NOW(),
+  '01012345678', '0212341234',
+  '박다우 고객님 다우기술 비즈메시지 프로모션에 당첨 되었습니다.',
+  '{템플릿코드}', '{발신프로필키}', '82',
+  'K', '{RCS_REFKEY}'
+);
+</code></pre>
+<p><strong>RCS + BT 대체</strong> — 브랜드 메시지 대체도 <code>MSG_BODY</code>·<code>TEMPLATE_CODE</code> 등 채널 필수 컬럼을 그대로 포함하며 <code>RE_TYPE = U</code>.</p>
+<pre><code class="language-sql">INSERT INTO biz_msg (
+  MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME,
+  DEST_PHONE, SEND_PHONE,
+  MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE,
+  RE_TYPE, RCS_REFKEY
+) VALUES (
+  8, '201XXXXXXXXX', NOW(), NOW(),
+  '01012345678', '0212341234',
+  '박다우 고객님 다우기술 비즈메시지 프로모션에 당첨 되었습니다.',
+  '{템플릿코드}', '{발신프로필키}', '82',
+  'U', '{RCS_REFKEY}'
+);
+</code></pre>
+<h3 id="rcs-2차-대체-발송" data-spy-id="rcs-2차-대체-발송" data-spy-section="가이드">RCS + 2차 대체 발송</h3>
+<p>RCS 발송 실패 시 1차로 AT/BT, 그것도 실패하면 2차로 SMS/MMS 발송. <code>RE_TYPE</code> 은 1차·2차 코드를 조합합니다 (<code>KS</code> = AT→SMS, <code>KM</code> = AT→MMS, <code>US</code> = BT→SMS, <code>UM</code> = BT→MMS).</p>
+<blockquote>
+<p>1차가 AT/BT 이므로 <strong><code>MSG_BODY</code> 에 1차(AT/BT) 본문</strong>, <strong><code>RE_BODY</code> 에 2차(SMS/MMS) 본문</strong>을 넣습니다. <code>TEMPLATE_CODE</code>·<code>SENDER_KEY</code>·<code>NATION_CODE</code> 등 1차 채널의 필수 컬럼을 모두 포함해야 합니다.</p>
+</blockquote>
+<p><strong>RCS + AT(1차) + SMS(2차)</strong> — <code>RE_TYPE = KS</code></p>
+<pre><code class="language-sql">INSERT INTO biz_msg (
+  MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME,
+  DEST_PHONE, SEND_PHONE, RCS_REFKEY, RE_TYPE,
+  MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_BODY
+) VALUES (
+  8, '201XXXXXXXXX', NOW(), NOW(),
+  '01012345678', '0212341234', '{RCS_REFKEY}', 'KS',
+  '박다우 고객님, 알림톡 대체 본문입니다.',
+  '{템플릿코드}', '{발신프로필키}', '82',
+  '[다우기술] SMS 2차 대체 본문입니다.'
+);
+</code></pre>
+<p><strong>RCS + AT(1차) + MMS(2차)</strong> — <code>RE_TYPE = KM</code></p>
+<pre><code class="language-sql">INSERT INTO biz_msg (
+  MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME,
+  DEST_PHONE, SEND_PHONE, RCS_REFKEY, RE_TYPE,
+  MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_BODY, ATTACHED_FILE
+) VALUES (
+  8, '201XXXXXXXXX', NOW(), NOW(),
+  '01012345678', '0212341234', '{RCS_REFKEY}', 'KM',
+  '박다우 고객님, 알림톡 대체 본문입니다.',
+  '{템플릿코드}', '{발신프로필키}', '82',
+  '[다우기술] MMS 2차 대체 본문입니다.', '{첨부파일명.jpg}'
+);
+</code></pre>
+<p><strong>RCS + BT(1차) + SMS(2차)</strong> — <code>RE_TYPE = US</code></p>
+<pre><code class="language-sql">INSERT INTO biz_msg (
+  MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME,
+  DEST_PHONE, SEND_PHONE, RCS_REFKEY, RE_TYPE,
+  MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_BODY
+) VALUES (
+  8, '201XXXXXXXXX', NOW(), NOW(),
+  '01012345678', '0212341234', '{RCS_REFKEY}', 'US',
+  '박다우 고객님, 브랜드 메시지 대체 본문입니다.',
+  '{템플릿코드}', '{발신프로필키}', '82',
+  '[다우기술] SMS 2차 대체 본문입니다.'
+);
+</code></pre>
+<p><strong>RCS + BT(1차) + MMS(2차)</strong> — <code>RE_TYPE = UM</code></p>
+<pre><code class="language-sql">INSERT INTO biz_msg (
+  MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME,
+  DEST_PHONE, SEND_PHONE, RCS_REFKEY, RE_TYPE,
+  MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_BODY, ATTACHED_FILE
+) VALUES (
+  8, '201XXXXXXXXX', NOW(), NOW(),
+  '01012345678', '0212341234', '{RCS_REFKEY}', 'UM',
+  '박다우 고객님, 브랜드 메시지 대체 본문입니다.',
+  '{템플릿코드}', '{발신프로필키}', '82',
+  '[다우기술] MMS 2차 대체 본문입니다.', '{첨부파일명.jpg}'
+);
+</code></pre>
+<p>전체 코드 매핑은 <a href="/bizclient#용어">발송 용어 — 대체발송타입</a> 표 참고.</p>
+<h2 id="지원-가능한-첨부파일-타입" data-spy-id="지원-가능한-첨부파일-타입" data-spy-section="가이드">지원 가능한 첨부파일 타입</h2>
+<p>메시지 타입별로 첨부 가능한 파일 형식입니다.</p>
+<h3 id="mms" data-spy-id="mms" data-spy-section="가이드">MMS</h3>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>구분</th>
+<th>지원 형식</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Image</td>
+<td><code>jpg</code></td>
+</tr>
+<tr>
+<td>Audio</td>
+<td><code>ma3</code></td>
+</tr>
+<tr>
+<td>Video</td>
+<td><code>k3g</code></td>
+</tr>
+</tbody>
+</table></div><blockquote>
+<p>Image 를 제외한 타입에 대해서는 전송은 되지만 일부 이동통신사 또는 단말기에서 지원하지 않을 수 있습니다.</p>
+</blockquote>
+<h3 id="at-bt" data-spy-id="at-bt" data-spy-section="가이드">AT / BT</h3>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>구분</th>
+<th>지원 형식</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Button / Image</td>
+<td><code>json</code></td>
+</tr>
+</tbody>
+</table></div><h3 id="phone" data-spy-id="phone" data-spy-section="가이드">PHONE</h3>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>구분</th>
+<th>지원 형식</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Voice</td>
+<td><code>wav</code> (8bit-8KHz mono 형식)</td>
+</tr>
+</tbody>
+</table></div><h3 id="fax" data-spy-id="fax" data-spy-section="가이드">FAX</h3>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>구분</th>
+<th>지원 형식</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Docs</td>
+<td><code>doc</code>, <code>docx</code>, <code>xls</code>, <code>xlsx</code>, <code>ppt</code>, <code>pptx</code>, <code>hwp</code>, <code>pdf</code>, <code>txt</code>, <code>html</code></td>
+</tr>
+<tr>
+<td>Image</td>
+<td><code>bmp</code>, <code>gif</code>, <code>jpg</code>, <code>png</code></td>
+</tr>
+</tbody>
+</table></div><h2 id="운영-설정-옵션" data-spy-id="운영-설정-옵션" data-spy-section="가이드">운영 설정 옵션</h2>
+<p><code>config/uds.conf</code> (및 <code>config/data/columns-{DBMS}.json</code>) 에서 설정하는 모듈 운영 옵션입니다.</p>
+<h3 id="db-데이터-복호화-—-dbdatadecryption" data-spy-id="db-데이터-복호화-—-dbdatadecryption" data-spy-section="가이드">DB 데이터 복호화 — <code>DB_DATA_DECRYPTION</code></h3>
+<p><code>BIZ_MSG.MSG_BODY</code> / <code>RE_BODY</code> 등 본문이 <strong>암호화 상태로 DB에 저장</strong>된 경우, 모듈이 복호화 후 발송하도록 설정합니다. 기본 대상 필드는 <code>MSG_BODY</code> 와 <code>RE_BODY</code> 입니다.</p>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>옵션</th>
+<th>값</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>DB_DATA_DECRYPTION</code></td>
+<td><code>A</code> (API)</td>
+<td>어플리케이션 단에서 AES 복호화</td>
+</tr>
+<tr>
+<td></td>
+<td><code>P</code> (PLUG-IN)</td>
+<td>DBMS 에 설치된 복호화 함수(모듈)로 복호화</td>
+</tr>
+<tr>
+<td></td>
+<td><code>N</code> (NONE)</td>
+<td>사용 안 함 (기본값)</td>
+</tr>
+<tr>
+<td><code>DB_DATA_DECRYPTION_FIELDS</code></td>
+<td>(필드 목록)</td>
+<td>복호화 대상 필드. 기본 <code>MSG_BODY|RE_BODY</code>, 복수는 <code>|</code> 로 구분</td>
+</tr>
+<tr>
+<td><code>USE_DECRYPTION_SEPARATION_FIELD</code></td>
+<td><code>Y</code> / <code>N</code></td>
+<td>복호화 구분 필드(<code>USE_DECRYPT</code>) 사용 여부. 기본 <code>Y</code></td>
+</tr>
+<tr>
+<td><code>DB_DATA_DECRYPTION_FUNCTION</code></td>
+<td>(함수명)</td>
+<td>PLUG-IN 방식 — 복호화 함수명</td>
+</tr>
+<tr>
+<td><code>DB_DATA_DECRYPTION_PARAMETER_COUNT</code></td>
+<td>(1~)</td>
+<td>PLUG-IN 함수 매개변수 개수. 기본 <code>1</code></td>
+</tr>
+<tr>
+<td><code>DB_DATA_DECRYPTION_PARAMETER_1~N</code></td>
+<td>(값)</td>
+<td>매개변수 — 복호화 대상 필드 위치를 비워두면 모듈이 자동 입력</td>
+</tr>
+<tr>
+<td><code>DB_DATA_DECRYPTION_KEY</code></td>
+<td>(키)</td>
+<td>API 방식 — AES 키. 모듈 정상 구동 시 자동 암호화되어 저장됨</td>
+</tr>
+</tbody>
+</table></div><p><strong>사용 예시 (PLUG-IN 방식)</strong></p>
+<pre><code class="language-text">DB_DATA_DECRYPTION = P
+DB_DATA_DECRYPTION_FIELDS = MSG_BODY|RE_BODY
+DB_DATA_DECRYPTION_FUNCTION = DECRYPT_FUNCTION
+DB_DATA_DECRYPTION_PARAMETER_COUNT = 3
+DB_DATA_DECRYPTION_PARAMETER_1 = 1
+DB_DATA_DECRYPTION_PARAMETER_2 = 'PHONE'
+DB_DATA_DECRYPTION_PARAMETER_3 =
+</code></pre>
+<p>→ 호출되는 SQL: <code>DECRYPT_FUNCTION(1, 'PHONE', MSG_BODY)</code> / <code>DECRYPT_FUNCTION(1, 'PHONE', RE_BODY)</code></p>
+<h3 id="백업-시-본문-길이만-보관-—-usebackuppersonaldataprocessing-yn" data-spy-id="백업-시-본문-길이만-보관-—-usebackuppersonaldataprocessing-yn" data-spy-section="가이드">백업 시 본문 길이만 보관 — <code>USE_BACKUP_PERSONAL_DATA_PROCESSING</code> (Y/N)</h3>
+<p>발송 완료 메시지가 메시지 테이블에서 로그 테이블로 이동할 때, <code>MSG_BODY</code> / <code>RE_BODY</code> 의 <strong>내용 대신 길이만 저장</strong>합니다 (개인정보 최소 보관).</p>
+<h3 id="첨부파일-관리-—-filehandlingmode" data-spy-id="첨부파일-관리-—-filehandlingmode" data-spy-section="가이드">첨부파일 관리 — <code>FILE_HANDLING_MODE</code></h3>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>값</th>
+<th>동작</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>0</code></td>
+<td>(기본값) 첨부파일 데이터를 <code>biz_msg</code> 에서 관리. <code>ATTACHED_FILE</code> 에 파일명, 여러 개는 <code>|</code> 로 구분</td>
+</tr>
+<tr>
+<td><code>1</code></td>
+<td><code>FILE_PATH1~FILE_PATH5</code> 컬럼(사용자 추가)으로 관리. 파일명을 포함한 전체 경로 입력</td>
+</tr>
+<tr>
+<td><code>2</code></td>
+<td><code>BIZ_ATTACHMENTS</code> 테이블로 관리. 데이터 타입 입력 필요, 여러 개는 동일 <code>MSG_KEY</code> 입력</td>
+</tr>
+</tbody>
+</table></div><p><code>FILE_HANDLING_MODE = 2</code> 의 데이터 타입: <code>FILE</code>(기본, 파일명) / <code>HTTP</code>(http·https URL) / <code>JSON</code>(알림톡·브랜드 메시지 버튼 정보 JSONString).</p>
+<p><code>FILE_HANDLING_MODE = 2</code> 사용 시 <code>biz_msg.ATTACHED_FILE</code> 에 <code>MSG_KEY</code> 를 넣고, 같은 키로 <code>BIZ_ATTACHMENTS</code> 테이블에 첨부 데이터를 등록합니다.</p>
+<pre><code class="language-sql">INSERT INTO biz_msg (
+  MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, SEND_PHONE,
+  MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE,
+  RE_TYPE, RE_BODY, ATTACHED_FILE
+) VALUES (
+  6, '201XXXXXXXXX', NOW(), NOW(), '01012341234', '0212341234',
+  '홍길동 고객님 다우기술 비즈메시지 프로모션에 당첨 되었습니다', '{템플릿코드}', '{발신프로필키}', '82',
+  'MMS', '[다우기술] 응모하신 프로모션에 당첨되었습니다.', 'msgKey1'
+);
+</code></pre>
+<p><code>BIZ_ATTACHMENTS</code> 테이블 — 동일 <code>MSG_KEY</code>(<code>msgKey1</code>) 로 첨부 데이터 등록:</p>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th><code>MSG_KEY</code></th>
+<th><code>SEQ</code></th>
+<th><code>TYPE</code></th>
+<th><code>CONTENTS</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>msgKey1</code></td>
+<td>1</td>
+<td><code>FILE</code></td>
+<td>파일명</td>
+</tr>
+<tr>
+<td><code>msgKey1</code></td>
+<td>2</td>
+<td><code>HTTP</code></td>
+<td><code>http://www.daou.co.kr/file/jpg.jpg</code></td>
+</tr>
+<tr>
+<td><code>msgKey1</code></td>
+<td>3</td>
+<td><code>JSON</code></td>
+<td>버튼 정보 JSON (아래)</td>
+</tr>
+</tbody>
+</table></div><pre><code class="language-json">{
+  &quot;button&quot;: [
+    { &quot;name&quot;: &quot;미리 주문하기&quot;, &quot;type&quot;: &quot;WL&quot;, &quot;url_mobile&quot;: &quot;http://www.bizppurio.com&quot; },
+    { &quot;name&quot;: &quot;상담원 연결하기&quot;, &quot;type&quot;: &quot;MD&quot; },
+    { &quot;name&quot;: &quot;발송 알림 설정 보기&quot;, &quot;type&quot;: &quot;AL&quot;, &quot;scheme_android&quot;: &quot;daumapps://open&quot;, &quot;scheme_ios&quot;: &quot;daumapps://open&quot; }
+  ]
+}
+</code></pre>
+<h3 id="첨부파일-경로-—-absolutepathoption-yn" data-spy-id="첨부파일-경로-—-absolutepathoption-yn" data-spy-section="가이드">첨부파일 경로 — <code>ABSOLUTE_PATH_OPTION</code> (Y/N)</h3>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>값</th>
+<th>동작</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>N</code></td>
+<td>(상대경로) 파일명만 입력하고 기본 경로 <code>./spool</code> 에 파일을 둔다</td>
+</tr>
+<tr>
+<td><code>Y</code></td>
+<td>(절대경로) 파일명을 포함한 전체 경로(예: <code>D:/img.jpg</code>)를 입력</td>
+</tr>
+</tbody>
+</table></div><h3 id="모듈-재구동-시-오래된-데이터-처리-—-sendvalidtime-01440-분" data-spy-id="모듈-재구동-시-오래된-데이터-처리-—-sendvalidtime-01440-분" data-spy-section="가이드">모듈 재구동 시 오래된 데이터 처리 — <code>SEND_VALID_TIME</code> (0~1440, 분)</h3>
+<p>모듈 재구동 / DB 세션 재연결 시 실패 처리할 발송 유효 시간 (대상: <code>SEND_TIME</code>).</p>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>값</th>
+<th>의미</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>0</code></td>
+<td>사용 안 함</td>
+</tr>
+<tr>
+<td><code>1~1440</code></td>
+<td>재구동 시점 기준 N분 지난 미발송 메시지 실패 처리 (결과코드 <code>9034</code>)</td>
+</tr>
+<tr>
+<td>기본값</td>
+<td><code>180</code> (3시간)</td>
+</tr>
+</tbody>
+</table></div><h3 id="잔존-메시지-처리" data-spy-id="잔존-메시지-처리" data-spy-section="가이드">잔존 메시지 처리</h3>
+<p>네트워크 장애·모듈 비정상 종료 등으로 백업되지 않고 메시지 테이블에 남은 메시지를, 서버에 결과 재요청하거나 실패 처리하여 백업 테이블로 이동시키는 옵션입니다. BATCH 스레드에서 5분 간격으로 동작합니다.</p>
+<blockquote>
+<p>⚠️ 사용 시 비즈 서버 통계와 고객사 DB 통계 간 불일치가 발생할 수 있습니다.</p>
+</blockquote>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>옵션</th>
+<th>기본값</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>REPORT_RECONFIRM_OPTION</code> (Y/N)</td>
+<td><code>N</code></td>
+<td><code>STATUS=1</code>(발송 후 대기)이고 발송 후 55시간(최대 리포트 타임아웃) 경과 메시지에 리포트 1회 재요청 후 <code>STATUS=3</code> 으로 변경. 3일 내 미수신 시 실패 처리 (결과코드 <code>9023</code>)</td>
+</tr>
+<tr>
+<td><code>REPORT_RECONFIRM_COUNT</code></td>
+<td><code>100</code></td>
+<td>재요청 대상 메시지 FETCH COUNT</td>
+</tr>
+<tr>
+<td><code>REMOVE_PRESEND_MSG_OPTION</code> (Y/N)</td>
+<td><code>N</code></td>
+<td><code>STATUS=7</code>(발송 중)이고 발송 후 3일(클라이언트 타임아웃) 경과 메시지를 실패 처리 (결과코드 <code>9037</code>)</td>
+</tr>
+<tr>
+<td><code>REMOVE_PRESEND_MSG_COUNT</code></td>
+<td><code>100</code></td>
+<td>처리 대상 메시지 FETCH COUNT</td>
+</tr>
+<tr>
+<td><code>WAIT_REPORT_HOUR</code></td>
+<td><code>55</code></td>
+<td>최대 리포트 타임아웃 시간 (최소 <code>55</code>)</td>
+</tr>
+<tr>
+<td><code>CLIENT_TIMEOUT_HOUR</code></td>
+<td><code>72</code></td>
+<td>클라이언트 타임아웃 시간 (최소 <code>56</code> = <code>WAIT_REPORT_HOUR + 1</code>)</td>
+</tr>
+</tbody>
+</table></div><h3 id="rcs-대행사-id-—-agencyid-bizclientv3000-이상" data-spy-id="rcs-대행사-id-—-agencyid-bizclientv3000-이상" data-spy-section="가이드">RCS 대행사 ID — <code>AGENCY_ID</code> (<code>biz_client_v3000</code> 이상)</h3>
+<p>RCS 발신번호(chatbotId)에 대한 발송 권한이 대행사에 있는지 체크하며, 권한이 없으면 발송 실패합니다. 다우기술 대행사 ID 는 <code>daoutech</code> 이며 미설정 시 기본값으로 적용됩니다.</p>
+<ul>
+<li><code>config/data/columns-{DBMS}.json</code> 의 RCS <code>BUTTONS</code> 컬럼 정보 아래 <code>AGENCY_ID</code> 컬럼 정보 추가</li>
+<li>기존 <code>BIZ_RCS</code> 테이블이 있으면 <code>AGENCY_ID VARCHAR(20)</code> 컬럼 추가</li>
+<li>모듈 재구동 후 <code>AGENCY_ID</code> 컬럼에 대행사 ID 를 입력하여 발송</li>
+</ul>
+<h3 id="최초-발신사업자-식별코드-—-resellercode-bizclientv3015-이상" data-spy-id="최초-발신사업자-식별코드-—-resellercode-bizclientv3015-이상" data-spy-section="가이드">최초 발신사업자 식별코드 — <code>RESELLERCODE</code> (<code>biz_client_v3015</code> 이상)</h3>
+<p>특수부가사업자 등록번호(숫자 9자리)를 의미합니다.</p>
+<ul>
+<li><code>USE_RESELLERCODE</code> (Y/N, 기본 <code>N</code>) 설정 시 메시지 발송에 식별코드를 포함하여 전송</li>
+<li>메시지/로그 테이블에 <code>RESELLERCODE VARCHAR(10)</code> 컬럼 추가 (신규 설치 시 옵션 설정 후 구동하면 자동 추가)</li>
+</ul>
+<h3 id="cmid-추가-문자-사용-bizclientv4000-이상" data-spy-id="cmid-추가-문자-사용-bizclientv4000-이상" data-spy-section="가이드">CMID 추가 문자 사용 (<code>biz_client_v4000</code> 이상)</h3>
+<p><code>CMID</code> 는 기본적으로 ASCII 범위 문자열만 입력 가능합니다.</p>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>값</th>
+<th>동작</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Y</code></td>
+<td>(기본값) ASCII 문자로 구성된 <code>CMID</code> 만 사용</td>
+</tr>
+<tr>
+<td><code>N</code></td>
+<td>ASCII 범위 외 한글·특수문자 포함 허용</td>
+</tr>
+</tbody>
+</table></div><blockquote>
+<p>⚠️ 허용되지 않는 <code>CMID</code> 입력 시 발송이 실패할 수 있습니다.</p>
+</blockquote>
+<h3 id="중복-발송-제한-—-duplicatesendingpolicy-bizclientv3016-이상" data-spy-id="중복-발송-제한-—-duplicatesendingpolicy-bizclientv3016-이상" data-spy-section="가이드">중복 발송 제한 — <code>DUPLICATE_SENDING_POLICY</code> (<code>biz_client_v3016</code> 이상)</h3>
+<p>BIZCLIENT는 동일 메시지의 의도치 않은 중복 발송을 차단합니다. 옵션은 <code>uds.conf</code> 에서 설정합니다.</p>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>옵션</th>
+<th>값</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>DUPLICATE_SENDING_POLICY</code></td>
+<td><code>0</code></td>
+<td>사용 안 함 (기본값)</td>
+</tr>
+<tr>
+<td></td>
+<td><code>1</code></td>
+<td>수신번호 기준으로 중복 차단</td>
+</tr>
+<tr>
+<td></td>
+<td><code>2</code></td>
+<td>수신번호 + 메시지 내용 기준으로 차단</td>
+</tr>
+<tr>
+<td><code>DUPLICATE_SENDING_MONIT_SECONDS</code></td>
+<td>30 ~ 60</td>
+<td>모니터링 시간 (초). 기본 30</td>
+</tr>
+<tr>
+<td><code>DUPLICATE_SENDING_ALLOW_COUNT</code></td>
+<td>1 이상</td>
+<td>모니터링 시간 내 허용 발송 수. 기본 1</td>
+</tr>
+</tbody>
+</table></div><ul>
+<li><strong>적용 채널</strong>: <code>SMS</code>, <code>LMS</code>, <code>MMS</code>, <code>AT</code>, <code>BT</code>, <code>RCS</code>. 버튼·첨부파일·대체 발송 본문은 비교하지 않습니다.</li>
+<li>차단된 메시지는 <code>CALL_STATUS = 9041</code> (중복 발송 차단) 로 기록됩니다.</li>
+</ul>
+<blockquote>
+<p>예) 사용자가 OTP 인증 버튼을 1초 내 3번 클릭 → <code>정책 = 2</code> + <code>ALLOW_COUNT = 1</code> 이면 1건만 발송되고 나머지 2건은 차단됩니다.</p>
+</blockquote>
+2:["$","div",null,{"className":"bp-page","data-screen-label":"BIZCLIENT","children":[["$","$Lb",null,{"active":"bizclient"}],["$","$Lc",null,{"service":{"code":"BIZCLIENT","name":"비즈뿌리오 BIZCLIENT","version":"v5.2.4"},"groups":[{"id":"공통-사항","name":"공통 사항","items":[]},{"id":"사전-준비","name":"사전 준비","items":[{"id":"사전-점검","title":"사전 점검"},{"id":"설치","title":"설치"},{"id":"연동","title":"연동"},{"id":"용어","title":"용어"}]},{"id":"quickstart-bizclient","name":"Quickstart BIZCLIENT","items":[]},{"id":"메시지-전송","name":"메시지 전송","items":[{"id":"post-bizclientbizmsgsms","title":"SMS","method":"post","verb":"sql"},{"id":"post-bizclientbizmsglms","title":"LMS","method":"post","verb":"sql"},{"id":"post-bizclientbizmsgmms","title":"MMS","method":"post","verb":"sql"},{"id":"post-bizclientbizmsgrcs","title":"RCS","method":"post","verb":"sql"},{"id":"post-bizclientbizmsgalimtalk","title":"카카오 알림톡","method":"post","verb":"sql"},{"id":"post-bizclientbizmsgbrand","title":"카카오 브랜드 메시지","method":"post","verb":"sql"},{"id":"post-bizclientbizmsgfax","title":"FAX","method":"post","verb":"sql"},{"id":"post-bizclientbizmsgphone","title":"PHONE","method":"post","verb":"sql"}]},{"id":"카카오-연동-규격","name":"카카오 연동 규격","items":[{"id":"알림톡-attachment-규격","title":"알림톡 ATTACHMENT 규격"},{"id":"브랜드-메시지-규격-·-예시","title":"브랜드 메시지 규격 · 예시"}]},{"id":"rcs-연동-규격","name":"RCS 연동 규격","items":[]},{"id":"가이드","name":"가이드","items":[{"id":"대체발송","title":"대체발송"},{"id":"지원-가능한-첨부파일-타입","title":"지원 가능한 첨부파일 타입"},{"id":"운영-설정-옵션","title":"운영 설정 옵션"}]}],"tocMap":{"공통-사항":{"heading":"공통 사항","items":[{"id":"동작-모델","title":"동작 모델","level":2},{"id":"자동-생성되는-테이블","title":"자동 생성되는 테이블","level":2},{"id":"백업-옵션","title":"백업 옵션","level":2},{"id":"테이블-간-관계","title":"테이블 간 관계","level":2},{"id":"데이터-식별-키","title":"데이터 식별 키","level":2}]},"사전-준비":{"heading":"사전 준비","items":[{"id":"사전-점검","title":"사전 점검","level":1},{"id":"1-비즈뿌리오-계정","title":"1. 비즈뿌리오 계정","level":2},{"id":"2-카카오톡-비즈메시지-atbt-사용-시","title":"2. 카카오톡 비즈메시지 (AT/BT 사용 시)","level":2},{"id":"3-rcs-rcs-사용-시","title":"3. RCS (RCS 사용 시)","level":2},{"id":"설치","title":"설치","level":1},{"id":"시스템-요구사항","title":"시스템 요구사항","level":2},{"id":"방화벽-오픈","title":"방화벽 오픈","level":2},{"id":"dbms-jdbc-드라이버","title":"DBMS / JDBC 드라이버","level":2},{"id":"설치-및-구동-linuxunix","title":"설치 및 구동 (Linux/Unix)","level":2},{"id":"설치-및-구동-windows","title":"설치 및 구동 (Windows)","level":2},{"id":"rcs-발송-활성화-선택","title":"RCS 발송 활성화 (선택)","level":2},{"id":"연동","title":"연동","level":1},{"id":"bizmsg-컬럼","title":"biz_msg 컬럼","level":2},{"id":"공통-컬럼-모든-메시지-타입","title":"공통 컬럼 (모든 메시지 타입)","level":2},{"id":"채널별-전용-컬럼","title":"채널별 전용 컬럼","level":2},{"id":"bizrcs-컬럼","title":"BIZ_RCS 컬럼","level":2},{"id":"bizattachments-컬럼","title":"BIZ_ATTACHMENTS 컬럼","level":2},{"id":"인덱스-권고","title":"인덱스 권고","level":2},{"id":"용어","title":"용어","level":1},{"id":"메시지-인코딩","title":"메시지 인코딩","level":2},{"id":"메시지타입-msgtype","title":"메시지타입 (MSG_TYPE)","level":2},{"id":"발송상태변화-status","title":"발송상태변화 (STATUS)","level":2},{"id":"대체발송타입-retype","title":"대체발송타입 (RE_TYPE)","level":2}]},"quickstart-bizclient":{"heading":"Quickstart BIZCLIENT","items":[{"id":"사전-조건","title":"사전 조건","level":2},{"id":"1-bizclient-설치","title":"1. BIZCLIENT 설치","level":2},{"id":"linuxunix","title":"Linux/Unix","level":2},{"id":"windows","title":"Windows","level":2},{"id":"2-sms-1건-발송","title":"2. SMS 1건 발송","level":2},{"id":"3-발송-결과-확인","title":"3. 발송 결과 확인","level":2},{"id":"status-진행","title":"STATUS 진행","level":2},{"id":"callstatus","title":"CALL_STATUS","level":2},{"id":"로그-테이블-이동","title":"로그 테이블 이동","level":2},{"id":"다음-단계","title":"다음 단계","level":2},{"id":"트러블슈팅","title":"트러블슈팅","level":2}]},"메시지-전송":{"heading":"메시지 전송","items":[{"id":"post-bizclientbizmsgsms","title":"SMS","method":"post","verb":"sql","level":1},{"id":"post-bizclientbizmsglms","title":"LMS","method":"post","verb":"sql","level":1},{"id":"post-bizclientbizmsgmms","title":"MMS","method":"post","verb":"sql","level":1},{"id":"post-bizclientbizmsgrcs","title":"RCS","method":"post","verb":"sql","level":1},{"id":"post-bizclientbizmsgalimtalk","title":"카카오 알림톡","method":"post","verb":"sql","level":1},{"id":"post-bizclientbizmsgbrand","title":"카카오 브랜드 메시지","method":"post","verb":"sql","level":1},{"id":"post-bizclientbizmsgfax","title":"FAX","method":"post","verb":"sql","level":1},{"id":"post-bizclientbizmsgphone","title":"PHONE","method":"post","verb":"sql","level":1}]},"카카오-연동-규격":{"heading":"카카오 연동 규격","items":[{"id":"알림톡-attachment-규격","title":"알림톡 ATTACHMENT 규격","level":1},{"id":"attachment-json-최상위-구조","title":"ATTACHMENT JSON 최상위 구조","level":2},{"id":"attachment-json-·-button-필드","title":"ATTACHMENT JSON · button[] 필드","level":3},{"id":"버튼-타입","title":"버튼 타입","level":3},{"id":"itemhighlight-필드-아이템-하이라이트-json-·-n","title":"item_highlight 필드 (아이템 하이라이트, JSON · N)","level":3},{"id":"item-필드-아이템리스트-요약정보-json-·-n","title":"item 필드 (아이템리스트 + 요약정보, JSON · N)","level":3},{"id":"extra-필드-추가-기능-json","title":"extra 필드 (추가 기능, JSON)","level":3},{"id":"extrasupplement-필드-바로연결","title":"extra.supplement 필드 (바로연결)","level":3},{"id":"바로연결-타입","title":"바로연결 타입","level":3},{"id":"강조표기-아이템리스트-규칙","title":"강조표기 / 아이템리스트 규칙","level":3},{"id":"attachment-json-예시","title":"ATTACHMENT JSON 예시","level":3},{"id":"브랜드-메시지-규격-·-예시","title":"브랜드 메시지 규격 · 예시","level":1},{"id":"attachment-json-extra-snakecase","title":"ATTACHMENT JSON extra (snake_case)","level":2},{"id":"chatbubbletype-8종-·-본문-영역message-글자수","title":"chat_bubble_type 8종 · 본문 영역(message) 글자수","level":2},{"id":"attachment-json-extra-—-누락-키-보강","title":"ATTACHMENT JSON extra — 누락 키 보강","level":2},{"id":"전문방식-본문-객체-스키마-brandmessagetypebasic","title":"전문방식 본문 객체 스키마 (brand_message_type=BASIC)","level":2},{"id":"button-array","title":"button (array)","level":3},{"id":"image-json-—-image·wide·commerce-필수","title":"image (json) — IMAGE·WIDE·COMMERCE 필수","level":3},{"id":"item-json-—-wideitemlist-필수-item-구조","title":"item (json) — WIDE_ITEM_LIST 필수 (ITEM 구조)","level":3},{"id":"coupon-json-—-메시지-최하단에-쿠폰-추가","title":"coupon (json) — 메시지 최하단에 쿠폰 추가","level":3},{"id":"commerce-json-—-commerce-필수","title":"commerce (json) — COMMERCE 필수","level":3},{"id":"video-json-—-premiumvideo-필수","title":"video (json) — PREMIUM_VIDEO 필수","level":3},{"id":"carousel-객체-carouselfeed-·-carouselcommerce","title":"CAROUSEL 객체 (CAROUSEL_FEED · CAROUSEL_COMMERCE)","level":2},{"id":"carouselhead-json-—-캐러셀-인트로-선택","title":"carousel.head (json) — 캐러셀 인트로 (선택)","level":3},{"id":"carousellist-array-—-캐러셀-리스트","title":"carousel.list[] (array) — 캐러셀 리스트","level":3},{"id":"carouseltail-json-—-더보기-버튼-선택","title":"carousel.tail (json) — 더보기 버튼 (선택)","level":3},{"id":"채널-친구-대상sendtargetfriend-차이점","title":"채널 친구 대상(send_target=friend) 차이점","level":2},{"id":"attachment-json-예시-2","title":"ATTACHMENT JSON 예시","level":2}]},"rcs-연동-규격":{"heading":"RCS 연동 규격","items":[{"id":"rcs-messagebaseid-목록","title":"RCS MESSAGEBASE_ID 목록","level":2},{"id":"안드로이드-rcs-—-messagebaseid","title":"안드로이드 RCS — MESSAGEBASE_ID","level":3},{"id":"템플릿군-접두-코드별","title":"템플릿군 (접두 코드별)","level":3},{"id":"카드-유형별-글자수-라인수-정의","title":"카드 유형별 글자수 / 라인수 정의","level":2},{"id":"lms-standalone-no-media","title":"LMS (Standalone, No media)","level":3},{"id":"mms-standalone-media-top-—-세로형","title":"MMS (Standalone Media Top — 세로형)","level":3},{"id":"mms-carousel-medium-—-슬라이드형","title":"MMS (Carousel Medium — 슬라이드형)","level":3},{"id":"mms-carousel-small-—-슬라이드형","title":"MMS (Carousel Small — 슬라이드형)","level":3},{"id":"통합-rcs","title":"통합 RCS","level":2},{"id":"안드로이드-rcs-와-통합-rcs-공통점","title":"안드로이드 RCS 와 통합 RCS 공통점","level":3},{"id":"안드로이드-rcs-와-통합-rcs-차이점","title":"안드로이드 RCS 와 통합 RCS 차이점","level":3},{"id":"통합-rcs-—-messagebaseid","title":"통합 RCS — MESSAGEBASE_ID","level":3},{"id":"통합-rcs-기본-정보-안드로이드-rcs-와의-분기","title":"통합 RCS 기본 정보 (안드로이드 RCS 와의 분기)","level":3},{"id":"rcsbody-규격-messagebase-치환-파라미터","title":"RCS_BODY 규격 (MESSAGEBASE 치환 파라미터)","level":2},{"id":"1-리치카드-넘버링형-신규-mms-제외","title":"1. 리치카드 넘버링형 (신규 MMS 제외)","level":3},{"id":"2-이미지-타이틀-강조형-신규-mms-·-이미지-템플릿","title":"2. 이미지 & 타이틀 강조형 (신규 MMS · 이미지 템플릿)","level":3},{"id":"3-이미지-강조형-·-sns형-신규-mms-·-이미지-템플릿","title":"3. 이미지 강조형 · SNS형 (신규 MMS · 이미지 템플릿)","level":3},{"id":"4-썸네일형-세로-신규-mms-·-이미지-템플릿","title":"4. 썸네일형 (세로) (신규 MMS · 이미지 템플릿)","level":3},{"id":"5-썸네일형-가로-신규-mms-·-이미지-템플릿","title":"5. 썸네일형 (가로) (신규 MMS · 이미지 템플릿)","level":3},{"id":"rcsbody-넘버링-규칙","title":"RCS_BODY 넘버링 규칙","level":3},{"id":"media-종류","title":"media 종류","level":2},{"id":"1-이미지","title":"1. 이미지","level":3},{"id":"2-동영상-스트리밍","title":"2. 동영상 스트리밍","level":3},{"id":"buttons-구조-rcs-버튼","title":"BUTTONS 구조 (RCS + 버튼)","level":2},{"id":"action-타입","title":"Action 타입","level":3},{"id":"buttons-카드-패딩-규칙","title":"BUTTONS 카드 패딩 규칙","level":3}]},"가이드":{"heading":"가이드","items":[{"id":"대체발송","title":"대체발송","level":1},{"id":"매핑-키-동작","title":"매핑 키 동작","level":2},{"id":"sms-mms-대체-—-본문-동작","title":"SMS / MMS 대체 — 본문 동작","level":2},{"id":"atbt-1차-대체-발송","title":"AT/BT + 1차 대체 발송","level":2},{"id":"atbt-2차-대체-발송","title":"AT/BT + 2차 대체 발송","level":2},{"id":"rcs-1차-대체-발송","title":"RCS + 1차 대체 발송","level":2},{"id":"rcs-2차-대체-발송","title":"RCS + 2차 대체 발송","level":2},{"id":"지원-가능한-첨부파일-타입","title":"지원 가능한 첨부파일 타입","level":1},{"id":"mms","title":"MMS","level":2},{"id":"at-bt","title":"AT / BT","level":2},{"id":"phone","title":"PHONE","level":2},{"id":"fax","title":"FAX","level":2},{"id":"운영-설정-옵션","title":"운영 설정 옵션","level":1},{"id":"db-데이터-복호화-—-dbdatadecryption","title":"DB 데이터 복호화 — DB_DATA_DECRYPTION","level":2},{"id":"백업-시-본문-길이만-보관-—-usebackuppersonaldataprocessing-yn","title":"백업 시 본문 길이만 보관 — USE_BACKUP_PERSONAL_DATA_PROCESSING (Y/N)","level":2},{"id":"첨부파일-관리-—-filehandlingmode","title":"첨부파일 관리 — FILE_HANDLING_MODE","level":2},{"id":"첨부파일-경로-—-absolutepathoption-yn","title":"첨부파일 경로 — ABSOLUTE_PATH_OPTION (Y/N)","level":2},{"id":"모듈-재구동-시-오래된-데이터-처리-—-sendvalidtime-01440-분","title":"모듈 재구동 시 오래된 데이터 처리 — SEND_VALID_TIME (0~1440, 분)","level":2},{"id":"잔존-메시지-처리","title":"잔존 메시지 처리","level":2},{"id":"rcs-대행사-id-—-agencyid-bizclientv3000-이상","title":"RCS 대행사 ID — AGENCY_ID (biz_client_v3000 이상)","level":2},{"id":"최초-발신사업자-식별코드-—-resellercode-bizclientv3015-이상","title":"최초 발신사업자 식별코드 — RESELLERCODE (biz_client_v3015 이상)","level":2},{"id":"cmid-추가-문자-사용-bizclientv4000-이상","title":"CMID 추가 문자 사용 (biz_client_v4000 이상)","level":2},{"id":"중복-발송-제한-—-duplicatesendingpolicy-bizclientv3016-이상","title":"중복 발송 제한 — DUPLICATE_SENDING_POLICY (biz_client_v3016 이상)","level":2}]}},"children":["$","main",null,{"className":"bp-api__main","children":[["$","header",null,{"className":"bp-api__hero","children":[["$","div",null,{"className":"bp-api__badges","children":[["$","span",null,{"className":"bp-api__code-badge","children":"BIZCLIENT"}],["$","span",null,{"className":"bp-api__ver-badge","children":"v5.2.4"}]]}],["$","h1",null,{"className":"bp-api__title","children":"비즈뿌리오 BIZCLIENT"}],"$undefined",false]}],[["$","div","공통-사항",{"id":"공통-사항","data-spy-id":"공통-사항","data-spy-section":"공통-사항","className":"bp-api__group","children":[["$","h2",null,{"className":"bp-api__group-head","children":[["$","span",null,{"className":"bp-h2__bar"}],"공통 사항"]}],false,["$","div",null,{"className":"md bp-api__group-desc","dangerouslySetInnerHTML":{"__html":"$d"}}],false,false]}],["$","div","사전-준비",{"id":"사전-준비","data-spy-id":"$undefined","data-spy-section":"$undefined","className":"bp-api__group","children":[["$","h2",null,{"className":"bp-api__group-head","children":[["$","span",null,{"className":"bp-h2__bar"}],"사전 준비"]}],false,["$","div",null,{"className":"md bp-api__group-desc","dangerouslySetInnerHTML":{"__html":"$e"}}],false,false]}],["$","div","quickstart-bizclient",{"id":"quickstart-bizclient","data-spy-id":"quickstart-bizclient","data-spy-section":"quickstart-bizclient","className":"bp-api__group","children":[["$","h2",null,{"className":"bp-api__group-head","children":[["$","span",null,{"className":"bp-h2__bar"}],"Quickstart BIZCLIENT"]}],false,["$","div",null,{"className":"md bp-api__group-desc","dangerouslySetInnerHTML":{"__html":"$f"}}],false,false]}],["$","div","메시지-전송",{"id":"메시지-전송","data-spy-id":"$undefined","data-spy-section":"$undefined","className":"bp-api__group","children":[["$","h2",null,{"className":"bp-api__group-head","children":[["$","span",null,{"className":"bp-h2__bar"}],"메시지 전송"]}],false,false,false,[["$","div",null,{"className":"md bp-api__group-desc","dangerouslySetInnerHTML":{"__html":"<p><strong>BIZCLIENT 메시지 전송</strong> — <code>biz_msg</code> 큐 테이블 INSERT 방식 발송.</p>\n<p>세부 채널별 컬럼·예시·제약은 아래 <code>POST /bizclient/biz_msg</code> 페이지로 들어가서 확인하세요.\n우측 <strong>Request samples</strong> 탭에서 채널별 SQL 을 확인할 수 있습니다.</p>\n"}}],[["$","section",null,{"id":"post-bizclientbizmsgsms","data-spy-id":"post-bizclientbizmsgsms","data-spy-section":"메시지-전송","className":"bp-api__ep","children":[["$","div",null,{"className":"bp-api__ep-grid","children":[["$","div",null,{"className":"bp-api__doc","children":[["$","div",null,{"className":"bp-api__methodline","children":[["$","span",null,{"className":"bp-api__method sql","children":"sql"}],["$","span",null,{"className":"bp-api__path","children":"/bizclient/biz_msg/sms"}],""]}],["$","h3",null,{"className":"bp-api__ep-title","children":"SMS"}],["$","div",null,{"className":"md","dangerouslySetInnerHTML":{"__html":"$10"}}],"$undefined"]}],["$","div",null,{"className":"bp-api__code","children":["$","$L11",null,{"tabs":[{"label":"SQL","lang":"sql","code":"INSERT INTO biz_msg (\n  MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME,\n  DEST_PHONE, SEND_PHONE, MSG_BODY\n) VALUES (\n  0, '201XXXXXXXXX', NOW(), NOW(),\n  '01012345678', '0212341234',\n  '본 메시지는 SMS 테스트 메시지 입니다.'\n);\n"}]}]}]]}],["$","div",null,{"className":"bp-api__responses","children":[["$","div",null,{"className":"bp-api__subhead","children":"응답"}],["$","$L12",null,{"codes":[{"code":"200","err":false}],"children":[["$","div","200",{"className":"bp-api__ep-grid bp-resp-panel","children":[["$","div",null,{"className":"bp-api__doc","children":[["$","div",null,{"className":"bp-api__resp-head","children":[["$","span",null,{"className":"bp-api__resp-code","children":"200"}],["$","span",null,{"className":"bp-api__resp-desc","children":"INSERT 성공 시 `STATUS=0` (발송 대기) 로 큐에 적재. BIZCLIENT 모듈이 폴링 →\n`STATUS=7` (발송 중) → `1` (발송 후 대기) → `2` (발송 완료). `CALL_STATUS`\n컬럼에 [결과 코드](#tag/BizclientCodes) 기록.\n"}]]}],"$undefined"]}],["$","div",null,{"className":"bp-api__code","children":["$","div",null,{"className":"bp-api__resp-noex","children":"본문 없음"}]}]]}]]}]]}]]}],["$","section",null,{"id":"post-bizclientbizmsglms","data-spy-id":"post-bizclientbizmsglms","data-spy-section":"메시지-전송","className":"bp-api__ep","children":[["$","div",null,{"className":"bp-api__ep-grid","children":[["$","div",null,{"className":"bp-api__doc","children":[["$","div",null,{"className":"bp-api__methodline","children":[["$","span",null,{"className":"bp-api__method sql","children":"sql"}],["$","span",null,{"className":"bp-api__path","children":"/bizclient/biz_msg/lms"}],""]}],["$","h3",null,{"className":"bp-api__ep-title","children":"LMS"}],["$","div",null,{"className":"md","dangerouslySetInnerHTML":{"__html":"$13"}}],"$undefined"]}],["$","div",null,{"className":"bp-api__code","children":["$","$L11",null,{"tabs":[{"label":"SQL","lang":"sql","code":"INSERT INTO biz_msg (\n  MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME,\n  DEST_PHONE, SEND_PHONE,\n  SUBJECT, MSG_BODY\n) VALUES (\n  5, '201XXXXXXXXX', NOW(), NOW(),\n  '01012345678', '0212341234',\n  'LMS 제목', '본 메시지는 LMS 테스트 메시지 입니다.'\n);\n"}]}]}]]}],["$","div",null,{"className":"bp-api__responses","children":[["$","div",null,{"className":"bp-api__subhead","children":"응답"}],["$","$L12",null,{"codes":[{"code":"200","err":false}],"children":[["$","div","200",{"className":"bp-api__ep-grid bp-resp-panel","children":[["$","div",null,{"className":"bp-api__doc","children":[["$","div",null,{"className":"bp-api__resp-head","children":[["$","span",null,{"className":"bp-api__resp-code","children":"200"}],["$","span",null,{"className":"bp-api__resp-desc","children":"INSERT 성공 시 `STATUS=0` (발송 대기) 로 큐에 적재. BIZCLIENT 모듈이 폴링 →\n`STATUS=7` (발송 중) → `1` (발송 후 대기) → `2` (발송 완료). `CALL_STATUS`\n컬럼에 [결과 코드](#tag/BizclientCodes) 기록.\n"}]]}],"$undefined"]}],["$","div",null,{"className":"bp-api__code","children":["$","div",null,{"className":"bp-api__resp-noex","children":"본문 없음"}]}]]}]]}]]}]]}],["$","section",null,{"id":"post-bizclientbizmsgmms","data-spy-id":"post-bizclientbizmsgmms","data-spy-section":"메시지-전송","className":"bp-api__ep","children":[["$","div",null,{"className":"bp-api__ep-grid","children":[["$","div",null,{"className":"bp-api__doc","children":[["$","div",null,{"className":"bp-api__methodline","children":[["$","span",null,{"className":"bp-api__method sql","children":"sql"}],["$","span",null,{"className":"bp-api__path","children":"/bizclient/biz_msg/mms"}],""]}],["$","h3",null,{"className":"bp-api__ep-title","children":"MMS"}],["$","div",null,{"className":"md","dangerouslySetInnerHTML":{"__html":"$14"}}],"$undefined"]}],["$","div",null,{"className":"bp-api__code","children":["$","$L11",null,{"tabs":[{"label":"SQL","lang":"sql","code":"INSERT INTO biz_msg (\n  MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME,\n  DEST_PHONE, SEND_PHONE,\n  SUBJECT, MSG_BODY, ATTACHED_FILE\n) VALUES (\n  5, '201XXXXXXXXX', NOW(), NOW(),\n  '01012345678', '0212341234',\n  'MMS 제목', '본 메시지는 MMS 테스트 메시지 입니다.',\n  'image1.jpg|image2.jpg'\n);\n"}]}]}]]}],["$","div",null,{"className":"bp-api__responses","children":[["$","div",null,{"className":"bp-api__subhead","children":"응답"}],["$","$L12",null,{"codes":[{"code":"200","err":false}],"children":[["$","div","200",{"className":"bp-api__ep-grid bp-resp-panel","children":[["$","div",null,{"className":"bp-api__doc","children":[["$","div",null,{"className":"bp-api__resp-head","children":[["$","span",null,{"className":"bp-api__resp-code","children":"200"}],["$","span",null,{"className":"bp-api__resp-desc","children":"INSERT 성공 시 `STATUS=0` (발송 대기) 로 큐에 적재. BIZCLIENT 모듈이 폴링 →\n`STATUS=7` (발송 중) → `1` (발송 후 대기) → `2` (발송 완료). `CALL_STATUS`\n컬럼에 [결과 코드](#tag/BizclientCodes) 기록.\n"}]]}],"$undefined"]}],["$","div",null,{"className":"bp-api__code","children":["$","div",null,{"className":"bp-api__resp-noex","children":"본문 없음"}]}]]}]]}]]}]]}],["$","section",null,{"id":"post-bizclientbizmsgrcs","data-spy-id":"post-bizclientbizmsgrcs","data-spy-section":"메시지-전송","className":"bp-api__ep","children":[["$","div",null,{"className":"bp-api__ep-grid","children":[["$","div",null,{"className":"bp-api__doc","children":[["$","div",null,{"className":"bp-api__methodline","children":[["$","span",null,{"className":"bp-api__method sql","children":"sql"}],["$","span",null,{"className":"bp-api__path","children":"/bizclient/biz_msg/rcs"}],""]}],["$","h3",null,{"className":"bp-api__ep-title","children":"RCS"}],["$","div",null,{"className":"md","dangerouslySetInnerHTML":{"__html":"$15"}}],"$undefined"]}],["$","div",null,{"className":"bp-api__code","children":["$","$L11",null,{"tabs":[{"label":"SQL","lang":"sql","code":"INSERT INTO BIZ_RCS (\n  REFKEY, CHATBOT_ID, HEADER, FOOTER, MESSAGEBASE_ID,\n  AGENCY_KEY, BRAND_KEY, RCS_BODY, BUTTONS\n) VALUES (\n  'RCS_TEMPLATE_005', '15999782', 0, '01012345678', 'CMwMhM0300',\n  '', 'BK.9T0MMk615qoEOl1',\n  '{\"description1\":\"첫번째 이미지 설명\",\"media1\":\"maapfile://...\",\"description2\":\"...\"}',\n  '{\"buttons\":[{\"suggestions\":[{\"action\":{\"urlAction\":{\"openUrl\":{\"url\":\"https://...\"}}}, \"displayText\":\"이동\"}]}]}'\n);\n\nINSERT INTO biz_msg (\n  MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME,\n  DEST_PHONE, SEND_PHONE, RCS_REFKEY\n) VALUES (\n  8, 'SEND_BIZ_MSG_001', NOW(), NOW(),\n  '01012345678', '15999782', 'RCS_TEMPLATE_005'\n);\n"}]}]}]]}],["$","div",null,{"className":"bp-api__responses","children":[["$","div",null,{"className":"bp-api__subhead","children":"응답"}],["$","$L12",null,{"codes":[{"code":"200","err":false}],"children":[["$","div","200",{"className":"bp-api__ep-grid bp-resp-panel","children":[["$","div",null,{"className":"bp-api__doc","children":[["$","div",null,{"className":"bp-api__resp-head","children":[["$","span",null,{"className":"bp-api__resp-code","children":"200"}],["$","span",null,{"className":"bp-api__resp-desc","children":"INSERT 성공 시 `STATUS=0` (발송 대기) 로 큐에 적재. BIZCLIENT 모듈이 폴링 →\n`STATUS=7` (발송 중) → `1` (발송 후 대기) → `2` (발송 완료). `CALL_STATUS`\n컬럼에 [결과 코드](#tag/BizclientCodes) 기록.\n"}]]}],"$undefined"]}],["$","div",null,{"className":"bp-api__code","children":["$","div",null,{"className":"bp-api__resp-noex","children":"본문 없음"}]}]]}]]}]]}]]}],["$","section",null,{"id":"post-bizclientbizmsgalimtalk","data-spy-id":"post-bizclientbizmsgalimtalk","data-spy-section":"메시지-전송","className":"bp-api__ep","children":[["$","div",null,{"className":"bp-api__ep-grid","children":[["$","div",null,{"className":"bp-api__doc","children":[["$","div",null,{"className":"bp-api__methodline","children":[["$","span",null,{"className":"bp-api__method sql","children":"sql"}],["$","span",null,{"className":"bp-api__path","children":"/bizclient/biz_msg/alimtalk"}],""]}],["$","h3",null,{"className":"bp-api__ep-title","children":"카카오 알림톡"}],["$","div",null,{"className":"md","dangerouslySetInnerHTML":{"__html":"$16"}}],"$undefined"]}],["$","div",null,{"className":"bp-api__code","children":["$","$L11",null,{"tabs":[{"label":"SQL","lang":"sql","code":"INSERT INTO biz_msg (\n  MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME,\n  DEST_PHONE, SEND_PHONE,\n  MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE\n) VALUES (\n  6, '201XXXXXXXXX', NOW(), NOW(),\n  '01012345678', '0212341234',\n  '박다우 고객님 다우기술 비즈메시지 프로모션에 당첨 되었습니다.',\n  '{템플릿코드}', '{발신프로필키}', '82'\n);\n"}]}]}]]}],["$","div",null,{"className":"bp-api__responses","children":[["$","div",null,{"className":"bp-api__subhead","children":"응답"}],["$","$L12",null,{"codes":[{"code":"200","err":false}],"children":[["$","div","200",{"className":"bp-api__ep-grid bp-resp-panel","children":[["$","div",null,{"className":"bp-api__doc","children":[["$","div",null,{"className":"bp-api__resp-head","children":[["$","span",null,{"className":"bp-api__resp-code","children":"200"}],["$","span",null,{"className":"bp-api__resp-desc","children":"INSERT 성공 시 `STATUS=0` (발송 대기) 로 큐에 적재. BIZCLIENT 모듈이 폴링 →\n`STATUS=7` (발송 중) → `1` (발송 후 대기) → `2` (발송 완료). `CALL_STATUS`\n컬럼에 [결과 코드](#tag/BizclientCodes) 기록.\n"}]]}],"$undefined"]}],["$","div",null,{"className":"bp-api__code","children":["$","div",null,{"className":"bp-api__resp-noex","children":"본문 없음"}]}]]}]]}]]}]]}],["$","section",null,{"id":"post-bizclientbizmsgbrand","data-spy-id":"post-bizclientbizmsgbrand","data-spy-section":"메시지-전송","className":"bp-api__ep","children":[["$","div",null,{"className":"bp-api__ep-grid","children":[["$","div",null,{"className":"bp-api__doc","children":[["$","div",null,{"className":"bp-api__methodline","children":[["$","span",null,{"className":"bp-api__method sql","children":"sql"}],["$","span",null,{"className":"bp-api__path","children":"/bizclient/biz_msg/brand"}],""]}],["$","h3",null,{"className":"bp-api__ep-title","children":"카카오 브랜드 메시지"}],["$","div",null,{"className":"md","dangerouslySetInnerHTML":{"__html":"$17"}}],"$undefined"]}],["$","div",null,{"className":"bp-api__code","children":["$","$L11",null,{"tabs":[{"label":"SQL","lang":"sql","code":"INSERT INTO biz_msg (\n  MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME,\n  DEST_PHONE, SEND_PHONE,\n  SENDER_KEY, NATION_CODE, TEMPLATE_CODE, ATTACHED_FILE\n) VALUES (\n  9, '201XXXXXXXXX', NOW(), NOW(),\n  '01012345678', '0212341234',\n  '{발신프로필키}', '82', '{템플릿코드}', '{파일명}.json'\n);\n"}]}]}]]}],["$","div",null,{"className":"bp-api__responses","children":[["$","div",null,{"className":"bp-api__subhead","children":"응답"}],["$","$L12",null,{"codes":[{"code":"200","err":false}],"children":[["$","div","200",{"className":"bp-api__ep-grid bp-resp-panel","children":[["$","div",null,{"className":"bp-api__doc","children":[["$","div",null,{"className":"bp-api__resp-head","children":[["$","span",null,{"className":"bp-api__resp-code","children":"200"}],["$","span",null,{"className":"bp-api__resp-desc","children":"INSERT 성공 시 `STATUS=0` (발송 대기) 로 큐에 적재. BIZCLIENT 모듈이 폴링 →\n`STATUS=7` (발송 중) → `1` (발송 후 대기) → `2` (발송 완료). `CALL_STATUS`\n컬럼에 [결과 코드](#tag/BizclientCodes) 기록.\n"}]]}],"$undefined"]}],["$","div",null,{"className":"bp-api__code","children":["$","div",null,{"className":"bp-api__resp-noex","children":"본문 없음"}]}]]}]]}]]}]]}],["$","section",null,{"id":"post-bizclientbizmsgfax","data-spy-id":"post-bizclientbizmsgfax","data-spy-section":"메시지-전송","className":"bp-api__ep","children":[["$","div",null,{"className":"bp-api__ep-grid","children":[["$","div",null,{"className":"bp-api__doc","children":[["$","div",null,{"className":"bp-api__methodline","children":[["$","span",null,{"className":"bp-api__method sql","children":"sql"}],["$","span",null,{"className":"bp-api__path","children":"/bizclient/biz_msg/fax"}],""]}],["$","h3",null,{"className":"bp-api__ep-title","children":"FAX"}],["$","div",null,{"className":"md","dangerouslySetInnerHTML":{"__html":"$18"}}],"$undefined"]}],["$","div",null,{"className":"bp-api__code","children":["$","$L11",null,{"tabs":[{"label":"SQL","lang":"sql","code":"INSERT INTO biz_msg (\n  MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME,\n  DEST_PHONE, SEND_PHONE,\n  SUBJECT, MSG_BODY,\n  ATTACHED_FILE, COVER_FLAG\n) VALUES (\n  2, '201XXXXXXXXX', NOW(), NOW(),\n  '03112341234', '0212341234',\n  '표지제목', '표지내용',\n  'document.tif',\n  1\n);\n"}]}]}]]}],["$","div",null,{"className":"bp-api__responses","children":[["$","div",null,{"className":"bp-api__subhead","children":"응답"}],["$","$L12",null,{"codes":[{"code":"200","err":false}],"children":[["$","div","200",{"className":"bp-api__ep-grid bp-resp-panel","children":[["$","div",null,{"className":"bp-api__doc","children":[["$","div",null,{"className":"bp-api__resp-head","children":[["$","span",null,{"className":"bp-api__resp-code","children":"200"}],["$","span",null,{"className":"bp-api__resp-desc","children":"INSERT 성공 시 `STATUS=0` (발송 대기) 로 큐에 적재. BIZCLIENT 모듈이 폴링 →\n`STATUS=7` (발송 중) → `1` (발송 후 대기) → `2` (발송 완료). `CALL_STATUS`\n컬럼에 [결과 코드](#tag/BizclientCodes) 기록.\n"}]]}],"$undefined"]}],["$","div",null,{"className":"bp-api__code","children":["$","div",null,{"className":"bp-api__resp-noex","children":"본문 없음"}]}]]}]]}]]}]]}],["$","section",null,{"id":"post-bizclientbizmsgphone","data-spy-id":"post-bizclientbizmsgphone","data-spy-section":"메시지-전송","className":"bp-api__ep","children":[["$","div",null,{"className":"bp-api__ep-grid","children":[["$","div",null,{"className":"bp-api__doc","children":[["$","div",null,{"className":"bp-api__methodline","children":[["$","span",null,{"className":"bp-api__method sql","children":"sql"}],["$","span",null,{"className":"bp-api__path","children":"/bizclient/biz_msg/phone"}],""]}],["$","h3",null,{"className":"bp-api__ep-title","children":"PHONE"}],["$","div",null,{"className":"md","dangerouslySetInnerHTML":{"__html":"$19"}}],"$undefined"]}],["$","div",null,{"className":"bp-api__code","children":["$","$L11",null,{"tabs":[{"label":"SQL","lang":"sql","code":"INSERT INTO biz_msg (\n  MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME,\n  DEST_PHONE, SEND_PHONE, MSG_BODY\n) VALUES (\n  3, '201XXXXXXXXX', NOW(), NOW(),\n  '01012345678', '0212341234',\n  '본 메시지는 테스트입니다. 다우기술 비즈메시지 서비스를 이용해주셔서 감사합니다.'\n);\n\nINSERT INTO biz_msg (\n  MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME,\n  DEST_PHONE, SEND_PHONE, MSG_BODY,\n  VXML_FILE, REPLY_FLAG\n) VALUES (\n  3, '201XXXXXXXXX', NOW(), NOW(),\n  '01012345678', '0212341234',\n  'TTS 백업 본문',\n  'survey_2025.vxml',\n  1\n);\n"}]}]}]]}],["$","div",null,{"className":"bp-api__responses","children":[["$","div",null,{"className":"bp-api__subhead","children":"응답"}],["$","$L12",null,{"codes":[{"code":"200","err":false}],"children":[["$","div","200",{"className":"bp-api__ep-grid bp-resp-panel","children":[["$","div",null,{"className":"bp-api__doc","children":[["$","div",null,{"className":"bp-api__resp-head","children":[["$","span",null,{"className":"bp-api__resp-code","children":"200"}],["$","span",null,{"className":"bp-api__resp-desc","children":"INSERT 성공 시 `STATUS=0` (발송 대기) 로 큐에 적재. BIZCLIENT 모듈이 폴링 →\n`STATUS=7` (발송 중) → `1` (발송 후 대기) → `2` (발송 완료). `CALL_STATUS`\n컬럼에 [결과 코드](#tag/BizclientCodes) 기록.\n"}]]}],"$undefined"]}],["$","div",null,{"className":"bp-api__code","children":["$","div",null,{"className":"bp-api__resp-noex","children":"본문 없음"}]}]]}]]}]]}]]}]]]]}],["$","div","카카오-연동-규격",{"id":"카카오-연동-규격","data-spy-id":"$undefined","data-spy-section":"$undefined","className":"bp-api__group","children":[["$","h2",null,{"className":"bp-api__group-head","children":[["$","span",null,{"className":"bp-h2__bar"}],"카카오 연동 규격"]}],false,["$","div",null,{"className":"md bp-api__group-desc","dangerouslySetInnerHTML":{"__html":"$1a"}}],["$","$L1b",null,{}],false]}],["$","div","rcs-연동-규격",{"id":"rcs-연동-규격","data-spy-id":"rcs-연동-규격","data-spy-section":"rcs-연동-규격","className":"bp-api__group","children":[["$","h2",null,{"className":"bp-api__group-head","children":[["$","span",null,{"className":"bp-h2__bar"}],"RCS 연동 규격"]}],false,["$","div",null,{"className":"md bp-api__group-desc","dangerouslySetInnerHTML":{"__html":"$1c"}}],false,false]}],["$","div","가이드",{"id":"가이드","data-spy-id":"$undefined","data-spy-section":"$undefined","className":"bp-api__group","children":[["$","h2",null,{"className":"bp-api__group-head","children":[["$","span",null,{"className":"bp-h2__bar"}],"가이드"]}],false,["$","div",null,{"className":"md bp-api__group-desc","dangerouslySetInnerHTML":{"__html":"$1d"}}],false,false]}]],false]}]}],["$","$L1e",null,{}],["$","footer",null,{"className":"bp-footer","children":["$","div",null,{"className":"bp-footer__inner","children":[["$","div",null,{"className":"bp-footer__cols","children":[["$","div",null,{"className":"bp-footer__brand-col","children":[["$","div",null,{"className":"bp-footer__brand","children":[["$","span",null,{"className":"bp-footer__brand-name","children":"비즈뿌리오"}],["$","span",null,{"className":"bp-footer__brand-tag","children":"Developers"}]]}],["$","p",null,{"className":"bp-footer__desc","children":"통합 메시징 플랫폼 공식 개발자 문서. 발송 API · BIZCLIENT · 카카오/RCS/네이버 톡톡 자원 관리 · 도구."}]]}],[["$","div","문서",{"children":[["$","div",null,{"className":"bp-footer__col-title","children":"문서"}],["$","div",null,{"className":"bp-footer__links","children":[["$","$L1f",null,{"href":"/start","className":"bp-footer__link","children":"시작하기"}],["$","$L1f",null,{"href":"/bizapi","className":"bp-footer__link","children":"메시지 API"}],["$","$L1f",null,{"href":"/bizclient","className":"bp-footer__link","children":"BIZCLIENT"}]]}]]}],["$","div","자원 관리",{"children":[["$","div",null,{"className":"bp-footer__col-title","children":"자원 관리"}],["$","div",null,{"className":"bp-footer__links","children":[["$","$L1f",null,{"href":"/kapi","className":"bp-footer__link","children":"카카오 비즈메시지"}],["$","$L1f",null,{"href":"/rapi","className":"bp-footer__link","children":"RCS 관리"}],["$","$L1f",null,{"href":"/napi","className":"bp-footer__link","children":"네이버 톡톡 관리"}]]}]]}],["$","div","도구·레퍼런스",{"children":[["$","div",null,{"className":"bp-footer__col-title","children":"도구·레퍼런스"}],["$","div",null,{"className":"bp-footer__links","children":[["$","$L1f",null,{"href":"/sandbox","className":"bp-footer__link","children":"메시지 발송 체험"}],["$","$L1f",null,{"href":"/json-validator","className":"bp-footer__link","children":"JSON 검증기"}],["$","$L1f",null,{"href":"/response-codes","className":"bp-footer__link","children":"응답 코드"}],["$","$L1f",null,{"href":"/changelog","className":"bp-footer__link","children":"개정 이력"}]]}]]}],["$","div","지원",{"children":[["$","div",null,{"className":"bp-footer__col-title","children":"지원"}],["$","div",null,{"className":"bp-footer__links","children":[["$","$L1f",null,{"href":"/guides/operations","className":"bp-footer__link","children":"운영 가이드"}],["$","a",null,{"href":"tel:1599-9782","className":"bp-footer__link","children":"1599-9782"}],["$","a",null,{"href":"mailto:bizppurio@daou.co.kr","className":"bp-footer__link","children":"bizppurio@daou.co.kr"}]]}]]}]]]}],["$","div",null,{"className":"bp-footer__bottom","children":[["$","span",null,{"className":"bp-footer__copy","children":"© 2026 Daou Tech Inc. All rights reserved."}],["$","a",null,{"href":"https://www.bizppurio.com","target":"_blank","rel":"noopener","className":"bp-footer__site","children":"bizppurio.com"}]]}]]}]}]]}]

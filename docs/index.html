@@ -1,0 +1,640 @@
+<!DOCTYPE html><html lang="ko"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="/_next/static/css/79fc88ac13b2b701.css" data-precedence="next"/><link rel="stylesheet" href="/_next/static/css/d84b48ae13d559b5.css" data-precedence="next"/><link rel="preload" as="script" fetchPriority="low" href="/_next/static/chunks/webpack-614e1c07d9a996a3.js"/><script src="/_next/static/chunks/fd9d1056-435d21b8ecda2252.js" async=""></script><script src="/_next/static/chunks/117-3d9e19c55528cd2a.js" async=""></script><script src="/_next/static/chunks/main-app-f56994c33bdd812b.js" async=""></script><script src="/_next/static/chunks/648-13247af19f98aaae.js" async=""></script><script src="/_next/static/chunks/603-4b3f1eba95ffcb02.js" async=""></script><script src="/_next/static/chunks/app/(site)/docs/page-7c47da7ed21516ce.js" async=""></script><title>비즈뿌리오 Developers</title><meta name="description" content="메시지 발송 API · 자원 관리 API 공식 개발자 문서"/><link rel="icon" href="/favicon.ico"/><link rel="preconnect" href="https://cdn.jsdelivr.net"/><script>(function(){try{var t=localStorage.getItem('bp-theme');if(!t)t=window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"/><script src="/search-index.js"></script><script src="/_next/static/chunks/polyfills-42372ed130431b0a.js" noModule=""></script></head><body data-code-layout="stacked"><div class="bp-page" data-screen-label="시작하기"><nav class="bp-nav"><div class="bp-nav__inner"><a class="bp-nav__brand" href="/"><span class="bp-nav__brand-name">비즈뿌리오</span><span class="bp-nav__brand-tag">Developers</span></a><div class="bp-nav__menu"><a class="bp-nav__link" href="/start/">시작하기</a><div class="bp-nav__dd"><button type="button" class="bp-nav__link" aria-haspopup="true" aria-expanded="false">API·SDK<!-- --> <span class="bp-nav__caret">▼</span></button></div><a class="bp-nav__link" href="/sandbox/">체험</a><div class="bp-nav__dd"><button type="button" class="bp-nav__link" aria-haspopup="true" aria-expanded="false">도구·지원<!-- --> <span class="bp-nav__caret">▼</span></button></div></div><div class="bp-nav__right"><button type="button" class="bp-nav__search" aria-label="문서 검색 열기"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="M21 21l-4-4"></path></svg><span>문서 검색</span><span class="bp-nav__kbd">⌘K</span></button><button type="button" class="bp-nav__theme" aria-label="다크 모드로 전환" title="다크 모드"><span style="width:18px;height:18px;display:inline-block" aria-hidden="true"></span></button></div></div></nav><div class="bp-shell"><div class="bp-layout"><main class="bp-main"><div class="bp-eyebrow">GET STARTED · 문서</div><h1 class="bp-h1">시작하기</h1><section id="서비스-소개" data-spy-id="서비스-소개" class="bp-section"><h2 class="bp-h2"><span class="bp-h2__bar"></span>서비스 소개</h2><div class="md"><p><strong>비즈뿌리오</strong> 는 SMS · LMS · MMS · 카카오 알림톡 · 카카오 브랜드 메시지 · RCS · 네이버 톡톡 · FAX · PHONE 을 하나의 인터페이스로 발송할 수 있는 통합 메시징 플랫폼입니다. 본 문서는 발송 API 와 자원 관리 API 의 공식 레퍼런스입니다.</p>
+<h3 id="발송-방식" data-spy-id="발송-방식" data-spy-section="서비스-소개">발송 방식</h3>
+<p>두 가지 방식 중 환경에 맞는 것을 선택하세요. 두 방식을 혼용해도 됩니다.</p>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>방식</th>
+<th>인터페이스</th>
+<th>호스팅</th>
+<th>사이드바 위치</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>메시지 API</strong></td>
+<td>HTTPS REST (<code>POST /v3/message</code>), Bearer 24h 토큰</td>
+<td>비즈뿌리오 클라우드</td>
+<td><strong>메시지 발송 › 메시지 API</strong></td>
+</tr>
+<tr>
+<td><strong>BIZCLIENT</strong></td>
+<td>DB 큐 테이블 INSERT (<code>biz_msg</code>)</td>
+<td>고객사 서버 (온프레미스 모듈)</td>
+<td><strong>메시지 발송 › BIZCLIENT</strong></td>
+</tr>
+</tbody>
+</table></div><p>결과 수신: 메시지 API 는 Webhook(URL Push) 또는 Polling, BIZCLIENT 는 <code>biz_msg.STATUS</code> / <code>CALL_STATUS</code> 컬럼 확인.</p>
+<h3 id="자원-관리-api" data-spy-id="자원-관리-api" data-spy-section="서비스-소개">자원 관리 API</h3>
+<p>템플릿 · 발신프로필 · 이미지 · 챗봇 · 메시지베이스 등 발송에 사용되는 자원을 프로그래매틱하게 관리합니다. 비즈뿌리오 사이트(GUI)에서 한 번씩 등록하는 대신 자동화하고 싶을 때 사용.</p>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>API</th>
+<th>도메인</th>
+<th>관리 대상</th>
+<th>사이드바 위치</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>KAPI</strong></td>
+<td><code>kapi.ppurio.com</code></td>
+<td>카카오 비즈메시지 — 알림톡 템플릿 / 비즈메시지 파일 / 발신프로필 / 그룹 / 그룹태그 / 플러그인 콜백 / 브랜드 메시지 템플릿·이미지 / 통계</td>
+<td><strong>관리 API › KAPI</strong></td>
+</tr>
+<tr>
+<td><strong>RAPI</strong></td>
+<td><code>rapi.bizppurio.com</code></td>
+<td>RCS — 브랜드 / 챗봇 / 파일 / 메시지베이스</td>
+<td><strong>관리 API › RAPI</strong></td>
+</tr>
+<tr>
+<td><strong>NAPI</strong></td>
+<td><code>napi.bizppurio.com</code></td>
+<td>네이버 톡톡 — 파트너 / 그룹 / 이미지 / 정보성·광고성 템플릿</td>
+<td><strong>관리 API › NAPI</strong></td>
+</tr>
+</tbody>
+</table></div><h3 id="연동-규격-공통" data-spy-id="연동-규격-공통" data-spy-section="서비스-소개">연동 규격 (공통)</h3>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>항목</th>
+<th>값</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>프로토콜</td>
+<td>HTTPS (443)</td>
+</tr>
+<tr>
+<td>인코딩</td>
+<td>UTF-8</td>
+</tr>
+<tr>
+<td>메시지 API Keep-Alive Timeout</td>
+<td>4초 이하</td>
+</tr>
+<tr>
+<td>메시지 API 인증</td>
+<td><code>POST /v1/token</code> (Basic) → <code>Authorization: Bearer {accesstoken}</code> (24시간)</td>
+</tr>
+<tr>
+<td>KAPI 인증</td>
+<td>요청 본문에 <code>bizId</code> + <code>apiKey</code></td>
+</tr>
+<tr>
+<td>NAPI 인증</td>
+<td>Bearer 토큰 (<code>refreshToken</code> → <code>accessToken</code>)</td>
+</tr>
+</tbody>
+</table></div><p>메시지 API 도메인: 운영 <code>api.bizppurio.com</code> / 검수 <code>dev-api.bizppurio.com</code>.
+Rate Limit 초과 시 HTTP 429 + <code>code: 5002</code> 응답 — 백오프 후 재시도.</p>
+<h3 id="다음-단계" data-spy-id="다음-단계" data-spy-section="서비스-소개">다음 단계</h3>
+<p>처음 연동하시면 사이드바 <strong>시작 › 시작하기</strong> 에서 연동 방식 비교 / 사전 준비 / 5분 Quickstart 를 확인하세요. 구체적인 엔드포인트·페이로드는 <strong>메시지 발송 / 관리 API</strong> 그룹 안의 각 페이지로 들어가면 됩니다.</p>
+</div></section><section id="시작하기" data-spy-id="시작하기" class="bp-section"><h2 class="bp-h2"><span class="bp-h2__bar"></span>시작하기</h2><div class="md"><p><strong>비즈뿌리오 첫 발송까지</strong> — 비교, 선택, 사전 준비, Quickstart</p>
+<p>비즈뿌리오를 처음 연동하신다면 아래 순서대로 진행하세요.</p>
+<ol>
+<li><strong>연동 방식 비교</strong> — API vs BIZCLIENT 차이 파악</li>
+<li><strong>연동 방식 선택</strong> — 트래픽·보안·운영 환경 기준</li>
+<li><strong>사전 준비</strong> — 계정·발신번호·채널·브랜드 등록</li>
+<li><strong>Quickstart</strong> — cURL 또는 SQL 한 번으로 SMS 발송</li>
+</ol>
+<hr>
+<h3 id="1-연동-방식-비교-api-vs-bizclient" data-spy-id="1-연동-방식-비교-api-vs-bizclient" data-spy-section="시작하기">1. 연동 방식 비교 (API vs BIZCLIENT)</h3>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>항목</th>
+<th>메시지 API</th>
+<th>BIZCLIENT</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>인터페이스</td>
+<td>HTTPS REST (<code>POST /v3/message</code>)</td>
+<td>MySQL / Oracle / MSSQL INSERT</td>
+</tr>
+<tr>
+<td>호스팅</td>
+<td>비즈뿌리오 클라우드</td>
+<td>고객사 서버 (온프레미스)</td>
+</tr>
+<tr>
+<td>인증</td>
+<td>Bearer 토큰 (24시간 유효)</td>
+<td>DB 접근 권한</td>
+</tr>
+<tr>
+<td>발송 트리거</td>
+<td>API 호출 즉시</td>
+<td>BIZCLIENT 모듈이 큐 폴링</td>
+</tr>
+<tr>
+<td>결과 수신</td>
+<td>Webhook (URL Push) / Polling</td>
+<td><code>biz_msg.STATUS</code> + <code>CALL_STATUS</code></td>
+</tr>
+<tr>
+<td>외부 네트워크 의존</td>
+<td>필요 (HTTPS 443 outbound)</td>
+<td>38300/38400 outbound (모듈 ↔ 비즈뿌리오)</td>
+</tr>
+<tr>
+<td>모듈 설치</td>
+<td>불필요</td>
+<td>필수 (JDK 1.8+, 4GB RAM, JDBC)</td>
+</tr>
+<tr>
+<td>운영 부담</td>
+<td>낮음</td>
+<td>모듈 구동·DB 관리·로그 테이블 회전</td>
+</tr>
+<tr>
+<td>미지원 채널</td>
+<td>FAX · PHONE</td>
+<td>NTALK</td>
+</tr>
+</tbody>
+</table></div><h3 id="2-연동-방식-선택-가이드" data-spy-id="2-연동-방식-선택-가이드" data-spy-section="시작하기">2. 연동 방식 선택 가이드</h3>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>우선 검토</th>
+<th>이유</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>메시지 API</strong></td>
+<td>새 프로젝트, 빠른 시작, 운영 부담 최소화, 멀티테넌트 환경</td>
+</tr>
+<tr>
+<td><strong>BIZCLIENT</strong></td>
+<td>외부 HTTPS 호출이 제한된 사내망, 대량 배치(DB 동시 처리), 레거시 ERP·CRM 연동, FAX/PHONE 발송</td>
+</tr>
+<tr>
+<td><strong>두 방식 혼용</strong></td>
+<td>메시지 API 로 트랜잭션성 메시지 + BIZCLIENT 로 야간 대량 배치</td>
+</tr>
+</tbody>
+</table></div><h3 id="3-사전-준비-체크리스트" data-spy-id="3-사전-준비-체크리스트" data-spy-section="시작하기">3. 사전 준비 체크리스트</h3>
+<h3 id="공통-모든-사용자" data-spy-id="공통-모든-사용자" data-spy-section="시작하기">공통 (모든 사용자)</h3>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>단계</th>
+<th>절차</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>회원 가입</td>
+<td><a href="https://www.bizppurio.com" target="_blank" rel="noopener noreferrer">www.bizppurio.com</a></td>
+</tr>
+<tr>
+<td>API 용도 계정 생성</td>
+<td>운영용·검수용 <strong>각각</strong> 발급 권장</td>
+</tr>
+<tr>
+<td>서비스 사용 승인 요청</td>
+<td>전화 1599-9782 / 이메일 <a href="mailto:bizppurio@daou.co.kr">bizppurio@daou.co.kr</a></td>
+</tr>
+<tr>
+<td>발신번호 등록</td>
+<td>비즈뿌리오 사이트 (SMS/LMS/MMS/RCS/FAX/PHONE 공통)</td>
+</tr>
+<tr>
+<td>(메시지 API) 결과 수신 URL 등록</td>
+<td>Webhook 사용 시. 443·80 외 포트는 방화벽 허용 요청 필요</td>
+</tr>
+</tbody>
+</table></div><h3 id="채널별-추가-등록" data-spy-id="채널별-추가-등록" data-spy-section="시작하기">채널별 추가 등록</h3>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>채널</th>
+<th>등록 항목</th>
+<th>위치</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>카카오 (AT/BT)</strong></td>
+<td>카카오톡 채널 + 발신프로필 + (AT) 템플릿 + (BT) 브랜드</td>
+<td><a href="https://center-pf.kakao.com" target="_blank" rel="noopener noreferrer">카카오 비즈니스</a> + 비즈뿌리오 사이트</td>
+</tr>
+<tr>
+<td><strong>RCS</strong></td>
+<td>브랜드 + 챗봇 + 메시지베이스 + 발신번호 + 이미지</td>
+<td><a href="https://www.rcsbizcenter.com" target="_blank" rel="noopener noreferrer">RBC</a> + 비즈뿌리오 사이트</td>
+</tr>
+<tr>
+<td><strong>네이버 톡톡</strong></td>
+<td>채널 + 파트너 키 + 템플릿</td>
+<td><a href="https://partner.talk.naver.com" target="_blank" rel="noopener noreferrer">네이버 톡톡 파트너센터</a> + 비즈뿌리오 사이트</td>
+</tr>
+</tbody>
+</table></div><h3 id="자원을-코드로-관리하고-싶다면" data-spy-id="자원을-코드로-관리하고-싶다면" data-spy-section="시작하기">자원을 코드로 관리하고 싶다면</h3>
+<p>자원 등록을 GUI 대신 API 로 — 좌측 사이드바 <strong>관리 API</strong> 그룹 참고:</p>
+<ul>
+<li><strong>KAPI</strong> — 카카오 알림톡 템플릿·이미지·발신프로필·브랜드 메시지</li>
+<li><strong>RAPI</strong> — RCS 브랜드·챗봇·파일·메시지베이스</li>
+<li><strong>NAPI</strong> — 네이버 톡톡 파트너·그룹·이미지·템플릿</li>
+</ul>
+<h3 id="4-quickstart" data-spy-id="4-quickstart" data-spy-section="시작하기">4. Quickstart</h3>
+<h3 id="4-a-메시지-api-curl-5분" data-spy-id="4-a-메시지-api-curl-5분" data-spy-section="시작하기">4-A. 메시지 API (cURL, 5분)</h3>
+<pre><code class="language-bash">      # 환경 변수
+export BP_HOST=&quot;dev-api.bizppurio.com&quot;   # 운영: api.bizppurio.com
+export BP_ACCOUNT=&quot;bizUserId001&quot;
+export BP_PASSWORD=&quot;mypassword&quot;
+export BP_FROM=&quot;07000000000&quot;             # 등록된 발신번호
+export BP_TO=&quot;01012345678&quot;               # 수신 테스트 번호
+
+
+# 1) 토큰 발급
+AUTH=$(printf '%s' &quot;$BP_ACCOUNT:$BP_PASSWORD&quot; | base64)
+ACCESS_TOKEN=$(curl -s -X POST &quot;https://$BP_HOST/v1/token&quot; \
+  -H &quot;Authorization: Basic $AUTH&quot; \
+  -H &quot;Content-type: application/json; charset=utf-8&quot; \
+  | python -c &quot;import sys, json; print(json.load(sys.stdin)['accesstoken'])&quot;)
+
+
+# 2) SMS 발송
+curl -X POST &quot;https://$BP_HOST/v3/message&quot; \
+  -H &quot;Authorization: Bearer $ACCESS_TOKEN&quot; \
+  -H &quot;Content-type: application/json&quot; \
+  -d '{
+    &quot;account&quot;: &quot;'&quot;$BP_ACCOUNT&quot;'&quot;,
+    &quot;refkey&quot;: &quot;test-'&quot;$(date +%s)&quot;'&quot;,
+    &quot;type&quot;: &quot;sms&quot;,
+    &quot;from&quot;: &quot;'&quot;$BP_FROM&quot;'&quot;,
+    &quot;to&quot;: &quot;'&quot;$BP_TO&quot;'&quot;,
+    &quot;content&quot;: { &quot;sms&quot;: { &quot;message&quot;: &quot;비즈뿌리오 Quickstart 테스트&quot; } }
+  }'
+</code></pre>
+<blockquote>
+<p>ℹ️ 토큰은 <strong>24시간</strong> 유효. 매 요청마다 발급하지 말고 캐싱해서 사용.</p>
+</blockquote>
+<h3 id="4-b-bizclient-sql-5분" data-spy-id="4-b-bizclient-sql-5분" data-spy-section="시작하기">4-B. BIZCLIENT (SQL, 5분)</h3>
+<pre><code class="language-sql">INSERT INTO biz_msg (
+  MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME,
+  DEST_PHONE, SEND_PHONE, MSG_BODY
+) VALUES (
+  0,                                         -- SMS
+  CONCAT('TEST', UNIX_TIMESTAMP()),          -- 데이터 ID
+  NOW(), NOW(),
+  '01012345678',                             -- 수신번호
+  '07000000000',                             -- 발신번호 (사전 등록)
+  '비즈뿌리오 BIZCLIENT Quickstart 테스트'
+);
+</code></pre>
+<p>BIZCLIENT 모듈이 큐를 폴링하여 자동 발송. 결과는 <code>biz_msg.STATUS</code> / <code>CALL_STATUS</code> 로 확인.</p>
+<hr>
+<h3 id="다음-단계" data-spy-id="다음-단계" data-spy-section="시작하기">다음 단계</h3>
+<ul>
+<li><a href="/bizapi#post-v3message"><code>POST /v3/message</code></a> — 메시지 API 전체 페이로드 (모든 채널)</li>
+<li><strong>BIZCLIENT</strong> 사이드바 그룹 — 채널별 INSERT 가이드</li>
+<li><strong>관리 API</strong> 사이드바 그룹 — 자원 등록·관리</li>
+</ul>
+</div></section><section id="선택-가이드" data-spy-id="선택-가이드" class="bp-section"><h2 class="bp-h2"><span class="bp-h2__bar"></span>선택 가이드</h2><div class="md"><p><a href="/docs#비교-—-bizapi-vs-bizclient">연동 방식 비교</a>에서 두 방식의 차이를 확인하셨다면, 아래 의사결정 트리로 빠르게 결정할 수 있습니다.</p>
+<h3 id="의사결정-트리" data-spy-id="의사결정-트리" data-spy-section="선택-가이드">의사결정 트리</h3>
+<p><svg viewBox="0 0 770 560" width="100%" style="max-width:770px;height:auto;font-family:inherit" xmlns="http://www.w3.org/2000/svg"><defs><marker id="arc3" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 z" fill="#2b3a4a"/></marker></defs><rect x="8" y="10" width="372" height="44" rx="6" fill="#fff" stroke="#2b3a4a" stroke-width="1.4"/><text x="194" y="37" font-size="12" font-weight="600" text-anchor="middle" fill="#1f2d3a">1. 사내망에서 외부 HTTPS 호출이 가능한가?</text><line x1="380" y1="32" x2="490" y2="32" stroke="#2b3a4a" stroke-width="1.5" marker-end="url(#arc3)"/><rect x="496" y="12" width="258" height="40" rx="6" fill="#9ed9a8" stroke="#2b3a4a" stroke-width="1.4"/><text x="625" y="28" font-size="10" text-anchor="middle" fill="#33424f">아니오 — DMZ · 폐쇄망</text><text x="625" y="44" font-size="12" font-weight="700" text-anchor="middle" fill="#1f2d3a">BIZCLIENT</text><line x1="194" y1="54" x2="194" y2="86" stroke="#2b3a4a" stroke-width="1.5" marker-end="url(#arc3)"/><text x="202" y="74" font-size="11" fill="#5a6b7a">예</text><rect x="8" y="90" width="372" height="44" rx="6" fill="#fff" stroke="#2b3a4a" stroke-width="1.4"/><text x="194" y="117" font-size="12" font-weight="600" text-anchor="middle" fill="#1f2d3a">2. FAX 또는 PHONE 채널이 필요한가?</text><line x1="380" y1="112" x2="490" y2="112" stroke="#2b3a4a" stroke-width="1.5" marker-end="url(#arc3)"/><rect x="496" y="92" width="258" height="40" rx="6" fill="#9ed9a8" stroke="#2b3a4a" stroke-width="1.4"/><text x="625" y="108" font-size="10" text-anchor="middle" fill="#33424f">예</text><text x="625" y="124" font-size="12" font-weight="700" text-anchor="middle" fill="#1f2d3a">BIZCLIENT</text><line x1="194" y1="134" x2="194" y2="166" stroke="#2b3a4a" stroke-width="1.5" marker-end="url(#arc3)"/><text x="202" y="154" font-size="11" fill="#5a6b7a">아니오</text><rect x="8" y="170" width="372" height="44" rx="6" fill="#fff" stroke="#2b3a4a" stroke-width="1.4"/><text x="194" y="197" font-size="12" font-weight="600" text-anchor="middle" fill="#1f2d3a">3. 네이버 톡톡(NTALK) 채널이 필요한가?</text><line x1="380" y1="192" x2="490" y2="192" stroke="#2b3a4a" stroke-width="1.5" marker-end="url(#arc3)"/><rect x="496" y="172" width="258" height="40" rx="6" fill="#bcd8ff" stroke="#2b3a4a" stroke-width="1.4"/><text x="625" y="188" font-size="10" text-anchor="middle" fill="#33424f">예</text><text x="625" y="204" font-size="12" font-weight="700" text-anchor="middle" fill="#1f2d3a">API — BIZCLIENT 미지원</text><line x1="194" y1="214" x2="194" y2="246" stroke="#2b3a4a" stroke-width="1.5" marker-end="url(#arc3)"/><text x="202" y="234" font-size="11" fill="#5a6b7a">아니오</text><rect x="8" y="250" width="372" height="44" rx="6" fill="#fff" stroke="#2b3a4a" stroke-width="1.4"/><text x="194" y="277" font-size="12" font-weight="600" text-anchor="middle" fill="#1f2d3a">4. 트랜잭션성 발송인가, 대량 배치인가?</text><line x1="380" y1="272" x2="490" y2="248" stroke="#2b3a4a" stroke-width="1.5" marker-end="url(#arc3)"/><line x1="380" y1="272" x2="490" y2="294" stroke="#2b3a4a" stroke-width="1.5" marker-end="url(#arc3)"/><line x1="380" y1="272" x2="490" y2="340" stroke="#2b3a4a" stroke-width="1.5" marker-end="url(#arc3)"/><rect x="496" y="228" width="258" height="40" rx="6" fill="#bcd8ff" stroke="#2b3a4a" stroke-width="1.4"/><text x="625" y="244" font-size="10" text-anchor="middle" fill="#33424f">트랜잭션성 — 사용자 액션 즉시 발송</text><text x="625" y="260" font-size="12" font-weight="700" text-anchor="middle" fill="#1f2d3a">API</text><rect x="496" y="274" width="258" height="40" rx="6" fill="#9ed9a8" stroke="#2b3a4a" stroke-width="1.4"/><text x="625" y="290" font-size="10" text-anchor="middle" fill="#33424f">야간 대량 배치 — 수십만 건 이상</text><text x="625" y="306" font-size="12" font-weight="700" text-anchor="middle" fill="#1f2d3a">BIZCLIENT 권장</text><rect x="496" y="320" width="258" height="40" rx="6" fill="#f6d9a3" stroke="#2b3a4a" stroke-width="1.4"/><text x="625" y="336" font-size="10" text-anchor="middle" fill="#33424f">둘 다</text><text x="625" y="352" font-size="12" font-weight="700" text-anchor="middle" fill="#1f2d3a">혼용 — API + BIZCLIENT</text><line x1="194" y1="294" x2="194" y2="383" stroke="#2b3a4a" stroke-width="1.5" marker-end="url(#arc3)"/><text x="202" y="342" font-size="10.5" fill="#5a6b7a">계속 검토</text><rect x="8" y="387" width="372" height="44" rx="6" fill="#fff" stroke="#2b3a4a" stroke-width="1.4"/><text x="194" y="414" font-size="12" font-weight="600" text-anchor="middle" fill="#1f2d3a">5. 발송 대상 데이터는 어디서 오는가?</text><line x1="380" y1="409" x2="490" y2="390" stroke="#2b3a4a" stroke-width="1.5" marker-end="url(#arc3)"/><line x1="380" y1="409" x2="490" y2="436" stroke="#2b3a4a" stroke-width="1.5" marker-end="url(#arc3)"/><rect x="496" y="370" width="258" height="40" rx="6" fill="#9ed9a8" stroke="#2b3a4a" stroke-width="1.4"/><text x="625" y="386" font-size="10" text-anchor="middle" fill="#33424f">DB에 발송 대상이 이미 존재 (SELECT → INSERT)</text><text x="625" y="402" font-size="12" font-weight="700" text-anchor="middle" fill="#1f2d3a">BIZCLIENT</text><rect x="496" y="416" width="258" height="40" rx="6" fill="#bcd8ff" stroke="#2b3a4a" stroke-width="1.4"/><text x="625" y="432" font-size="10" text-anchor="middle" fill="#33424f">외부 이벤트 · 웹훅 트리거</text><text x="625" y="448" font-size="12" font-weight="700" text-anchor="middle" fill="#1f2d3a">API</text><line x1="194" y1="431" x2="194" y2="479" stroke="#2b3a4a" stroke-width="1.5" marker-end="url(#arc3)"/><text x="202" y="458" font-size="10.5" fill="#5a6b7a">계속 검토</text><rect x="8" y="483" width="372" height="44" rx="6" fill="#fff" stroke="#2b3a4a" stroke-width="1.4"/><text x="194" y="510" font-size="12" font-weight="600" text-anchor="middle" fill="#1f2d3a">6. 모듈 설치 · 운영 부담을 피하고 싶은가?</text><line x1="380" y1="505" x2="490" y2="486" stroke="#2b3a4a" stroke-width="1.5" marker-end="url(#arc3)"/><line x1="380" y1="505" x2="490" y2="532" stroke="#2b3a4a" stroke-width="1.5" marker-end="url(#arc3)"/><rect x="496" y="466" width="258" height="40" rx="6" fill="#bcd8ff" stroke="#2b3a4a" stroke-width="1.4"/><text x="625" y="482" font-size="10" text-anchor="middle" fill="#33424f">예</text><text x="625" y="498" font-size="12" font-weight="700" text-anchor="middle" fill="#1f2d3a">API — 설치 · 운영 불필요</text><rect x="496" y="512" width="258" height="40" rx="6" fill="#9ed9a8" stroke="#2b3a4a" stroke-width="1.4"/><text x="625" y="528" font-size="10" text-anchor="middle" fill="#33424f">직접 운영 가능</text><text x="625" y="544" font-size="12" font-weight="700" text-anchor="middle" fill="#1f2d3a">BIZCLIENT</text></svg></p>
+<h3 id="시나리오별-권장" data-spy-id="시나리오별-권장" data-spy-section="선택-가이드">시나리오별 권장</h3>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>시나리오</th>
+<th>권장</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SaaS 신규 개발, 빠른 출시</td>
+<td><strong>API</strong></td>
+</tr>
+<tr>
+<td>사내망에서 외부 HTTPS 차단</td>
+<td><strong>BIZCLIENT</strong></td>
+</tr>
+<tr>
+<td>ERP / CRM이 이미 DB 통합 환경</td>
+<td><strong>BIZCLIENT</strong></td>
+</tr>
+<tr>
+<td>FAX 발송 (계약서·청구서 등)</td>
+<td><strong>BIZCLIENT</strong></td>
+</tr>
+<tr>
+<td>PHONE 발송 (TTS 안내, 설문)</td>
+<td><strong>BIZCLIENT</strong></td>
+</tr>
+<tr>
+<td>네이버 톡톡 발송</td>
+<td><strong>API</strong></td>
+</tr>
+<tr>
+<td>사용자 액션 직후 즉시 1건 발송</td>
+<td><strong>API</strong></td>
+</tr>
+</tbody>
+</table></div><h3 id="결정-후-다음-단계" data-spy-id="결정-후-다음-단계" data-spy-section="선택-가이드">결정 후 다음 단계</h3>
+<blockquote>
+<p><strong>NOTE:</strong> 선택 후 사전 준비 단계는 두 방식 공통입니다. <a href="/docs#공통-사전-준비">사전 준비</a>에서 비즈뿌리오 계정·발신번호·채널 등록을 먼저 마쳐야 발송이 가능합니다.</p>
+</blockquote>
+<ul>
+<li><strong>API 선택</strong> → <a href="/bizapi#quickstart-bizapi">Quickstart (API)</a></li>
+<li><strong>BIZCLIENT 선택</strong> → <a href="/bizclient#quickstart-bizclient">Quickstart (BIZCLIENT)</a></li>
+</ul>
+</div></section><section id="비교-—-bizapi-vs-bizclient" data-spy-id="비교-—-bizapi-vs-bizclient" class="bp-section"><h2 class="bp-h2"><span class="bp-h2__bar"></span>비교 — BIZAPI vs BIZCLIENT</h2><div class="md"><p>비즈뿌리오는 두 가지 연동 방식을 제공합니다.</p>
+<h3 id="한눈에-비교" data-spy-id="한눈에-비교" data-spy-section="비교-—-bizapi-vs-bizclient">한눈에 비교</h3>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>항목</th>
+<th>API 연동</th>
+<th>BIZCLIENT 연동</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>인터페이스</td>
+<td>HTTPS REST (<code>/v3/message</code>)</td>
+<td>MySQL/Oracle/MSSQL INSERT</td>
+</tr>
+<tr>
+<td>호스팅</td>
+<td>비즈뿌리오 클라우드</td>
+<td>고객사 서버 (온프레미스)</td>
+</tr>
+<tr>
+<td>인증</td>
+<td>Bearer 토큰 (24시간 유효)</td>
+<td>DB 접근 권한</td>
+</tr>
+<tr>
+<td>발송 트리거</td>
+<td>API 호출 즉시</td>
+<td>BIZCLIENT 모듈이 큐 폴링</td>
+</tr>
+<tr>
+<td>결과 수신</td>
+<td>Webhook(URL Push) / Polling</td>
+<td><code>BIZ_MSG.STATUS</code> + <code>CALL_STATUS</code></td>
+</tr>
+<tr>
+<td>외부 네트워크 의존</td>
+<td>필요 (HTTPS 443 outbound)</td>
+<td>38300/38400 outbound (모듈 ↔ 비즈뿌리오)</td>
+</tr>
+<tr>
+<td>모듈 설치</td>
+<td>불필요</td>
+<td>필수 (JDK 1.8+, 4GB RAM, JDBC)</td>
+</tr>
+<tr>
+<td>운영 부담</td>
+<td>낮음</td>
+<td>모듈 구동·DB 관리·로그 테이블 회전</td>
+</tr>
+<tr>
+<td>미지원 채널</td>
+<td>FAX · PHONE</td>
+<td>NTALK</td>
+</tr>
+</tbody>
+</table></div><h3 id="발송-흐름-차이" data-spy-id="발송-흐름-차이" data-spy-section="비교-—-bizapi-vs-bizclient">발송 흐름 차이</h3>
+<h3 id="api-연동" data-spy-id="api-연동" data-spy-section="비교-—-bizapi-vs-bizclient">API 연동</h3>
+<p><svg viewBox="0 0 720 262" width="100%" style="max-width:720px;height:auto;font-family:inherit" xmlns="http://www.w3.org/2000/svg"><defs><marker id="arc4" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 z" fill="#2b3a4a"/></marker></defs><rect x="40" y="8" width="140" height="40" rx="6" fill="#bcd8ff" stroke="#2b3a4a" stroke-width="1.4"/><text x="110" y="32" font-size="12" font-weight="600" text-anchor="middle" fill="#1f2d3a">고객사 앱</text><rect x="360" y="8" width="140" height="40" rx="6" fill="#f4f8fc" stroke="#2b3a4a" stroke-width="1.4"/><text x="430" y="32" font-size="12" font-weight="600" text-anchor="middle" fill="#1f2d3a">비즈뿌리오</text><rect x="556" y="8" width="156" height="40" rx="6" fill="#fff" stroke="#8aa0b5" stroke-width="1.4" stroke-dasharray="5 4"/><text x="634" y="26" font-size="11" font-weight="600" text-anchor="middle" fill="#33424f">통신사·카카오·RCS</text><text x="634" y="41" font-size="10" text-anchor="middle" fill="#5a6b7a">→ 단말</text><line x1="110" y1="48" x2="110" y2="252" stroke="#b8c6d2" stroke-width="1.2" stroke-dasharray="4 4"/><line x1="430" y1="48" x2="430" y2="252" stroke="#b8c6d2" stroke-width="1.2" stroke-dasharray="4 4"/><line x1="634" y1="48" x2="634" y2="252" stroke="#b8c6d2" stroke-width="1.2" stroke-dasharray="4 4"/><line x1="110" y1="86" x2="424" y2="86" stroke="#2b3a4a" stroke-width="1.5" marker-end="url(#arc4)"/><text x="270" y="78" font-size="10.5" text-anchor="middle" fill="#33424f">① POST /v1/token — Basic 인증</text><line x1="430" y1="124" x2="116" y2="124" stroke="#2b3a4a" stroke-width="1.5" stroke-dasharray="5 4" marker-end="url(#arc4)"/><text x="270" y="116" font-size="10.5" text-anchor="middle" fill="#33424f">② accesstoken 발급 (24시간 유효)</text><line x1="110" y1="162" x2="424" y2="162" stroke="#2b3a4a" stroke-width="1.5" marker-end="url(#arc4)"/><text x="270" y="154" font-size="10.5" text-anchor="middle" fill="#33424f">③ POST /v3/message — Bearer + JSON</text><line x1="430" y1="200" x2="628" y2="200" stroke="#2b3a4a" stroke-width="1.5" marker-end="url(#arc4)"/><text x="532" y="192" font-size="10.5" text-anchor="middle" fill="#33424f">메시지 전달</text><line x1="430" y1="238" x2="116" y2="238" stroke="#2b3a4a" stroke-width="1.5" stroke-dasharray="5 4" marker-end="url(#arc4)"/><text x="270" y="230" font-size="10.5" text-anchor="middle" fill="#33424f">④ Webhook (URL Push) 또는 Polling</text></svg></p>
+<h3 id="bizclient-연동" data-spy-id="bizclient-연동" data-spy-section="비교-—-bizapi-vs-bizclient">BIZCLIENT 연동</h3>
+<p><svg viewBox="0 0 760 330" width="100%" style="max-width:760px;height:auto;font-family:inherit" xmlns="http://www.w3.org/2000/svg"><defs><marker id="arc5" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 z" fill="#2b3a4a"/></marker></defs><rect x="8" y="8" width="120" height="40" rx="6" fill="#bcd8ff" stroke="#2b3a4a" stroke-width="1.4"/><text x="68" y="32" font-size="12" font-weight="600" text-anchor="middle" fill="#1f2d3a">고객사 앱</text><rect x="180" y="8" width="150" height="40" rx="6" fill="#f4f8fc" stroke="#2b3a4a" stroke-width="1.4"/><text x="255" y="25" font-size="11.5" font-weight="600" text-anchor="middle" fill="#1f2d3a">BIZ_MSG</text><text x="255" y="40" font-size="9.5" text-anchor="middle" fill="#5a6b7a">큐 테이블 (고객사 DB)</text><rect x="390" y="8" width="140" height="40" rx="6" fill="#f4f8fc" stroke="#2b3a4a" stroke-width="1.4"/><text x="460" y="32" font-size="11.5" font-weight="600" text-anchor="middle" fill="#1f2d3a">BIZCLIENT 모듈</text><rect x="590" y="8" width="150" height="40" rx="6" fill="#f4f8fc" stroke="#2b3a4a" stroke-width="1.4"/><text x="665" y="32" font-size="11.5" font-weight="600" text-anchor="middle" fill="#1f2d3a">비즈뿌리오 서버</text><line x1="68" y1="48" x2="68" y2="292" stroke="#b8c6d2" stroke-width="1.2" stroke-dasharray="4 4"/><line x1="255" y1="48" x2="255" y2="292" stroke="#b8c6d2" stroke-width="1.2" stroke-dasharray="4 4"/><line x1="460" y1="48" x2="460" y2="292" stroke="#b8c6d2" stroke-width="1.2" stroke-dasharray="4 4"/><line x1="665" y1="48" x2="665" y2="292" stroke="#b8c6d2" stroke-width="1.2" stroke-dasharray="4 4"/><line x1="68" y1="84" x2="249" y2="84" stroke="#2b3a4a" stroke-width="1.5" marker-end="url(#arc5)"/><text x="161" y="76" font-size="10.5" text-anchor="middle" fill="#33424f">① INSERT (STATUS = 0)</text><line x1="255" y1="122" x2="454" y2="122" stroke="#2b3a4a" stroke-width="1.5" marker-end="url(#arc5)"/><text x="357" y="114" font-size="10.5" text-anchor="middle" fill="#33424f">② 폴링 — 발송 데이터 인출</text><line x1="460" y1="160" x2="659" y2="160" stroke="#2b3a4a" stroke-width="1.5" marker-end="url(#arc5)"/><text x="562" y="152" font-size="10.5" text-anchor="middle" fill="#33424f">③ 전송 — 38300/38400 outbound</text><rect x="580" y="176" width="170" height="24" rx="4" fill="#fff" stroke="#8aa0b5" stroke-width="1.2" stroke-dasharray="5 4"/><text x="665" y="192" font-size="10" text-anchor="middle" fill="#5a6b7a">통신사 · 카카오 · RCS → 단말</text><line x1="665" y1="230" x2="466" y2="230" stroke="#2b3a4a" stroke-width="1.5" stroke-dasharray="5 4" marker-end="url(#arc5)"/><text x="562" y="222" font-size="10.5" text-anchor="middle" fill="#33424f">④ 결과 수신</text><line x1="460" y1="268" x2="261" y2="268" stroke="#2b3a4a" stroke-width="1.5" stroke-dasharray="5 4" marker-end="url(#arc5)"/><text x="357" y="260" font-size="10.5" text-anchor="middle" fill="#33424f">⑤ STATUS = 2 · CALL_STATUS 업데이트</text><rect x="170" y="296" width="170" height="26" rx="4" fill="#fff" stroke="#8aa0b5" stroke-width="1.2" stroke-dasharray="5 4"/><text x="255" y="313" font-size="10" text-anchor="middle" fill="#5a6b7a">완료 → BIZ_LOG_YYYYMM 이동</text></svg></p>
+<h3 id="어떤-방식을-골라야-할까" data-spy-id="어떤-방식을-골라야-할까" data-spy-section="비교-—-bizapi-vs-bizclient">어떤 방식을 골라야 할까?</h3>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>우선 검토</th>
+<th>이유</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>API</strong>를 우선 검토</td>
+<td>새 프로젝트, 빠른 시작, 운영 부담 최소화, 멀티테넌트 환경</td>
+</tr>
+<tr>
+<td><strong>BIZCLIENT</strong> 검토</td>
+<td>외부 HTTPS 호출이 제한된 사내망, 대량 배치(DB 동시 처리), 레거시 ERP·CRM 연동, FAX/PHONE 발송</td>
+</tr>
+<tr>
+<td><strong>두 방식 혼용</strong></td>
+<td>API로 트랜잭션성 메시지 + BIZCLIENT로 야간 대량 배치</td>
+</tr>
+</tbody>
+</table></div><p>자세한 결정 흐름은 <a href="/docs#선택-가이드">연동 방식 선택 가이드</a>를 참고하세요.</p>
+<h3 id="채널-지원-매트릭스" data-spy-id="채널-지원-매트릭스" data-spy-section="비교-—-bizapi-vs-bizclient">채널 지원 매트릭스</h3>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>채널</th>
+<th>API</th>
+<th>BIZCLIENT</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SMS / LMS / MMS</td>
+<td>✓</td>
+<td>✓</td>
+</tr>
+<tr>
+<td>카카오 알림톡 (AT/AI)</td>
+<td>✓</td>
+<td>✓</td>
+</tr>
+<tr>
+<td>카카오 브랜드 메시지 (BT 외 7종)</td>
+<td>✓</td>
+<td>✓</td>
+</tr>
+<tr>
+<td>RCS</td>
+<td>✓</td>
+<td>✓</td>
+</tr>
+<tr>
+<td>네이버 톡톡 (NTALK)</td>
+<td>✓</td>
+<td>✗</td>
+</tr>
+<tr>
+<td>FAX</td>
+<td>✗</td>
+<td>✓</td>
+</tr>
+<tr>
+<td>PHONE</td>
+<td>✗</td>
+<td>✓</td>
+</tr>
+</tbody>
+</table></div></div></section><section id="공통-사전-준비" data-spy-id="공통-사전-준비" class="bp-section"><h2 class="bp-h2"><span class="bp-h2__bar"></span>공통 사전 준비</h2><div class="md"><p>발송 전에 비즈뿌리오 사이트에서 사용할 채널별로 다음 항목을 등록해야 합니다.</p>
+<h3 id="모든-사용자-공통" data-spy-id="모든-사용자-공통" data-spy-section="공통-사전-준비">모든 사용자 공통</h3>
+<h3 id="1-비즈뿌리오-서비스-계정" data-spy-id="1-비즈뿌리오-서비스-계정" data-spy-section="공통-사전-준비">1. 비즈뿌리오 서비스 계정</h3>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>단계</th>
+<th>절차</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>회원 가입</td>
+<td><a href="https://www.bizppurio.com" target="_blank" rel="noopener noreferrer">www.bizppurio.com</a></td>
+</tr>
+<tr>
+<td>API 용도 계정 생성</td>
+<td>운영용·검수용 <strong>각각</strong> 발급 권장</td>
+</tr>
+<tr>
+<td>서비스 사용 승인 요청</td>
+<td>전화 1599-9782 / 이메일 <a href="mailto:bizppurio@daou.co.kr">bizppurio@daou.co.kr</a></td>
+</tr>
+</tbody>
+</table></div><h3 id="2-발신번호-등록" data-spy-id="2-발신번호-등록" data-spy-section="공통-사전-준비">2. 발신번호 등록</h3>
+<p>이동통신 메시지(SMS/LMS/MMS)·RCS·BIZCLIENT FAX/PHONE 모두 발신번호 사전 등록이 필수입니다.</p>
+<p>비즈뿌리오 사이트에서 직접 등록.</p>
+<h3 id="3-api-사용-시-전송-결과-수신-url-등록" data-spy-id="3-api-사용-시-전송-결과-수신-url-등록" data-spy-section="공통-사전-준비">3. (API 사용 시) 전송 결과 수신 URL 등록</h3>
+<p>Webhook(URL Push) 방식 사용 시 결과 수신용 URL(IP/PORT)을 비즈뿌리오에 등록 요청.</p>
+<blockquote>
+<p><strong>WARNING:</strong> 443·80 외 포트를 사용하려면 별도로 방화벽 접근 허용 요청이 필요합니다.</p>
+</blockquote>
+<h3 id="채널별-추가-등록" data-spy-id="채널별-추가-등록" data-spy-section="공통-사전-준비">채널별 추가 등록</h3>
+<h3 id="카카오-비즈메시지-at-bt" data-spy-id="카카오-비즈메시지-at-bt" data-spy-section="공통-사전-준비">카카오 비즈메시지 (AT / BT)</h3>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>단계</th>
+<th>위치</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>카카오톡 채널 개설 및 비즈니스 채널 신청</td>
+<td><a href="https://center-pf.kakao.com" target="_blank" rel="noopener noreferrer">카카오 비즈니스</a></td>
+</tr>
+<tr>
+<td>발신프로필 키 생성</td>
+<td>비즈뿌리오 사이트</td>
+</tr>
+<tr>
+<td>알림톡(AT) 템플릿 등록·승인</td>
+<td>비즈뿌리오 사이트 — 알림톡 사용 시 필수</td>
+</tr>
+<tr>
+<td>브랜드 메시지(BT) 브랜드 등록</td>
+<td>비즈뿌리오 사이트 — 브랜드 메시지 사용 시</td>
+</tr>
+</tbody>
+</table></div><h3 id="rcs" data-spy-id="rcs" data-spy-section="공통-사전-준비">RCS</h3>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>단계</th>
+<th>위치</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RCS 브랜드 개설 및 대행사 설정</td>
+<td><a href="https://www.rcsbizcenter.com" target="_blank" rel="noopener noreferrer">RCS 비즈센터 (RBC)</a></td>
+</tr>
+<tr>
+<td>RCS 브랜드 등록</td>
+<td>비즈뿌리오 사이트</td>
+</tr>
+<tr>
+<td>RCS 발신번호 등록</td>
+<td>비즈뿌리오 사이트</td>
+</tr>
+<tr>
+<td>챗봇 ID 발급</td>
+<td>RBC</td>
+</tr>
+<tr>
+<td>브랜드 키 (<code>brandkey</code>) 발급</td>
+<td>RBC</td>
+</tr>
+<tr>
+<td>메시지베이스 ID 결정</td>
+<td><a href="/bizclient#용어">공통 포맷</a> 또는 템플릿 등록</td>
+</tr>
+<tr>
+<td>RCS 이미지 등록</td>
+<td>비즈뿌리오 사이트 [메시지관리] → [RCS 관리] → [RCS 이미지 관리] (365일 유효)</td>
+</tr>
+</tbody>
+</table></div><h3 id="네이버-톡톡-ntalk-api-전용" data-spy-id="네이버-톡톡-ntalk-api-전용" data-spy-section="공통-사전-준비">네이버 톡톡 (NTALK, API 전용)</h3>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>단계</th>
+<th>위치</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>네이버 톡톡 채널 개설</td>
+<td><a href="https://partner.talk.naver.com" target="_blank" rel="noopener noreferrer">네이버 톡톡 파트너센터</a></td>
+</tr>
+<tr>
+<td>파트너 키 (<code>partnerid</code> / <code>partnerkey</code>) 생성</td>
+<td>비즈뿌리오 사이트</td>
+</tr>
+<tr>
+<td>템플릿 등록·승인</td>
+<td>비즈뿌리오 사이트</td>
+</tr>
+<tr>
+<td>이미지 등록</td>
+<td>비즈뿌리오 사이트</td>
+</tr>
+</tbody>
+</table></div><h3 id="사용-채널별-체크리스트" data-spy-id="사용-채널별-체크리스트" data-spy-section="공통-사전-준비">사용 채널별 체크리스트</h3>
+<div class="md-tablewrap"><table><thead>
+<tr>
+<th>채널</th>
+<th>필수 등록</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>SMS / LMS / MMS</strong></td>
+<td>비즈뿌리오 계정 + 발신번호</td>
+</tr>
+<tr>
+<td><strong>카카오 알림톡</strong></td>
+<td>+ 카카오 채널 + 발신프로필 키 + 템플릿 승인</td>
+</tr>
+<tr>
+<td><strong>카카오 브랜드 메시지</strong></td>
+<td>+ 카카오 채널 + 발신프로필 키 + 브랜드 등록 + 템플릿</td>
+</tr>
+<tr>
+<td><strong>RCS</strong></td>
+<td>+ RBC 브랜드·챗봇·발신번호·메시지베이스 + 브랜드 키</td>
+</tr>
+<tr>
+<td><strong>네이버 톡톡 (API 전용)</strong></td>
+<td>+ 네이버 톡톡 채널 + 파트너 키 + 템플릿</td>
+</tr>
+<tr>
+<td><strong>FAX (BIZCLIENT 전용)</strong></td>
+<td>+ 발신 팩스번호</td>
+</tr>
+<tr>
+<td><strong>PHONE (BIZCLIENT 전용)</strong></td>
+<td>+ 발신번호</td>
+</tr>
+</tbody>
+</table></div><h3 id="자원을-코드로-관리하고-싶다면" data-spy-id="자원을-코드로-관리하고-싶다면" data-spy-section="공통-사전-준비">자원을 코드로 관리하고 싶다면</h3>
+<p>비즈뿌리오 사이트(GUI)에서 한 번씩 등록할 수도 있지만, 자원을 <strong>프로그래매틱하게 관리</strong>하려면 다음 관리 API를 사용하세요.</p>
+<ul>
+<li><a href="/kapi#공통-사항">KAPI</a> — 카카오 알림톡 템플릿·이미지·발신프로필·브랜드 메시지 자원 CRUD</li>
+<li><a href="/rapi#토큰">RAPI</a> — RCS 브랜드·챗봇·파일·메시지베이스 CRUD</li>
+</ul>
+<h3 id="다음-단계" data-spy-id="다음-단계" data-spy-section="공통-사전-준비">다음 단계</h3>
+<p>준비가 끝나면 Quickstart로 진행하세요.</p>
+<ul>
+<li><a href="/bizapi#quickstart-bizapi">Quickstart (API)</a></li>
+<li><a href="/bizclient#quickstart-bizclient">Quickstart (BIZCLIENT)</a></li>
+</ul>
+</div></section></main><aside class="bp-toc"><div class="bp-toc__sticky"><div class="bp-toc__title">목차</div><nav class="bp-toc__nav"><a href="#서비스-소개" class="bp-toc__link is-active">서비스 소개</a><a href="#시작하기" class="bp-toc__link">시작하기</a><a href="#선택-가이드" class="bp-toc__link">선택 가이드</a><a href="#비교-—-bizapi-vs-bizclient" class="bp-toc__link">비교 — BIZAPI vs BIZCLIENT</a><a href="#공통-사전-준비" class="bp-toc__link">공통 사전 준비</a></nav></div></aside></div></div><footer class="bp-footer"><div class="bp-footer__inner"><div class="bp-footer__cols"><div class="bp-footer__brand-col"><div class="bp-footer__brand"><span class="bp-footer__brand-name">비즈뿌리오</span><span class="bp-footer__brand-tag">Developers</span></div><p class="bp-footer__desc">통합 메시징 플랫폼 공식 개발자 문서. 발송 API · BIZCLIENT · 카카오/RCS/네이버 톡톡 자원 관리 · 도구.</p></div><div><div class="bp-footer__col-title">문서</div><div class="bp-footer__links"><a class="bp-footer__link" href="/start/">시작하기</a><a class="bp-footer__link" href="/bizapi/">메시지 API</a><a class="bp-footer__link" href="/bizclient/">BIZCLIENT</a></div></div><div><div class="bp-footer__col-title">자원 관리</div><div class="bp-footer__links"><a class="bp-footer__link" href="/kapi/">카카오 비즈메시지</a><a class="bp-footer__link" href="/rapi/">RCS 관리</a><a class="bp-footer__link" href="/napi/">네이버 톡톡 관리</a></div></div><div><div class="bp-footer__col-title">도구·레퍼런스</div><div class="bp-footer__links"><a class="bp-footer__link" href="/sandbox/">메시지 발송 체험</a><a class="bp-footer__link" href="/json-validator/">JSON 검증기</a><a class="bp-footer__link" href="/response-codes/">응답 코드</a><a class="bp-footer__link" href="/changelog/">개정 이력</a></div></div><div><div class="bp-footer__col-title">지원</div><div class="bp-footer__links"><a class="bp-footer__link" href="/guides/operations/">운영 가이드</a><a href="tel:1599-9782" class="bp-footer__link">1599-9782</a><a href="mailto:bizppurio@daou.co.kr" class="bp-footer__link">bizppurio@daou.co.kr</a></div></div></div><div class="bp-footer__bottom"><span class="bp-footer__copy">© 2026 Daou Tech Inc. All rights reserved.</span><a href="https://www.bizppurio.com" target="_blank" rel="noopener" class="bp-footer__site">bizppurio.com</a></div></div></footer></div><script src="/_next/static/chunks/webpack-614e1c07d9a996a3.js" async=""></script><script>(self.__next_f=self.__next_f||[]).push([0]);self.__next_f.push([2,null])</script><script>self.__next_f.push([1,"1:HL[\"/_next/static/css/79fc88ac13b2b701.css\",\"style\"]\n2:HL[\"/_next/static/css/d84b48ae13d559b5.css\",\"style\"]\n"])</script><script>self.__next_f.push([1,"3:I[2846,[],\"\"]\n6:I[4707,[],\"\"]\n7:I[6423,[],\"\"]\nd:I[1060,[],\"\"]\n8:{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"}\n9:{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"}\na:{\"display\":\"inline-block\"}\nb:{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0}\ne:[]\n"])</script><script>self.__next_f.push([1,"0:[\"$\",\"$L3\",null,{\"buildId\":\"YM0o_lV7YvNsNcIvz6eMw\",\"assetPrefix\":\"\",\"urlParts\":[\"\",\"docs\",\"\"],\"initialTree\":[\"\",{\"children\":[\"(site)\",{\"children\":[\"docs\",{\"children\":[\"__PAGE__\",{}]}]},\"$undefined\",\"$undefined\",true]}],\"initialSeedData\":[\"\",{\"children\":[\"(site)\",{\"children\":[\"docs\",{\"children\":[\"__PAGE__\",{},[[\"$L4\",\"$L5\",null],null],null]},[null,[\"$\",\"$L6\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"(site)\",\"children\",\"docs\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L7\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"notFoundStyles\":\"$undefined\"}]],null]},[[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/79fc88ac13b2b701.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\"}],[\"$\",\"link\",\"1\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/d84b48ae13d559b5.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\"}]],[\"$\",\"html\",null,{\"lang\":\"ko\",\"children\":[[\"$\",\"head\",null,{\"children\":[[\"$\",\"script\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"(function(){try{var t=localStorage.getItem('bp-theme');if(!t)t=window.matchMedia\u0026\u0026window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';document.documentElement.setAttribute('data-theme',t);}catch(e){}})();\"}}],[\"$\",\"link\",null,{\"rel\":\"preconnect\",\"href\":\"https://cdn.jsdelivr.net\"}],[\"$\",\"link\",null,{\"rel\":\"stylesheet\",\"href\":\"https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css\"}],[\"$\",\"script\",null,{\"src\":\"/search-index.js\"}]]}],[\"$\",\"body\",null,{\"data-code-layout\":\"stacked\",\"children\":[\"$\",\"$L6\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"(site)\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L7\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},\"children\":\"404\"}],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not be found.\"}]}]]}]}]],\"notFoundStyles\":[]}]}]]}]],null],null]},[null,[\"$\",\"$L6\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L7\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":\"$8\",\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":\"$9\",\"children\":\"404\"}],[\"$\",\"div\",null,{\"style\":\"$a\",\"children\":[\"$\",\"h2\",null,{\"style\":\"$b\",\"children\":\"This page could not be found.\"}]}]]}]}]],\"notFoundStyles\":[]}]],null],\"couldBeIntercepted\":false,\"initialHead\":[null,\"$Lc\"],\"globalErrorComponent\":\"$d\",\"missingSlots\":\"$We\"}]\n"])</script><script>self.__next_f.push([1,"f:I[1603,[\"648\",\"static/chunks/648-13247af19f98aaae.js\",\"603\",\"static/chunks/603-4b3f1eba95ffcb02.js\",\"101\",\"static/chunks/app/(site)/docs/page-7c47da7ed21516ce.js\"],\"default\"]\n15:I[2330,[\"648\",\"static/chunks/648-13247af19f98aaae.js\",\"603\",\"static/chunks/603-4b3f1eba95ffcb02.js\",\"101\",\"static/chunks/app/(site)/docs/page-7c47da7ed21516ce.js\"],\"default\"]\n16:I[2972,[\"648\",\"static/chunks/648-13247af19f98aaae.js\",\"603\",\"static/chunks/603-4b3f1eba95ffcb02.js\",\"101\",\"static/chunks/app/(site)/docs/page-7c47da7ed21516ce.js\"],\"\"]\n10:Tfc0,"])</script><script>self.__next_f.push([1,"\u003cp\u003e\u003cstrong\u003e비즈뿌리오\u003c/strong\u003e 는 SMS · LMS · MMS · 카카오 알림톡 · 카카오 브랜드 메시지 · RCS · 네이버 톡톡 · FAX · PHONE 을 하나의 인터페이스로 발송할 수 있는 통합 메시징 플랫폼입니다. 본 문서는 발송 API 와 자원 관리 API 의 공식 레퍼런스입니다.\u003c/p\u003e\n\u003ch3 id=\"발송-방식\" data-spy-id=\"발송-방식\" data-spy-section=\"서비스-소개\"\u003e발송 방식\u003c/h3\u003e\n\u003cp\u003e두 가지 방식 중 환경에 맞는 것을 선택하세요. 두 방식을 혼용해도 됩니다.\u003c/p\u003e\n\u003cdiv class=\"md-tablewrap\"\u003e\u003ctable\u003e\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003e방식\u003c/th\u003e\n\u003cth\u003e인터페이스\u003c/th\u003e\n\u003cth\u003e호스팅\u003c/th\u003e\n\u003cth\u003e사이드바 위치\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003e\u003cstrong\u003e메시지 API\u003c/strong\u003e\u003c/td\u003e\n\u003ctd\u003eHTTPS REST (\u003ccode\u003ePOST /v3/message\u003c/code\u003e), Bearer 24h 토큰\u003c/td\u003e\n\u003ctd\u003e비즈뿌리오 클라우드\u003c/td\u003e\n\u003ctd\u003e\u003cstrong\u003e메시지 발송 › 메시지 API\u003c/strong\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e\u003cstrong\u003eBIZCLIENT\u003c/strong\u003e\u003c/td\u003e\n\u003ctd\u003eDB 큐 테이블 INSERT (\u003ccode\u003ebiz_msg\u003c/code\u003e)\u003c/td\u003e\n\u003ctd\u003e고객사 서버 (온프레미스 모듈)\u003c/td\u003e\n\u003ctd\u003e\u003cstrong\u003e메시지 발송 › BIZCLIENT\u003c/strong\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\u003c/div\u003e\u003cp\u003e결과 수신: 메시지 API 는 Webhook(URL Push) 또는 Polling, BIZCLIENT 는 \u003ccode\u003ebiz_msg.STATUS\u003c/code\u003e / \u003ccode\u003eCALL_STATUS\u003c/code\u003e 컬럼 확인.\u003c/p\u003e\n\u003ch3 id=\"자원-관리-api\" data-spy-id=\"자원-관리-api\" data-spy-section=\"서비스-소개\"\u003e자원 관리 API\u003c/h3\u003e\n\u003cp\u003e템플릿 · 발신프로필 · 이미지 · 챗봇 · 메시지베이스 등 발송에 사용되는 자원을 프로그래매틱하게 관리합니다. 비즈뿌리오 사이트(GUI)에서 한 번씩 등록하는 대신 자동화하고 싶을 때 사용.\u003c/p\u003e\n\u003cdiv class=\"md-tablewrap\"\u003e\u003ctable\u003e\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003eAPI\u003c/th\u003e\n\u003cth\u003e도메인\u003c/th\u003e\n\u003cth\u003e관리 대상\u003c/th\u003e\n\u003cth\u003e사이드바 위치\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003e\u003cstrong\u003eKAPI\u003c/strong\u003e\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003ekapi.ppurio.com\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003e카카오 비즈메시지 — 알림톡 템플릿 / 비즈메시지 파일 / 발신프로필 / 그룹 / 그룹태그 / 플러그인 콜백 / 브랜드 메시지 템플릿·이미지 / 통계\u003c/td\u003e\n\u003ctd\u003e\u003cstrong\u003e관리 API › KAPI\u003c/strong\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e\u003cstrong\u003eRAPI\u003c/strong\u003e\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003erapi.bizppurio.com\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003eRCS — 브랜드 / 챗봇 / 파일 / 메시지베이스\u003c/td\u003e\n\u003ctd\u003e\u003cstrong\u003e관리 API › RAPI\u003c/strong\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e\u003cstrong\u003eNAPI\u003c/strong\u003e\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003enapi.bizppurio.com\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003e네이버 톡톡 — 파트너 / 그룹 / 이미지 / 정보성·광고성 템플릿\u003c/td\u003e\n\u003ctd\u003e\u003cstrong\u003e관리 API › NAPI\u003c/strong\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\u003c/div\u003e\u003ch3 id=\"연동-규격-공통\" data-spy-id=\"연동-규격-공통\" data-spy-section=\"서비스-소개\"\u003e연동 규격 (공통)\u003c/h3\u003e\n\u003cdiv class=\"md-tablewrap\"\u003e\u003ctable\u003e\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003e항목\u003c/th\u003e\n\u003cth\u003e값\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003e프로토콜\u003c/td\u003e\n\u003ctd\u003eHTTPS (443)\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e인코딩\u003c/td\u003e\n\u003ctd\u003eUTF-8\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e메시지 API Keep-Alive Timeout\u003c/td\u003e\n\u003ctd\u003e4초 이하\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e메시지 API 인증\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003ePOST /v1/token\u003c/code\u003e (Basic) → \u003ccode\u003eAuthorization: Bearer {accesstoken}\u003c/code\u003e (24시간)\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eKAPI 인증\u003c/td\u003e\n\u003ctd\u003e요청 본문에 \u003ccode\u003ebizId\u003c/code\u003e + \u003ccode\u003eapiKey\u003c/code\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eNAPI 인증\u003c/td\u003e\n\u003ctd\u003eBearer 토큰 (\u003ccode\u003erefreshToken\u003c/code\u003e → \u003ccode\u003eaccessToken\u003c/code\u003e)\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\u003c/div\u003e\u003cp\u003e메시지 API 도메인: 운영 \u003ccode\u003eapi.bizppurio.com\u003c/code\u003e / 검수 \u003ccode\u003edev-api.bizppurio.com\u003c/code\u003e.\nRate Limit 초과 시 HTTP 429 + \u003ccode\u003ecode: 5002\u003c/code\u003e 응답 — 백오프 후 재시도.\u003c/p\u003e\n\u003ch3 id=\"다음-단계\" data-spy-id=\"다음-단계\" data-spy-section=\"서비스-소개\"\u003e다음 단계\u003c/h3\u003e\n\u003cp\u003e처음 연동하시면 사이드바 \u003cstrong\u003e시작 › 시작하기\u003c/strong\u003e 에서 연동 방식 비교 / 사전 준비 / 5분 Quickstart 를 확인하세요. 구체적인 엔드포인트·페이로드는 \u003cstrong\u003e메시지 발송 / 관리 API\u003c/strong\u003e 그룹 안의 각 페이지로 들어가면 됩니다.\u003c/p\u003e\n"])</script><script>self.__next_f.push([1,"11:T2049,"])</script><script>self.__next_f.push([1,"\u003cp\u003e\u003cstrong\u003e비즈뿌리오 첫 발송까지\u003c/strong\u003e — 비교, 선택, 사전 준비, Quickstart\u003c/p\u003e\n\u003cp\u003e비즈뿌리오를 처음 연동하신다면 아래 순서대로 진행하세요.\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003e\u003cstrong\u003e연동 방식 비교\u003c/strong\u003e — API vs BIZCLIENT 차이 파악\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e연동 방식 선택\u003c/strong\u003e — 트래픽·보안·운영 환경 기준\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e사전 준비\u003c/strong\u003e — 계정·발신번호·채널·브랜드 등록\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eQuickstart\u003c/strong\u003e — cURL 또는 SQL 한 번으로 SMS 발송\u003c/li\u003e\n\u003c/ol\u003e\n\u003chr\u003e\n\u003ch3 id=\"1-연동-방식-비교-api-vs-bizclient\" data-spy-id=\"1-연동-방식-비교-api-vs-bizclient\" data-spy-section=\"시작하기\"\u003e1. 연동 방식 비교 (API vs BIZCLIENT)\u003c/h3\u003e\n\u003cdiv class=\"md-tablewrap\"\u003e\u003ctable\u003e\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003e항목\u003c/th\u003e\n\u003cth\u003e메시지 API\u003c/th\u003e\n\u003cth\u003eBIZCLIENT\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003e인터페이스\u003c/td\u003e\n\u003ctd\u003eHTTPS REST (\u003ccode\u003ePOST /v3/message\u003c/code\u003e)\u003c/td\u003e\n\u003ctd\u003eMySQL / Oracle / MSSQL INSERT\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e호스팅\u003c/td\u003e\n\u003ctd\u003e비즈뿌리오 클라우드\u003c/td\u003e\n\u003ctd\u003e고객사 서버 (온프레미스)\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e인증\u003c/td\u003e\n\u003ctd\u003eBearer 토큰 (24시간 유효)\u003c/td\u003e\n\u003ctd\u003eDB 접근 권한\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e발송 트리거\u003c/td\u003e\n\u003ctd\u003eAPI 호출 즉시\u003c/td\u003e\n\u003ctd\u003eBIZCLIENT 모듈이 큐 폴링\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e결과 수신\u003c/td\u003e\n\u003ctd\u003eWebhook (URL Push) / Polling\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003ebiz_msg.STATUS\u003c/code\u003e + \u003ccode\u003eCALL_STATUS\u003c/code\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e외부 네트워크 의존\u003c/td\u003e\n\u003ctd\u003e필요 (HTTPS 443 outbound)\u003c/td\u003e\n\u003ctd\u003e38300/38400 outbound (모듈 ↔ 비즈뿌리오)\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e모듈 설치\u003c/td\u003e\n\u003ctd\u003e불필요\u003c/td\u003e\n\u003ctd\u003e필수 (JDK 1.8+, 4GB RAM, JDBC)\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e운영 부담\u003c/td\u003e\n\u003ctd\u003e낮음\u003c/td\u003e\n\u003ctd\u003e모듈 구동·DB 관리·로그 테이블 회전\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e미지원 채널\u003c/td\u003e\n\u003ctd\u003eFAX · PHONE\u003c/td\u003e\n\u003ctd\u003eNTALK\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\u003c/div\u003e\u003ch3 id=\"2-연동-방식-선택-가이드\" data-spy-id=\"2-연동-방식-선택-가이드\" data-spy-section=\"시작하기\"\u003e2. 연동 방식 선택 가이드\u003c/h3\u003e\n\u003cdiv class=\"md-tablewrap\"\u003e\u003ctable\u003e\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003e우선 검토\u003c/th\u003e\n\u003cth\u003e이유\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003e\u003cstrong\u003e메시지 API\u003c/strong\u003e\u003c/td\u003e\n\u003ctd\u003e새 프로젝트, 빠른 시작, 운영 부담 최소화, 멀티테넌트 환경\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e\u003cstrong\u003eBIZCLIENT\u003c/strong\u003e\u003c/td\u003e\n\u003ctd\u003e외부 HTTPS 호출이 제한된 사내망, 대량 배치(DB 동시 처리), 레거시 ERP·CRM 연동, FAX/PHONE 발송\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e\u003cstrong\u003e두 방식 혼용\u003c/strong\u003e\u003c/td\u003e\n\u003ctd\u003e메시지 API 로 트랜잭션성 메시지 + BIZCLIENT 로 야간 대량 배치\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\u003c/div\u003e\u003ch3 id=\"3-사전-준비-체크리스트\" data-spy-id=\"3-사전-준비-체크리스트\" data-spy-section=\"시작하기\"\u003e3. 사전 준비 체크리스트\u003c/h3\u003e\n\u003ch3 id=\"공통-모든-사용자\" data-spy-id=\"공통-모든-사용자\" data-spy-section=\"시작하기\"\u003e공통 (모든 사용자)\u003c/h3\u003e\n\u003cdiv class=\"md-tablewrap\"\u003e\u003ctable\u003e\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003e단계\u003c/th\u003e\n\u003cth\u003e절차\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003e회원 가입\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://www.bizppurio.com\" target=\"_blank\" rel=\"noopener noreferrer\"\u003ewww.bizppurio.com\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eAPI 용도 계정 생성\u003c/td\u003e\n\u003ctd\u003e운영용·검수용 \u003cstrong\u003e각각\u003c/strong\u003e 발급 권장\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e서비스 사용 승인 요청\u003c/td\u003e\n\u003ctd\u003e전화 1599-9782 / 이메일 \u003ca href=\"mailto:bizppurio@daou.co.kr\"\u003ebizppurio@daou.co.kr\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e발신번호 등록\u003c/td\u003e\n\u003ctd\u003e비즈뿌리오 사이트 (SMS/LMS/MMS/RCS/FAX/PHONE 공통)\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e(메시지 API) 결과 수신 URL 등록\u003c/td\u003e\n\u003ctd\u003eWebhook 사용 시. 443·80 외 포트는 방화벽 허용 요청 필요\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\u003c/div\u003e\u003ch3 id=\"채널별-추가-등록\" data-spy-id=\"채널별-추가-등록\" data-spy-section=\"시작하기\"\u003e채널별 추가 등록\u003c/h3\u003e\n\u003cdiv class=\"md-tablewrap\"\u003e\u003ctable\u003e\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003e채널\u003c/th\u003e\n\u003cth\u003e등록 항목\u003c/th\u003e\n\u003cth\u003e위치\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003e\u003cstrong\u003e카카오 (AT/BT)\u003c/strong\u003e\u003c/td\u003e\n\u003ctd\u003e카카오톡 채널 + 발신프로필 + (AT) 템플릿 + (BT) 브랜드\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://center-pf.kakao.com\" target=\"_blank\" rel=\"noopener noreferrer\"\u003e카카오 비즈니스\u003c/a\u003e + 비즈뿌리오 사이트\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e\u003cstrong\u003eRCS\u003c/strong\u003e\u003c/td\u003e\n\u003ctd\u003e브랜드 + 챗봇 + 메시지베이스 + 발신번호 + 이미지\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://www.rcsbizcenter.com\" target=\"_blank\" rel=\"noopener noreferrer\"\u003eRBC\u003c/a\u003e + 비즈뿌리오 사이트\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e\u003cstrong\u003e네이버 톡톡\u003c/strong\u003e\u003c/td\u003e\n\u003ctd\u003e채널 + 파트너 키 + 템플릿\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://partner.talk.naver.com\" target=\"_blank\" rel=\"noopener noreferrer\"\u003e네이버 톡톡 파트너센터\u003c/a\u003e + 비즈뿌리오 사이트\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\u003c/div\u003e\u003ch3 id=\"자원을-코드로-관리하고-싶다면\" data-spy-id=\"자원을-코드로-관리하고-싶다면\" data-spy-section=\"시작하기\"\u003e자원을 코드로 관리하고 싶다면\u003c/h3\u003e\n\u003cp\u003e자원 등록을 GUI 대신 API 로 — 좌측 사이드바 \u003cstrong\u003e관리 API\u003c/strong\u003e 그룹 참고:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003eKAPI\u003c/strong\u003e — 카카오 알림톡 템플릿·이미지·발신프로필·브랜드 메시지\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eRAPI\u003c/strong\u003e — RCS 브랜드·챗봇·파일·메시지베이스\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eNAPI\u003c/strong\u003e — 네이버 톡톡 파트너·그룹·이미지·템플릿\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3 id=\"4-quickstart\" data-spy-id=\"4-quickstart\" data-spy-section=\"시작하기\"\u003e4. Quickstart\u003c/h3\u003e\n\u003ch3 id=\"4-a-메시지-api-curl-5분\" data-spy-id=\"4-a-메시지-api-curl-5분\" data-spy-section=\"시작하기\"\u003e4-A. 메시지 API (cURL, 5분)\u003c/h3\u003e\n\u003cpre\u003e\u003ccode class=\"language-bash\"\u003e      # 환경 변수\nexport BP_HOST=\u0026quot;dev-api.bizppurio.com\u0026quot;   # 운영: api.bizppurio.com\nexport BP_ACCOUNT=\u0026quot;bizUserId001\u0026quot;\nexport BP_PASSWORD=\u0026quot;mypassword\u0026quot;\nexport BP_FROM=\u0026quot;07000000000\u0026quot;             # 등록된 발신번호\nexport BP_TO=\u0026quot;01012345678\u0026quot;               # 수신 테스트 번호\n\n\n# 1) 토큰 발급\nAUTH=$(printf '%s' \u0026quot;$BP_ACCOUNT:$BP_PASSWORD\u0026quot; | base64)\nACCESS_TOKEN=$(curl -s -X POST \u0026quot;https://$BP_HOST/v1/token\u0026quot; \\\n  -H \u0026quot;Authorization: Basic $AUTH\u0026quot; \\\n  -H \u0026quot;Content-type: application/json; charset=utf-8\u0026quot; \\\n  | python -c \u0026quot;import sys, json; print(json.load(sys.stdin)['accesstoken'])\u0026quot;)\n\n\n# 2) SMS 발송\ncurl -X POST \u0026quot;https://$BP_HOST/v3/message\u0026quot; \\\n  -H \u0026quot;Authorization: Bearer $ACCESS_TOKEN\u0026quot; \\\n  -H \u0026quot;Content-type: application/json\u0026quot; \\\n  -d '{\n    \u0026quot;account\u0026quot;: \u0026quot;'\u0026quot;$BP_ACCOUNT\u0026quot;'\u0026quot;,\n    \u0026quot;refkey\u0026quot;: \u0026quot;test-'\u0026quot;$(date +%s)\u0026quot;'\u0026quot;,\n    \u0026quot;type\u0026quot;: \u0026quot;sms\u0026quot;,\n    \u0026quot;from\u0026quot;: \u0026quot;'\u0026quot;$BP_FROM\u0026quot;'\u0026quot;,\n    \u0026quot;to\u0026quot;: \u0026quot;'\u0026quot;$BP_TO\u0026quot;'\u0026quot;,\n    \u0026quot;content\u0026quot;: { \u0026quot;sms\u0026quot;: { \u0026quot;message\u0026quot;: \u0026quot;비즈뿌리오 Quickstart 테스트\u0026quot; } }\n  }'\n\u003c/code\u003e\u003c/pre\u003e\n\u003cblockquote\u003e\n\u003cp\u003eℹ️ 토큰은 \u003cstrong\u003e24시간\u003c/strong\u003e 유효. 매 요청마다 발급하지 말고 캐싱해서 사용.\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch3 id=\"4-b-bizclient-sql-5분\" data-spy-id=\"4-b-bizclient-sql-5분\" data-spy-section=\"시작하기\"\u003e4-B. BIZCLIENT (SQL, 5분)\u003c/h3\u003e\n\u003cpre\u003e\u003ccode class=\"language-sql\"\u003eINSERT INTO biz_msg (\n  MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME,\n  DEST_PHONE, SEND_PHONE, MSG_BODY\n) VALUES (\n  0,                                         -- SMS\n  CONCAT('TEST', UNIX_TIMESTAMP()),          -- 데이터 ID\n  NOW(), NOW(),\n  '01012345678',                             -- 수신번호\n  '07000000000',                             -- 발신번호 (사전 등록)\n  '비즈뿌리오 BIZCLIENT Quickstart 테스트'\n);\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003eBIZCLIENT 모듈이 큐를 폴링하여 자동 발송. 결과는 \u003ccode\u003ebiz_msg.STATUS\u003c/code\u003e / \u003ccode\u003eCALL_STATUS\u003c/code\u003e 로 확인.\u003c/p\u003e\n\u003chr\u003e\n\u003ch3 id=\"다음-단계\" data-spy-id=\"다음-단계\" data-spy-section=\"시작하기\"\u003e다음 단계\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"/bizapi#post-v3message\"\u003e\u003ccode\u003ePOST /v3/message\u003c/code\u003e\u003c/a\u003e — 메시지 API 전체 페이로드 (모든 채널)\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eBIZCLIENT\u003c/strong\u003e 사이드바 그룹 — 채널별 INSERT 가이드\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e관리 API\u003c/strong\u003e 사이드바 그룹 — 자원 등록·관리\u003c/li\u003e\n\u003c/ul\u003e\n"])</script><script>self.__next_f.push([1,"12:T222c,"])</script><script>self.__next_f.push([1,"\u003cp\u003e\u003ca href=\"/docs#비교-—-bizapi-vs-bizclient\"\u003e연동 방식 비교\u003c/a\u003e에서 두 방식의 차이를 확인하셨다면, 아래 의사결정 트리로 빠르게 결정할 수 있습니다.\u003c/p\u003e\n\u003ch3 id=\"의사결정-트리\" data-spy-id=\"의사결정-트리\" data-spy-section=\"선택-가이드\"\u003e의사결정 트리\u003c/h3\u003e\n\u003cp\u003e\u003csvg viewBox=\"0 0 770 560\" width=\"100%\" style=\"max-width:770px;height:auto;font-family:inherit\" xmlns=\"http://www.w3.org/2000/svg\"\u003e\u003cdefs\u003e\u003cmarker id=\"arc3\" markerWidth=\"9\" markerHeight=\"9\" refX=\"8\" refY=\"4.5\" orient=\"auto\"\u003e\u003cpath d=\"M0,0 L9,4.5 L0,9 z\" fill=\"#2b3a4a\"/\u003e\u003c/marker\u003e\u003c/defs\u003e\u003crect x=\"8\" y=\"10\" width=\"372\" height=\"44\" rx=\"6\" fill=\"#fff\" stroke=\"#2b3a4a\" stroke-width=\"1.4\"/\u003e\u003ctext x=\"194\" y=\"37\" font-size=\"12\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1f2d3a\"\u003e1. 사내망에서 외부 HTTPS 호출이 가능한가?\u003c/text\u003e\u003cline x1=\"380\" y1=\"32\" x2=\"490\" y2=\"32\" stroke=\"#2b3a4a\" stroke-width=\"1.5\" marker-end=\"url(#arc3)\"/\u003e\u003crect x=\"496\" y=\"12\" width=\"258\" height=\"40\" rx=\"6\" fill=\"#9ed9a8\" stroke=\"#2b3a4a\" stroke-width=\"1.4\"/\u003e\u003ctext x=\"625\" y=\"28\" font-size=\"10\" text-anchor=\"middle\" fill=\"#33424f\"\u003e아니오 — DMZ · 폐쇄망\u003c/text\u003e\u003ctext x=\"625\" y=\"44\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#1f2d3a\"\u003eBIZCLIENT\u003c/text\u003e\u003cline x1=\"194\" y1=\"54\" x2=\"194\" y2=\"86\" stroke=\"#2b3a4a\" stroke-width=\"1.5\" marker-end=\"url(#arc3)\"/\u003e\u003ctext x=\"202\" y=\"74\" font-size=\"11\" fill=\"#5a6b7a\"\u003e예\u003c/text\u003e\u003crect x=\"8\" y=\"90\" width=\"372\" height=\"44\" rx=\"6\" fill=\"#fff\" stroke=\"#2b3a4a\" stroke-width=\"1.4\"/\u003e\u003ctext x=\"194\" y=\"117\" font-size=\"12\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1f2d3a\"\u003e2. FAX 또는 PHONE 채널이 필요한가?\u003c/text\u003e\u003cline x1=\"380\" y1=\"112\" x2=\"490\" y2=\"112\" stroke=\"#2b3a4a\" stroke-width=\"1.5\" marker-end=\"url(#arc3)\"/\u003e\u003crect x=\"496\" y=\"92\" width=\"258\" height=\"40\" rx=\"6\" fill=\"#9ed9a8\" stroke=\"#2b3a4a\" stroke-width=\"1.4\"/\u003e\u003ctext x=\"625\" y=\"108\" font-size=\"10\" text-anchor=\"middle\" fill=\"#33424f\"\u003e예\u003c/text\u003e\u003ctext x=\"625\" y=\"124\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#1f2d3a\"\u003eBIZCLIENT\u003c/text\u003e\u003cline x1=\"194\" y1=\"134\" x2=\"194\" y2=\"166\" stroke=\"#2b3a4a\" stroke-width=\"1.5\" marker-end=\"url(#arc3)\"/\u003e\u003ctext x=\"202\" y=\"154\" font-size=\"11\" fill=\"#5a6b7a\"\u003e아니오\u003c/text\u003e\u003crect x=\"8\" y=\"170\" width=\"372\" height=\"44\" rx=\"6\" fill=\"#fff\" stroke=\"#2b3a4a\" stroke-width=\"1.4\"/\u003e\u003ctext x=\"194\" y=\"197\" font-size=\"12\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1f2d3a\"\u003e3. 네이버 톡톡(NTALK) 채널이 필요한가?\u003c/text\u003e\u003cline x1=\"380\" y1=\"192\" x2=\"490\" y2=\"192\" stroke=\"#2b3a4a\" stroke-width=\"1.5\" marker-end=\"url(#arc3)\"/\u003e\u003crect x=\"496\" y=\"172\" width=\"258\" height=\"40\" rx=\"6\" fill=\"#bcd8ff\" stroke=\"#2b3a4a\" stroke-width=\"1.4\"/\u003e\u003ctext x=\"625\" y=\"188\" font-size=\"10\" text-anchor=\"middle\" fill=\"#33424f\"\u003e예\u003c/text\u003e\u003ctext x=\"625\" y=\"204\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#1f2d3a\"\u003eAPI — BIZCLIENT 미지원\u003c/text\u003e\u003cline x1=\"194\" y1=\"214\" x2=\"194\" y2=\"246\" stroke=\"#2b3a4a\" stroke-width=\"1.5\" marker-end=\"url(#arc3)\"/\u003e\u003ctext x=\"202\" y=\"234\" font-size=\"11\" fill=\"#5a6b7a\"\u003e아니오\u003c/text\u003e\u003crect x=\"8\" y=\"250\" width=\"372\" height=\"44\" rx=\"6\" fill=\"#fff\" stroke=\"#2b3a4a\" stroke-width=\"1.4\"/\u003e\u003ctext x=\"194\" y=\"277\" font-size=\"12\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1f2d3a\"\u003e4. 트랜잭션성 발송인가, 대량 배치인가?\u003c/text\u003e\u003cline x1=\"380\" y1=\"272\" x2=\"490\" y2=\"248\" stroke=\"#2b3a4a\" stroke-width=\"1.5\" marker-end=\"url(#arc3)\"/\u003e\u003cline x1=\"380\" y1=\"272\" x2=\"490\" y2=\"294\" stroke=\"#2b3a4a\" stroke-width=\"1.5\" marker-end=\"url(#arc3)\"/\u003e\u003cline x1=\"380\" y1=\"272\" x2=\"490\" y2=\"340\" stroke=\"#2b3a4a\" stroke-width=\"1.5\" marker-end=\"url(#arc3)\"/\u003e\u003crect x=\"496\" y=\"228\" width=\"258\" height=\"40\" rx=\"6\" fill=\"#bcd8ff\" stroke=\"#2b3a4a\" stroke-width=\"1.4\"/\u003e\u003ctext x=\"625\" y=\"244\" font-size=\"10\" text-anchor=\"middle\" fill=\"#33424f\"\u003e트랜잭션성 — 사용자 액션 즉시 발송\u003c/text\u003e\u003ctext x=\"625\" y=\"260\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#1f2d3a\"\u003eAPI\u003c/text\u003e\u003crect x=\"496\" y=\"274\" width=\"258\" height=\"40\" rx=\"6\" fill=\"#9ed9a8\" stroke=\"#2b3a4a\" stroke-width=\"1.4\"/\u003e\u003ctext x=\"625\" y=\"290\" font-size=\"10\" text-anchor=\"middle\" fill=\"#33424f\"\u003e야간 대량 배치 — 수십만 건 이상\u003c/text\u003e\u003ctext x=\"625\" y=\"306\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#1f2d3a\"\u003eBIZCLIENT 권장\u003c/text\u003e\u003crect x=\"496\" y=\"320\" width=\"258\" height=\"40\" rx=\"6\" fill=\"#f6d9a3\" stroke=\"#2b3a4a\" stroke-width=\"1.4\"/\u003e\u003ctext x=\"625\" y=\"336\" font-size=\"10\" text-anchor=\"middle\" fill=\"#33424f\"\u003e둘 다\u003c/text\u003e\u003ctext x=\"625\" y=\"352\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#1f2d3a\"\u003e혼용 — API + BIZCLIENT\u003c/text\u003e\u003cline x1=\"194\" y1=\"294\" x2=\"194\" y2=\"383\" stroke=\"#2b3a4a\" stroke-width=\"1.5\" marker-end=\"url(#arc3)\"/\u003e\u003ctext x=\"202\" y=\"342\" font-size=\"10.5\" fill=\"#5a6b7a\"\u003e계속 검토\u003c/text\u003e\u003crect x=\"8\" y=\"387\" width=\"372\" height=\"44\" rx=\"6\" fill=\"#fff\" stroke=\"#2b3a4a\" stroke-width=\"1.4\"/\u003e\u003ctext x=\"194\" y=\"414\" font-size=\"12\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1f2d3a\"\u003e5. 발송 대상 데이터는 어디서 오는가?\u003c/text\u003e\u003cline x1=\"380\" y1=\"409\" x2=\"490\" y2=\"390\" stroke=\"#2b3a4a\" stroke-width=\"1.5\" marker-end=\"url(#arc3)\"/\u003e\u003cline x1=\"380\" y1=\"409\" x2=\"490\" y2=\"436\" stroke=\"#2b3a4a\" stroke-width=\"1.5\" marker-end=\"url(#arc3)\"/\u003e\u003crect x=\"496\" y=\"370\" width=\"258\" height=\"40\" rx=\"6\" fill=\"#9ed9a8\" stroke=\"#2b3a4a\" stroke-width=\"1.4\"/\u003e\u003ctext x=\"625\" y=\"386\" font-size=\"10\" text-anchor=\"middle\" fill=\"#33424f\"\u003eDB에 발송 대상이 이미 존재 (SELECT → INSERT)\u003c/text\u003e\u003ctext x=\"625\" y=\"402\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#1f2d3a\"\u003eBIZCLIENT\u003c/text\u003e\u003crect x=\"496\" y=\"416\" width=\"258\" height=\"40\" rx=\"6\" fill=\"#bcd8ff\" stroke=\"#2b3a4a\" stroke-width=\"1.4\"/\u003e\u003ctext x=\"625\" y=\"432\" font-size=\"10\" text-anchor=\"middle\" fill=\"#33424f\"\u003e외부 이벤트 · 웹훅 트리거\u003c/text\u003e\u003ctext x=\"625\" y=\"448\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#1f2d3a\"\u003eAPI\u003c/text\u003e\u003cline x1=\"194\" y1=\"431\" x2=\"194\" y2=\"479\" stroke=\"#2b3a4a\" stroke-width=\"1.5\" marker-end=\"url(#arc3)\"/\u003e\u003ctext x=\"202\" y=\"458\" font-size=\"10.5\" fill=\"#5a6b7a\"\u003e계속 검토\u003c/text\u003e\u003crect x=\"8\" y=\"483\" width=\"372\" height=\"44\" rx=\"6\" fill=\"#fff\" stroke=\"#2b3a4a\" stroke-width=\"1.4\"/\u003e\u003ctext x=\"194\" y=\"510\" font-size=\"12\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1f2d3a\"\u003e6. 모듈 설치 · 운영 부담을 피하고 싶은가?\u003c/text\u003e\u003cline x1=\"380\" y1=\"505\" x2=\"490\" y2=\"486\" stroke=\"#2b3a4a\" stroke-width=\"1.5\" marker-end=\"url(#arc3)\"/\u003e\u003cline x1=\"380\" y1=\"505\" x2=\"490\" y2=\"532\" stroke=\"#2b3a4a\" stroke-width=\"1.5\" marker-end=\"url(#arc3)\"/\u003e\u003crect x=\"496\" y=\"466\" width=\"258\" height=\"40\" rx=\"6\" fill=\"#bcd8ff\" stroke=\"#2b3a4a\" stroke-width=\"1.4\"/\u003e\u003ctext x=\"625\" y=\"482\" font-size=\"10\" text-anchor=\"middle\" fill=\"#33424f\"\u003e예\u003c/text\u003e\u003ctext x=\"625\" y=\"498\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#1f2d3a\"\u003eAPI — 설치 · 운영 불필요\u003c/text\u003e\u003crect x=\"496\" y=\"512\" width=\"258\" height=\"40\" rx=\"6\" fill=\"#9ed9a8\" stroke=\"#2b3a4a\" stroke-width=\"1.4\"/\u003e\u003ctext x=\"625\" y=\"528\" font-size=\"10\" text-anchor=\"middle\" fill=\"#33424f\"\u003e직접 운영 가능\u003c/text\u003e\u003ctext x=\"625\" y=\"544\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#1f2d3a\"\u003eBIZCLIENT\u003c/text\u003e\u003c/svg\u003e\u003c/p\u003e\n\u003ch3 id=\"시나리오별-권장\" data-spy-id=\"시나리오별-권장\" data-spy-section=\"선택-가이드\"\u003e시나리오별 권장\u003c/h3\u003e\n\u003cdiv class=\"md-tablewrap\"\u003e\u003ctable\u003e\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003e시나리오\u003c/th\u003e\n\u003cth\u003e권장\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003eSaaS 신규 개발, 빠른 출시\u003c/td\u003e\n\u003ctd\u003e\u003cstrong\u003eAPI\u003c/strong\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e사내망에서 외부 HTTPS 차단\u003c/td\u003e\n\u003ctd\u003e\u003cstrong\u003eBIZCLIENT\u003c/strong\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eERP / CRM이 이미 DB 통합 환경\u003c/td\u003e\n\u003ctd\u003e\u003cstrong\u003eBIZCLIENT\u003c/strong\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eFAX 발송 (계약서·청구서 등)\u003c/td\u003e\n\u003ctd\u003e\u003cstrong\u003eBIZCLIENT\u003c/strong\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ePHONE 발송 (TTS 안내, 설문)\u003c/td\u003e\n\u003ctd\u003e\u003cstrong\u003eBIZCLIENT\u003c/strong\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e네이버 톡톡 발송\u003c/td\u003e\n\u003ctd\u003e\u003cstrong\u003eAPI\u003c/strong\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e사용자 액션 직후 즉시 1건 발송\u003c/td\u003e\n\u003ctd\u003e\u003cstrong\u003eAPI\u003c/strong\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\u003c/div\u003e\u003ch3 id=\"결정-후-다음-단계\" data-spy-id=\"결정-후-다음-단계\" data-spy-section=\"선택-가이드\"\u003e결정 후 다음 단계\u003c/h3\u003e\n\u003cblockquote\u003e\n\u003cp\u003e\u003cstrong\u003eNOTE:\u003c/strong\u003e 선택 후 사전 준비 단계는 두 방식 공통입니다. \u003ca href=\"/docs#공통-사전-준비\"\u003e사전 준비\u003c/a\u003e에서 비즈뿌리오 계정·발신번호·채널 등록을 먼저 마쳐야 발송이 가능합니다.\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003eAPI 선택\u003c/strong\u003e → \u003ca href=\"/bizapi#quickstart-bizapi\"\u003eQuickstart (API)\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eBIZCLIENT 선택\u003c/strong\u003e → \u003ca href=\"/bizclient#quickstart-bizclient\"\u003eQuickstart (BIZCLIENT)\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n"])</script><script>self.__next_f.push([1,"13:T23ad,"])</script><script>self.__next_f.push([1,"\u003cp\u003e비즈뿌리오는 두 가지 연동 방식을 제공합니다.\u003c/p\u003e\n\u003ch3 id=\"한눈에-비교\" data-spy-id=\"한눈에-비교\" data-spy-section=\"비교-—-bizapi-vs-bizclient\"\u003e한눈에 비교\u003c/h3\u003e\n\u003cdiv class=\"md-tablewrap\"\u003e\u003ctable\u003e\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003e항목\u003c/th\u003e\n\u003cth\u003eAPI 연동\u003c/th\u003e\n\u003cth\u003eBIZCLIENT 연동\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003e인터페이스\u003c/td\u003e\n\u003ctd\u003eHTTPS REST (\u003ccode\u003e/v3/message\u003c/code\u003e)\u003c/td\u003e\n\u003ctd\u003eMySQL/Oracle/MSSQL INSERT\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e호스팅\u003c/td\u003e\n\u003ctd\u003e비즈뿌리오 클라우드\u003c/td\u003e\n\u003ctd\u003e고객사 서버 (온프레미스)\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e인증\u003c/td\u003e\n\u003ctd\u003eBearer 토큰 (24시간 유효)\u003c/td\u003e\n\u003ctd\u003eDB 접근 권한\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e발송 트리거\u003c/td\u003e\n\u003ctd\u003eAPI 호출 즉시\u003c/td\u003e\n\u003ctd\u003eBIZCLIENT 모듈이 큐 폴링\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e결과 수신\u003c/td\u003e\n\u003ctd\u003eWebhook(URL Push) / Polling\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003eBIZ_MSG.STATUS\u003c/code\u003e + \u003ccode\u003eCALL_STATUS\u003c/code\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e외부 네트워크 의존\u003c/td\u003e\n\u003ctd\u003e필요 (HTTPS 443 outbound)\u003c/td\u003e\n\u003ctd\u003e38300/38400 outbound (모듈 ↔ 비즈뿌리오)\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e모듈 설치\u003c/td\u003e\n\u003ctd\u003e불필요\u003c/td\u003e\n\u003ctd\u003e필수 (JDK 1.8+, 4GB RAM, JDBC)\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e운영 부담\u003c/td\u003e\n\u003ctd\u003e낮음\u003c/td\u003e\n\u003ctd\u003e모듈 구동·DB 관리·로그 테이블 회전\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e미지원 채널\u003c/td\u003e\n\u003ctd\u003eFAX · PHONE\u003c/td\u003e\n\u003ctd\u003eNTALK\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\u003c/div\u003e\u003ch3 id=\"발송-흐름-차이\" data-spy-id=\"발송-흐름-차이\" data-spy-section=\"비교-—-bizapi-vs-bizclient\"\u003e발송 흐름 차이\u003c/h3\u003e\n\u003ch3 id=\"api-연동\" data-spy-id=\"api-연동\" data-spy-section=\"비교-—-bizapi-vs-bizclient\"\u003eAPI 연동\u003c/h3\u003e\n\u003cp\u003e\u003csvg viewBox=\"0 0 720 262\" width=\"100%\" style=\"max-width:720px;height:auto;font-family:inherit\" xmlns=\"http://www.w3.org/2000/svg\"\u003e\u003cdefs\u003e\u003cmarker id=\"arc4\" markerWidth=\"9\" markerHeight=\"9\" refX=\"8\" refY=\"4.5\" orient=\"auto\"\u003e\u003cpath d=\"M0,0 L9,4.5 L0,9 z\" fill=\"#2b3a4a\"/\u003e\u003c/marker\u003e\u003c/defs\u003e\u003crect x=\"40\" y=\"8\" width=\"140\" height=\"40\" rx=\"6\" fill=\"#bcd8ff\" stroke=\"#2b3a4a\" stroke-width=\"1.4\"/\u003e\u003ctext x=\"110\" y=\"32\" font-size=\"12\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1f2d3a\"\u003e고객사 앱\u003c/text\u003e\u003crect x=\"360\" y=\"8\" width=\"140\" height=\"40\" rx=\"6\" fill=\"#f4f8fc\" stroke=\"#2b3a4a\" stroke-width=\"1.4\"/\u003e\u003ctext x=\"430\" y=\"32\" font-size=\"12\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1f2d3a\"\u003e비즈뿌리오\u003c/text\u003e\u003crect x=\"556\" y=\"8\" width=\"156\" height=\"40\" rx=\"6\" fill=\"#fff\" stroke=\"#8aa0b5\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/\u003e\u003ctext x=\"634\" y=\"26\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#33424f\"\u003e통신사·카카오·RCS\u003c/text\u003e\u003ctext x=\"634\" y=\"41\" font-size=\"10\" text-anchor=\"middle\" fill=\"#5a6b7a\"\u003e→ 단말\u003c/text\u003e\u003cline x1=\"110\" y1=\"48\" x2=\"110\" y2=\"252\" stroke=\"#b8c6d2\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/\u003e\u003cline x1=\"430\" y1=\"48\" x2=\"430\" y2=\"252\" stroke=\"#b8c6d2\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/\u003e\u003cline x1=\"634\" y1=\"48\" x2=\"634\" y2=\"252\" stroke=\"#b8c6d2\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/\u003e\u003cline x1=\"110\" y1=\"86\" x2=\"424\" y2=\"86\" stroke=\"#2b3a4a\" stroke-width=\"1.5\" marker-end=\"url(#arc4)\"/\u003e\u003ctext x=\"270\" y=\"78\" font-size=\"10.5\" text-anchor=\"middle\" fill=\"#33424f\"\u003e① POST /v1/token — Basic 인증\u003c/text\u003e\u003cline x1=\"430\" y1=\"124\" x2=\"116\" y2=\"124\" stroke=\"#2b3a4a\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\" marker-end=\"url(#arc4)\"/\u003e\u003ctext x=\"270\" y=\"116\" font-size=\"10.5\" text-anchor=\"middle\" fill=\"#33424f\"\u003e② accesstoken 발급 (24시간 유효)\u003c/text\u003e\u003cline x1=\"110\" y1=\"162\" x2=\"424\" y2=\"162\" stroke=\"#2b3a4a\" stroke-width=\"1.5\" marker-end=\"url(#arc4)\"/\u003e\u003ctext x=\"270\" y=\"154\" font-size=\"10.5\" text-anchor=\"middle\" fill=\"#33424f\"\u003e③ POST /v3/message — Bearer + JSON\u003c/text\u003e\u003cline x1=\"430\" y1=\"200\" x2=\"628\" y2=\"200\" stroke=\"#2b3a4a\" stroke-width=\"1.5\" marker-end=\"url(#arc4)\"/\u003e\u003ctext x=\"532\" y=\"192\" font-size=\"10.5\" text-anchor=\"middle\" fill=\"#33424f\"\u003e메시지 전달\u003c/text\u003e\u003cline x1=\"430\" y1=\"238\" x2=\"116\" y2=\"238\" stroke=\"#2b3a4a\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\" marker-end=\"url(#arc4)\"/\u003e\u003ctext x=\"270\" y=\"230\" font-size=\"10.5\" text-anchor=\"middle\" fill=\"#33424f\"\u003e④ Webhook (URL Push) 또는 Polling\u003c/text\u003e\u003c/svg\u003e\u003c/p\u003e\n\u003ch3 id=\"bizclient-연동\" data-spy-id=\"bizclient-연동\" data-spy-section=\"비교-—-bizapi-vs-bizclient\"\u003eBIZCLIENT 연동\u003c/h3\u003e\n\u003cp\u003e\u003csvg viewBox=\"0 0 760 330\" width=\"100%\" style=\"max-width:760px;height:auto;font-family:inherit\" xmlns=\"http://www.w3.org/2000/svg\"\u003e\u003cdefs\u003e\u003cmarker id=\"arc5\" markerWidth=\"9\" markerHeight=\"9\" refX=\"8\" refY=\"4.5\" orient=\"auto\"\u003e\u003cpath d=\"M0,0 L9,4.5 L0,9 z\" fill=\"#2b3a4a\"/\u003e\u003c/marker\u003e\u003c/defs\u003e\u003crect x=\"8\" y=\"8\" width=\"120\" height=\"40\" rx=\"6\" fill=\"#bcd8ff\" stroke=\"#2b3a4a\" stroke-width=\"1.4\"/\u003e\u003ctext x=\"68\" y=\"32\" font-size=\"12\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1f2d3a\"\u003e고객사 앱\u003c/text\u003e\u003crect x=\"180\" y=\"8\" width=\"150\" height=\"40\" rx=\"6\" fill=\"#f4f8fc\" stroke=\"#2b3a4a\" stroke-width=\"1.4\"/\u003e\u003ctext x=\"255\" y=\"25\" font-size=\"11.5\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1f2d3a\"\u003eBIZ_MSG\u003c/text\u003e\u003ctext x=\"255\" y=\"40\" font-size=\"9.5\" text-anchor=\"middle\" fill=\"#5a6b7a\"\u003e큐 테이블 (고객사 DB)\u003c/text\u003e\u003crect x=\"390\" y=\"8\" width=\"140\" height=\"40\" rx=\"6\" fill=\"#f4f8fc\" stroke=\"#2b3a4a\" stroke-width=\"1.4\"/\u003e\u003ctext x=\"460\" y=\"32\" font-size=\"11.5\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1f2d3a\"\u003eBIZCLIENT 모듈\u003c/text\u003e\u003crect x=\"590\" y=\"8\" width=\"150\" height=\"40\" rx=\"6\" fill=\"#f4f8fc\" stroke=\"#2b3a4a\" stroke-width=\"1.4\"/\u003e\u003ctext x=\"665\" y=\"32\" font-size=\"11.5\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1f2d3a\"\u003e비즈뿌리오 서버\u003c/text\u003e\u003cline x1=\"68\" y1=\"48\" x2=\"68\" y2=\"292\" stroke=\"#b8c6d2\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/\u003e\u003cline x1=\"255\" y1=\"48\" x2=\"255\" y2=\"292\" stroke=\"#b8c6d2\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/\u003e\u003cline x1=\"460\" y1=\"48\" x2=\"460\" y2=\"292\" stroke=\"#b8c6d2\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/\u003e\u003cline x1=\"665\" y1=\"48\" x2=\"665\" y2=\"292\" stroke=\"#b8c6d2\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/\u003e\u003cline x1=\"68\" y1=\"84\" x2=\"249\" y2=\"84\" stroke=\"#2b3a4a\" stroke-width=\"1.5\" marker-end=\"url(#arc5)\"/\u003e\u003ctext x=\"161\" y=\"76\" font-size=\"10.5\" text-anchor=\"middle\" fill=\"#33424f\"\u003e① INSERT (STATUS = 0)\u003c/text\u003e\u003cline x1=\"255\" y1=\"122\" x2=\"454\" y2=\"122\" stroke=\"#2b3a4a\" stroke-width=\"1.5\" marker-end=\"url(#arc5)\"/\u003e\u003ctext x=\"357\" y=\"114\" font-size=\"10.5\" text-anchor=\"middle\" fill=\"#33424f\"\u003e② 폴링 — 발송 데이터 인출\u003c/text\u003e\u003cline x1=\"460\" y1=\"160\" x2=\"659\" y2=\"160\" stroke=\"#2b3a4a\" stroke-width=\"1.5\" marker-end=\"url(#arc5)\"/\u003e\u003ctext x=\"562\" y=\"152\" font-size=\"10.5\" text-anchor=\"middle\" fill=\"#33424f\"\u003e③ 전송 — 38300/38400 outbound\u003c/text\u003e\u003crect x=\"580\" y=\"176\" width=\"170\" height=\"24\" rx=\"4\" fill=\"#fff\" stroke=\"#8aa0b5\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/\u003e\u003ctext x=\"665\" y=\"192\" font-size=\"10\" text-anchor=\"middle\" fill=\"#5a6b7a\"\u003e통신사 · 카카오 · RCS → 단말\u003c/text\u003e\u003cline x1=\"665\" y1=\"230\" x2=\"466\" y2=\"230\" stroke=\"#2b3a4a\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\" marker-end=\"url(#arc5)\"/\u003e\u003ctext x=\"562\" y=\"222\" font-size=\"10.5\" text-anchor=\"middle\" fill=\"#33424f\"\u003e④ 결과 수신\u003c/text\u003e\u003cline x1=\"460\" y1=\"268\" x2=\"261\" y2=\"268\" stroke=\"#2b3a4a\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\" marker-end=\"url(#arc5)\"/\u003e\u003ctext x=\"357\" y=\"260\" font-size=\"10.5\" text-anchor=\"middle\" fill=\"#33424f\"\u003e⑤ STATUS = 2 · CALL_STATUS 업데이트\u003c/text\u003e\u003crect x=\"170\" y=\"296\" width=\"170\" height=\"26\" rx=\"4\" fill=\"#fff\" stroke=\"#8aa0b5\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/\u003e\u003ctext x=\"255\" y=\"313\" font-size=\"10\" text-anchor=\"middle\" fill=\"#5a6b7a\"\u003e완료 → BIZ_LOG_YYYYMM 이동\u003c/text\u003e\u003c/svg\u003e\u003c/p\u003e\n\u003ch3 id=\"어떤-방식을-골라야-할까\" data-spy-id=\"어떤-방식을-골라야-할까\" data-spy-section=\"비교-—-bizapi-vs-bizclient\"\u003e어떤 방식을 골라야 할까?\u003c/h3\u003e\n\u003cdiv class=\"md-tablewrap\"\u003e\u003ctable\u003e\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003e우선 검토\u003c/th\u003e\n\u003cth\u003e이유\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003e\u003cstrong\u003eAPI\u003c/strong\u003e를 우선 검토\u003c/td\u003e\n\u003ctd\u003e새 프로젝트, 빠른 시작, 운영 부담 최소화, 멀티테넌트 환경\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e\u003cstrong\u003eBIZCLIENT\u003c/strong\u003e 검토\u003c/td\u003e\n\u003ctd\u003e외부 HTTPS 호출이 제한된 사내망, 대량 배치(DB 동시 처리), 레거시 ERP·CRM 연동, FAX/PHONE 발송\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e\u003cstrong\u003e두 방식 혼용\u003c/strong\u003e\u003c/td\u003e\n\u003ctd\u003eAPI로 트랜잭션성 메시지 + BIZCLIENT로 야간 대량 배치\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\u003c/div\u003e\u003cp\u003e자세한 결정 흐름은 \u003ca href=\"/docs#선택-가이드\"\u003e연동 방식 선택 가이드\u003c/a\u003e를 참고하세요.\u003c/p\u003e\n\u003ch3 id=\"채널-지원-매트릭스\" data-spy-id=\"채널-지원-매트릭스\" data-spy-section=\"비교-—-bizapi-vs-bizclient\"\u003e채널 지원 매트릭스\u003c/h3\u003e\n\u003cdiv class=\"md-tablewrap\"\u003e\u003ctable\u003e\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003e채널\u003c/th\u003e\n\u003cth\u003eAPI\u003c/th\u003e\n\u003cth\u003eBIZCLIENT\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003eSMS / LMS / MMS\u003c/td\u003e\n\u003ctd\u003e✓\u003c/td\u003e\n\u003ctd\u003e✓\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e카카오 알림톡 (AT/AI)\u003c/td\u003e\n\u003ctd\u003e✓\u003c/td\u003e\n\u003ctd\u003e✓\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e카카오 브랜드 메시지 (BT 외 7종)\u003c/td\u003e\n\u003ctd\u003e✓\u003c/td\u003e\n\u003ctd\u003e✓\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eRCS\u003c/td\u003e\n\u003ctd\u003e✓\u003c/td\u003e\n\u003ctd\u003e✓\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e네이버 톡톡 (NTALK)\u003c/td\u003e\n\u003ctd\u003e✓\u003c/td\u003e\n\u003ctd\u003e✗\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eFAX\u003c/td\u003e\n\u003ctd\u003e✗\u003c/td\u003e\n\u003ctd\u003e✓\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ePHONE\u003c/td\u003e\n\u003ctd\u003e✗\u003c/td\u003e\n\u003ctd\u003e✓\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\u003c/div\u003e"])</script><script>self.__next_f.push([1,"14:T1961,"])</script><script>self.__next_f.push([1,"\u003cp\u003e발송 전에 비즈뿌리오 사이트에서 사용할 채널별로 다음 항목을 등록해야 합니다.\u003c/p\u003e\n\u003ch3 id=\"모든-사용자-공통\" data-spy-id=\"모든-사용자-공통\" data-spy-section=\"공통-사전-준비\"\u003e모든 사용자 공통\u003c/h3\u003e\n\u003ch3 id=\"1-비즈뿌리오-서비스-계정\" data-spy-id=\"1-비즈뿌리오-서비스-계정\" data-spy-section=\"공통-사전-준비\"\u003e1. 비즈뿌리오 서비스 계정\u003c/h3\u003e\n\u003cdiv class=\"md-tablewrap\"\u003e\u003ctable\u003e\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003e단계\u003c/th\u003e\n\u003cth\u003e절차\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003e회원 가입\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://www.bizppurio.com\" target=\"_blank\" rel=\"noopener noreferrer\"\u003ewww.bizppurio.com\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eAPI 용도 계정 생성\u003c/td\u003e\n\u003ctd\u003e운영용·검수용 \u003cstrong\u003e각각\u003c/strong\u003e 발급 권장\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e서비스 사용 승인 요청\u003c/td\u003e\n\u003ctd\u003e전화 1599-9782 / 이메일 \u003ca href=\"mailto:bizppurio@daou.co.kr\"\u003ebizppurio@daou.co.kr\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\u003c/div\u003e\u003ch3 id=\"2-발신번호-등록\" data-spy-id=\"2-발신번호-등록\" data-spy-section=\"공통-사전-준비\"\u003e2. 발신번호 등록\u003c/h3\u003e\n\u003cp\u003e이동통신 메시지(SMS/LMS/MMS)·RCS·BIZCLIENT FAX/PHONE 모두 발신번호 사전 등록이 필수입니다.\u003c/p\u003e\n\u003cp\u003e비즈뿌리오 사이트에서 직접 등록.\u003c/p\u003e\n\u003ch3 id=\"3-api-사용-시-전송-결과-수신-url-등록\" data-spy-id=\"3-api-사용-시-전송-결과-수신-url-등록\" data-spy-section=\"공통-사전-준비\"\u003e3. (API 사용 시) 전송 결과 수신 URL 등록\u003c/h3\u003e\n\u003cp\u003eWebhook(URL Push) 방식 사용 시 결과 수신용 URL(IP/PORT)을 비즈뿌리오에 등록 요청.\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003e\u003cstrong\u003eWARNING:\u003c/strong\u003e 443·80 외 포트를 사용하려면 별도로 방화벽 접근 허용 요청이 필요합니다.\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch3 id=\"채널별-추가-등록\" data-spy-id=\"채널별-추가-등록\" data-spy-section=\"공통-사전-준비\"\u003e채널별 추가 등록\u003c/h3\u003e\n\u003ch3 id=\"카카오-비즈메시지-at-bt\" data-spy-id=\"카카오-비즈메시지-at-bt\" data-spy-section=\"공통-사전-준비\"\u003e카카오 비즈메시지 (AT / BT)\u003c/h3\u003e\n\u003cdiv class=\"md-tablewrap\"\u003e\u003ctable\u003e\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003e단계\u003c/th\u003e\n\u003cth\u003e위치\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003e카카오톡 채널 개설 및 비즈니스 채널 신청\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://center-pf.kakao.com\" target=\"_blank\" rel=\"noopener noreferrer\"\u003e카카오 비즈니스\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e발신프로필 키 생성\u003c/td\u003e\n\u003ctd\u003e비즈뿌리오 사이트\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e알림톡(AT) 템플릿 등록·승인\u003c/td\u003e\n\u003ctd\u003e비즈뿌리오 사이트 — 알림톡 사용 시 필수\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e브랜드 메시지(BT) 브랜드 등록\u003c/td\u003e\n\u003ctd\u003e비즈뿌리오 사이트 — 브랜드 메시지 사용 시\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\u003c/div\u003e\u003ch3 id=\"rcs\" data-spy-id=\"rcs\" data-spy-section=\"공통-사전-준비\"\u003eRCS\u003c/h3\u003e\n\u003cdiv class=\"md-tablewrap\"\u003e\u003ctable\u003e\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003e단계\u003c/th\u003e\n\u003cth\u003e위치\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003eRCS 브랜드 개설 및 대행사 설정\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://www.rcsbizcenter.com\" target=\"_blank\" rel=\"noopener noreferrer\"\u003eRCS 비즈센터 (RBC)\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eRCS 브랜드 등록\u003c/td\u003e\n\u003ctd\u003e비즈뿌리오 사이트\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eRCS 발신번호 등록\u003c/td\u003e\n\u003ctd\u003e비즈뿌리오 사이트\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e챗봇 ID 발급\u003c/td\u003e\n\u003ctd\u003eRBC\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e브랜드 키 (\u003ccode\u003ebrandkey\u003c/code\u003e) 발급\u003c/td\u003e\n\u003ctd\u003eRBC\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e메시지베이스 ID 결정\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"/bizclient#용어\"\u003e공통 포맷\u003c/a\u003e 또는 템플릿 등록\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eRCS 이미지 등록\u003c/td\u003e\n\u003ctd\u003e비즈뿌리오 사이트 [메시지관리] → [RCS 관리] → [RCS 이미지 관리] (365일 유효)\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\u003c/div\u003e\u003ch3 id=\"네이버-톡톡-ntalk-api-전용\" data-spy-id=\"네이버-톡톡-ntalk-api-전용\" data-spy-section=\"공통-사전-준비\"\u003e네이버 톡톡 (NTALK, API 전용)\u003c/h3\u003e\n\u003cdiv class=\"md-tablewrap\"\u003e\u003ctable\u003e\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003e단계\u003c/th\u003e\n\u003cth\u003e위치\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003e네이버 톡톡 채널 개설\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://partner.talk.naver.com\" target=\"_blank\" rel=\"noopener noreferrer\"\u003e네이버 톡톡 파트너센터\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e파트너 키 (\u003ccode\u003epartnerid\u003c/code\u003e / \u003ccode\u003epartnerkey\u003c/code\u003e) 생성\u003c/td\u003e\n\u003ctd\u003e비즈뿌리오 사이트\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e템플릿 등록·승인\u003c/td\u003e\n\u003ctd\u003e비즈뿌리오 사이트\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e이미지 등록\u003c/td\u003e\n\u003ctd\u003e비즈뿌리오 사이트\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\u003c/div\u003e\u003ch3 id=\"사용-채널별-체크리스트\" data-spy-id=\"사용-채널별-체크리스트\" data-spy-section=\"공통-사전-준비\"\u003e사용 채널별 체크리스트\u003c/h3\u003e\n\u003cdiv class=\"md-tablewrap\"\u003e\u003ctable\u003e\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003e채널\u003c/th\u003e\n\u003cth\u003e필수 등록\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003e\u003cstrong\u003eSMS / LMS / MMS\u003c/strong\u003e\u003c/td\u003e\n\u003ctd\u003e비즈뿌리오 계정 + 발신번호\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e\u003cstrong\u003e카카오 알림톡\u003c/strong\u003e\u003c/td\u003e\n\u003ctd\u003e+ 카카오 채널 + 발신프로필 키 + 템플릿 승인\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e\u003cstrong\u003e카카오 브랜드 메시지\u003c/strong\u003e\u003c/td\u003e\n\u003ctd\u003e+ 카카오 채널 + 발신프로필 키 + 브랜드 등록 + 템플릿\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e\u003cstrong\u003eRCS\u003c/strong\u003e\u003c/td\u003e\n\u003ctd\u003e+ RBC 브랜드·챗봇·발신번호·메시지베이스 + 브랜드 키\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e\u003cstrong\u003e네이버 톡톡 (API 전용)\u003c/strong\u003e\u003c/td\u003e\n\u003ctd\u003e+ 네이버 톡톡 채널 + 파트너 키 + 템플릿\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e\u003cstrong\u003eFAX (BIZCLIENT 전용)\u003c/strong\u003e\u003c/td\u003e\n\u003ctd\u003e+ 발신 팩스번호\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e\u003cstrong\u003ePHONE (BIZCLIENT 전용)\u003c/strong\u003e\u003c/td\u003e\n\u003ctd\u003e+ 발신번호\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\u003c/div\u003e\u003ch3 id=\"자원을-코드로-관리하고-싶다면\" data-spy-id=\"자원을-코드로-관리하고-싶다면\" data-spy-section=\"공통-사전-준비\"\u003e자원을 코드로 관리하고 싶다면\u003c/h3\u003e\n\u003cp\u003e비즈뿌리오 사이트(GUI)에서 한 번씩 등록할 수도 있지만, 자원을 \u003cstrong\u003e프로그래매틱하게 관리\u003c/strong\u003e하려면 다음 관리 API를 사용하세요.\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"/kapi#공통-사항\"\u003eKAPI\u003c/a\u003e — 카카오 알림톡 템플릿·이미지·발신프로필·브랜드 메시지 자원 CRUD\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"/rapi#토큰\"\u003eRAPI\u003c/a\u003e — RCS 브랜드·챗봇·파일·메시지베이스 CRUD\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3 id=\"다음-단계\" data-spy-id=\"다음-단계\" data-spy-section=\"공통-사전-준비\"\u003e다음 단계\u003c/h3\u003e\n\u003cp\u003e준비가 끝나면 Quickstart로 진행하세요.\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"/bizapi#quickstart-bizapi\"\u003eQuickstart (API)\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"/bizclient#quickstart-bizclient\"\u003eQuickstart (BIZCLIENT)\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n"])</script><script>self.__next_f.push([1,"5:[\"$\",\"div\",null,{\"className\":\"bp-page\",\"data-screen-label\":\"시작하기\",\"children\":[[\"$\",\"$Lf\",null,{\"active\":\"\"}],[\"$\",\"div\",null,{\"className\":\"bp-shell\",\"children\":[\"$\",\"div\",null,{\"className\":\"bp-layout\",\"children\":[[\"$\",\"main\",null,{\"className\":\"bp-main\",\"children\":[[\"$\",\"div\",null,{\"className\":\"bp-eyebrow\",\"children\":\"GET STARTED · 문서\"}],[\"$\",\"h1\",null,{\"className\":\"bp-h1\",\"children\":\"시작하기\"}],[[\"$\",\"section\",\"서비스-소개\",{\"id\":\"서비스-소개\",\"data-spy-id\":\"서비스-소개\",\"className\":\"bp-section\",\"children\":[[\"$\",\"h2\",null,{\"className\":\"bp-h2\",\"children\":[[\"$\",\"span\",null,{\"className\":\"bp-h2__bar\"}],\"서비스 소개\"]}],[\"$\",\"div\",null,{\"className\":\"md\",\"dangerouslySetInnerHTML\":{\"__html\":\"$10\"}}]]}],[\"$\",\"section\",\"시작하기\",{\"id\":\"시작하기\",\"data-spy-id\":\"시작하기\",\"className\":\"bp-section\",\"children\":[[\"$\",\"h2\",null,{\"className\":\"bp-h2\",\"children\":[[\"$\",\"span\",null,{\"className\":\"bp-h2__bar\"}],\"시작하기\"]}],[\"$\",\"div\",null,{\"className\":\"md\",\"dangerouslySetInnerHTML\":{\"__html\":\"$11\"}}]]}],[\"$\",\"section\",\"선택-가이드\",{\"id\":\"선택-가이드\",\"data-spy-id\":\"선택-가이드\",\"className\":\"bp-section\",\"children\":[[\"$\",\"h2\",null,{\"className\":\"bp-h2\",\"children\":[[\"$\",\"span\",null,{\"className\":\"bp-h2__bar\"}],\"선택 가이드\"]}],[\"$\",\"div\",null,{\"className\":\"md\",\"dangerouslySetInnerHTML\":{\"__html\":\"$12\"}}]]}],[\"$\",\"section\",\"비교-—-bizapi-vs-bizclient\",{\"id\":\"비교-—-bizapi-vs-bizclient\",\"data-spy-id\":\"비교-—-bizapi-vs-bizclient\",\"className\":\"bp-section\",\"children\":[[\"$\",\"h2\",null,{\"className\":\"bp-h2\",\"children\":[[\"$\",\"span\",null,{\"className\":\"bp-h2__bar\"}],\"비교 — BIZAPI vs BIZCLIENT\"]}],[\"$\",\"div\",null,{\"className\":\"md\",\"dangerouslySetInnerHTML\":{\"__html\":\"$13\"}}]]}],[\"$\",\"section\",\"공통-사전-준비\",{\"id\":\"공통-사전-준비\",\"data-spy-id\":\"공통-사전-준비\",\"className\":\"bp-section\",\"children\":[[\"$\",\"h2\",null,{\"className\":\"bp-h2\",\"children\":[[\"$\",\"span\",null,{\"className\":\"bp-h2__bar\"}],\"공통 사전 준비\"]}],[\"$\",\"div\",null,{\"className\":\"md\",\"dangerouslySetInnerHTML\":{\"__html\":\"$14\"}}]]}]]]}],[\"$\",\"$L15\",null,{\"items\":[{\"id\":\"서비스-소개\",\"label\":\"서비스 소개\"},{\"id\":\"시작하기\",\"label\":\"시작하기\"},{\"id\":\"선택-가이드\",\"label\":\"선택 가이드\"},{\"id\":\"비교-—-bizapi-vs-bizclient\",\"label\":\"비교 — BIZAPI vs BIZCLIENT\"},{\"id\":\"공통-사전-준비\",\"label\":\"공통 사전 준비\"}]}]]}]}],[\"$\",\"footer\",null,{\"className\":\"bp-footer\",\"children\":[\"$\",\"div\",null,{\"className\":\"bp-footer__inner\",\"children\":[[\"$\",\"div\",null,{\"className\":\"bp-footer__cols\",\"children\":[[\"$\",\"div\",null,{\"className\":\"bp-footer__brand-col\",\"children\":[[\"$\",\"div\",null,{\"className\":\"bp-footer__brand\",\"children\":[[\"$\",\"span\",null,{\"className\":\"bp-footer__brand-name\",\"children\":\"비즈뿌리오\"}],[\"$\",\"span\",null,{\"className\":\"bp-footer__brand-tag\",\"children\":\"Developers\"}]]}],[\"$\",\"p\",null,{\"className\":\"bp-footer__desc\",\"children\":\"통합 메시징 플랫폼 공식 개발자 문서. 발송 API · BIZCLIENT · 카카오/RCS/네이버 톡톡 자원 관리 · 도구.\"}]]}],[[\"$\",\"div\",\"문서\",{\"children\":[[\"$\",\"div\",null,{\"className\":\"bp-footer__col-title\",\"children\":\"문서\"}],[\"$\",\"div\",null,{\"className\":\"bp-footer__links\",\"children\":[[\"$\",\"$L16\",null,{\"href\":\"/start\",\"className\":\"bp-footer__link\",\"children\":\"시작하기\"}],[\"$\",\"$L16\",null,{\"href\":\"/bizapi\",\"className\":\"bp-footer__link\",\"children\":\"메시지 API\"}],[\"$\",\"$L16\",null,{\"href\":\"/bizclient\",\"className\":\"bp-footer__link\",\"children\":\"BIZCLIENT\"}]]}]]}],[\"$\",\"div\",\"자원 관리\",{\"children\":[[\"$\",\"div\",null,{\"className\":\"bp-footer__col-title\",\"children\":\"자원 관리\"}],[\"$\",\"div\",null,{\"className\":\"bp-footer__links\",\"children\":[[\"$\",\"$L16\",null,{\"href\":\"/kapi\",\"className\":\"bp-footer__link\",\"children\":\"카카오 비즈메시지\"}],[\"$\",\"$L16\",null,{\"href\":\"/rapi\",\"className\":\"bp-footer__link\",\"children\":\"RCS 관리\"}],[\"$\",\"$L16\",null,{\"href\":\"/napi\",\"className\":\"bp-footer__link\",\"children\":\"네이버 톡톡 관리\"}]]}]]}],[\"$\",\"div\",\"도구·레퍼런스\",{\"children\":[[\"$\",\"div\",null,{\"className\":\"bp-footer__col-title\",\"children\":\"도구·레퍼런스\"}],[\"$\",\"div\",null,{\"className\":\"bp-footer__links\",\"children\":[[\"$\",\"$L16\",null,{\"href\":\"/sandbox\",\"className\":\"bp-footer__link\",\"children\":\"메시지 발송 체험\"}],[\"$\",\"$L16\",null,{\"href\":\"/json-validator\",\"className\":\"bp-footer__link\",\"children\":\"JSON 검증기\"}],[\"$\",\"$L16\",null,{\"href\":\"/response-codes\",\"className\":\"bp-footer__link\",\"children\":\"응답 코드\"}],[\"$\",\"$L16\",null,{\"href\":\"/changelog\",\"className\":\"bp-footer__link\",\"children\":\"개정 이력\"}]]}]]}],[\"$\",\"div\",\"지원\",{\"children\":[[\"$\",\"div\",null,{\"className\":\"bp-footer__col-title\",\"children\":\"지원\"}],[\"$\",\"div\",null,{\"className\":\"bp-footer__links\",\"children\":[[\"$\",\"$L16\",null,{\"href\":\"/guides/operations\",\"className\":\"bp-footer__link\",\"children\":\"운영 가이드\"}],[\"$\",\"a\",null,{\"href\":\"tel:1599-9782\",\"className\":\"bp-footer__link\",\"children\":\"1599-9782\"}],[\"$\",\"a\",null,{\"href\":\"mailto:bizppurio@daou.co.kr\",\"className\":\"bp-footer__link\",\"children\":\"bizppurio@daou.co.kr\"}]]}]]}]]]}],[\"$\",\"div\",null,{\"className\":\"bp-footer__bottom\",\"children\":[[\"$\",\"span\",null,{\"className\":\"bp-footer__copy\",\"children\":\"© 2026 Daou Tech Inc. All rights reserved.\"}],[\"$\",\"a\",null,{\"href\":\"https://www.bizppurio.com\",\"target\":\"_blank\",\"rel\":\"noopener\",\"className\":\"bp-footer__site\",\"children\":\"bizppurio.com\"}]]}]]}]}]]}]\n"])</script><script>self.__next_f.push([1,"c:[[\"$\",\"meta\",\"0\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}],[\"$\",\"meta\",\"1\",{\"charSet\":\"utf-8\"}],[\"$\",\"title\",\"2\",{\"children\":\"비즈뿌리오 Developers\"}],[\"$\",\"meta\",\"3\",{\"name\":\"description\",\"content\":\"메시지 발송 API · 자원 관리 API 공식 개발자 문서\"}],[\"$\",\"link\",\"4\",{\"rel\":\"icon\",\"href\":\"/favicon.ico\"}]]\n4:null\n"])</script></body></html>
